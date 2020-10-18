@@ -1,0 +1,25 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">小数部分的数位是有限的小数，叫做有限小数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列小数中哪些是有限小数</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">1.2666 ……, 8, 0.36, 2.0909 ……， 1.755555 ……, 0.18, 2.56</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">是有限小数的有0.36, 0.18, 2.56。</Run>
+    </Paragraph>
+</FlowDocument>

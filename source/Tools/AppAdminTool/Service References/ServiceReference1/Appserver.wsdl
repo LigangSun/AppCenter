@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.soonlearning.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.soonlearning.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.soonlearning.com/">
+      <s:element name="GetLoginName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Custid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLoginNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLoginNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAppList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pagesize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="userID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="typeId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="subTypeId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderBy" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAppListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAppListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOfflineAppList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pagesize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="userID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="typeId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="subTypeId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderBy" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOfflineAppListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOfflineAppListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_GetNotApprovedAppList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pagesize" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_GetNotApprovedAppListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Admin_GetNotApprovedAppListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="totalpage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalrecord" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SetAsEditorRecommend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="recommend" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SetAsEditorRecommendResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Admin_Approved">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_ApprovedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Admin_ApprovedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_Reject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_RejectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Admin_RejectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SetStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SetStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Admin_SetStatusResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SendNotify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Admin_SendNotifyResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAppAttachInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="appId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="userId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAppAttachInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAppAttachInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckApp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAppResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckAppResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddApp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="app" type="tns:APKSoftModel" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="APKSoftModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniqueId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClassID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubClassID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ICON" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FileUrl" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detail" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsUse" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsIndex" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsNew" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Price" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AddDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DownNum" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TopicNum" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Attach" type="tns:APKAttachModel" />
+          <s:element minOccurs="0" maxOccurs="1" name="Md5Check" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Filesize" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sketch" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="APKAttachModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image5" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoftID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AddAppResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAppClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAppClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAppClassResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CheckVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetChangeListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IncreaseDownloadCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IncreaseDownloadCountResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddTopic">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="userId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="topic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTopicResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAppTopic">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="page" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalPage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalRecord" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAppTopicResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAppTopicResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="totalPage" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalRecord" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserPaidInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appUniqueId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserPaidInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserPaidInfoResult" type="tns:UserPaidInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserPaidInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Paid" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaidId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLoginNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLoginName" />
+  </wsdl:message>
+  <wsdl:message name="GetLoginNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLoginNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAppListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAppList" />
+  </wsdl:message>
+  <wsdl:message name="GetAppListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAppListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflineAppListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOfflineAppList" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflineAppListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOfflineAppListResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_GetNotApprovedAppListSoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_GetNotApprovedAppList" />
+  </wsdl:message>
+  <wsdl:message name="Admin_GetNotApprovedAppListSoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_GetNotApprovedAppListResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SetAsEditorRecommendSoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_SetAsEditorRecommend" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SetAsEditorRecommendSoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_SetAsEditorRecommendResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_ApprovedSoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_Approved" />
+  </wsdl:message>
+  <wsdl:message name="Admin_ApprovedSoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_ApprovedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_RejectSoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_Reject" />
+  </wsdl:message>
+  <wsdl:message name="Admin_RejectSoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_RejectResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SetStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_SetStatus" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SetStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_SetStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SendNotifySoapIn">
+    <wsdl:part name="parameters" element="tns:Admin_SendNotify" />
+  </wsdl:message>
+  <wsdl:message name="Admin_SendNotifySoapOut">
+    <wsdl:part name="parameters" element="tns:Admin_SendNotifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAppAttachInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAppAttachInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetAppAttachInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAppAttachInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAppSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckApp" />
+  </wsdl:message>
+  <wsdl:message name="CheckAppSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAppResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddAppSoapIn">
+    <wsdl:part name="parameters" element="tns:AddApp" />
+  </wsdl:message>
+  <wsdl:message name="AddAppSoapOut">
+    <wsdl:part name="parameters" element="tns:AddAppResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAppClassSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAppClass" />
+  </wsdl:message>
+  <wsdl:message name="GetAppClassSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAppClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckVersion" />
+  </wsdl:message>
+  <wsdl:message name="CheckVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChangeList" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChangeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserName" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IncreaseDownloadCountSoapIn">
+    <wsdl:part name="parameters" element="tns:IncreaseDownloadCount" />
+  </wsdl:message>
+  <wsdl:message name="IncreaseDownloadCountSoapOut">
+    <wsdl:part name="parameters" element="tns:IncreaseDownloadCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddTopicSoapIn">
+    <wsdl:part name="parameters" element="tns:AddTopic" />
+  </wsdl:message>
+  <wsdl:message name="AddTopicSoapOut">
+    <wsdl:part name="parameters" element="tns:AddTopicResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAppTopicSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAppTopic" />
+  </wsdl:message>
+  <wsdl:message name="GetAppTopicSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAppTopicResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserPaidInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserPaidInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUserPaidInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserPaidInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AppServerSoap">
+    <wsdl:operation name="GetLoginName">
+      <wsdl:input message="tns:GetLoginNameSoapIn" />
+      <wsdl:output message="tns:GetLoginNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppList">
+      <wsdl:input message="tns:GetAppListSoapIn" />
+      <wsdl:output message="tns:GetAppListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflineAppList">
+      <wsdl:input message="tns:GetOfflineAppListSoapIn" />
+      <wsdl:output message="tns:GetOfflineAppListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_GetNotApprovedAppList">
+      <wsdl:input message="tns:Admin_GetNotApprovedAppListSoapIn" />
+      <wsdl:output message="tns:Admin_GetNotApprovedAppListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetAsEditorRecommend">
+      <wsdl:input message="tns:Admin_SetAsEditorRecommendSoapIn" />
+      <wsdl:output message="tns:Admin_SetAsEditorRecommendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Approved">
+      <wsdl:input message="tns:Admin_ApprovedSoapIn" />
+      <wsdl:output message="tns:Admin_ApprovedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Reject">
+      <wsdl:input message="tns:Admin_RejectSoapIn" />
+      <wsdl:output message="tns:Admin_RejectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetStatus">
+      <wsdl:input message="tns:Admin_SetStatusSoapIn" />
+      <wsdl:output message="tns:Admin_SetStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SendNotify">
+      <wsdl:input message="tns:Admin_SendNotifySoapIn" />
+      <wsdl:output message="tns:Admin_SendNotifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppAttachInfo">
+      <wsdl:input message="tns:GetAppAttachInfoSoapIn" />
+      <wsdl:output message="tns:GetAppAttachInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckApp">
+      <wsdl:input message="tns:CheckAppSoapIn" />
+      <wsdl:output message="tns:CheckAppSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddApp">
+      <wsdl:input message="tns:AddAppSoapIn" />
+      <wsdl:output message="tns:AddAppSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppClass">
+      <wsdl:input message="tns:GetAppClassSoapIn" />
+      <wsdl:output message="tns:GetAppClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <wsdl:input message="tns:CheckVersionSoapIn" />
+      <wsdl:output message="tns:CheckVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeList">
+      <wsdl:input message="tns:GetChangeListSoapIn" />
+      <wsdl:output message="tns:GetChangeListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <wsdl:input message="tns:GetUserNameSoapIn" />
+      <wsdl:output message="tns:GetUserNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IncreaseDownloadCount">
+      <wsdl:input message="tns:IncreaseDownloadCountSoapIn" />
+      <wsdl:output message="tns:IncreaseDownloadCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTopic">
+      <wsdl:input message="tns:AddTopicSoapIn" />
+      <wsdl:output message="tns:AddTopicSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppTopic">
+      <wsdl:input message="tns:GetAppTopicSoapIn" />
+      <wsdl:output message="tns:GetAppTopicSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPaidInfo">
+      <wsdl:input message="tns:GetUserPaidInfoSoapIn" />
+      <wsdl:output message="tns:GetUserPaidInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AppServerSoap" type="tns:AppServerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLoginName">
+      <soap:operation soapAction="http://www.soonlearning.com/GetLoginName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppList">
+      <soap:operation soapAction="http://www.soonlearning.com/GetAppList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflineAppList">
+      <soap:operation soapAction="http://www.soonlearning.com/GetOfflineAppList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_GetNotApprovedAppList">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_GetNotApprovedAppList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetAsEditorRecommend">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_SetAsEditorRecommend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Approved">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_Approved" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Reject">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_Reject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetStatus">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_SetStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SendNotify">
+      <soap:operation soapAction="http://www.soonlearning.com/Admin_SendNotify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppAttachInfo">
+      <soap:operation soapAction="http://www.soonlearning.com/GetAppAttachInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckApp">
+      <soap:operation soapAction="http://www.soonlearning.com/CheckApp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddApp">
+      <soap:operation soapAction="http://www.soonlearning.com/AddApp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppClass">
+      <soap:operation soapAction="http://www.soonlearning.com/GetAppClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <soap:operation soapAction="http://www.soonlearning.com/CheckVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeList">
+      <soap:operation soapAction="http://www.soonlearning.com/GetChangeList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <soap:operation soapAction="http://www.soonlearning.com/GetUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncreaseDownloadCount">
+      <soap:operation soapAction="http://www.soonlearning.com/IncreaseDownloadCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTopic">
+      <soap:operation soapAction="http://www.soonlearning.com/AddTopic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppTopic">
+      <soap:operation soapAction="http://www.soonlearning.com/GetAppTopic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPaidInfo">
+      <soap:operation soapAction="http://www.soonlearning.com/GetUserPaidInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AppServerSoap12" type="tns:AppServerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLoginName">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetLoginName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppList">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetAppList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfflineAppList">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetOfflineAppList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_GetNotApprovedAppList">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_GetNotApprovedAppList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetAsEditorRecommend">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_SetAsEditorRecommend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Approved">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_Approved" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_Reject">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_Reject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SetStatus">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_SetStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Admin_SendNotify">
+      <soap12:operation soapAction="http://www.soonlearning.com/Admin_SendNotify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppAttachInfo">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetAppAttachInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckApp">
+      <soap12:operation soapAction="http://www.soonlearning.com/CheckApp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddApp">
+      <soap12:operation soapAction="http://www.soonlearning.com/AddApp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppClass">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetAppClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckVersion">
+      <soap12:operation soapAction="http://www.soonlearning.com/CheckVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeList">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetChangeList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetUserName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncreaseDownloadCount">
+      <soap12:operation soapAction="http://www.soonlearning.com/IncreaseDownloadCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTopic">
+      <soap12:operation soapAction="http://www.soonlearning.com/AddTopic" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppTopic">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetAppTopic" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPaidInfo">
+      <soap12:operation soapAction="http://www.soonlearning.com/GetUserPaidInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AppServer">
+    <wsdl:port name="AppServerSoap" binding="tns:AppServerSoap">
+      <soap:address location="http://localhost:2978/WebServers/Appserver.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AppServerSoap12" binding="tns:AppServerSoap12">
+      <soap12:address location="http://localhost:2978/WebServers/Appserver.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

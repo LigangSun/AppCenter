@@ -1,0 +1,39 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首1中0尾异法，如果两个因数分别为1000+a和1000+b（a、b为小于10的自然数），可用方法三，利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">[(1000+a)+b]×1000+ab</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b分别表示被乘数与乘数个位上的数字。</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">1005×1009=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 1005×1009</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(1005+9)×1000+5×9</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1014000+45</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1014045</Run>
+    </Paragraph>
+</FlowDocument>

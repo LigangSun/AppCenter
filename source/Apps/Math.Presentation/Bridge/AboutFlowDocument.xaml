@@ -1,0 +1,65 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              FontSize="16" FontFamily="宋体"
+              LineHeight="24"
+              Foreground="White">
+    <Paragraph>
+        <Run FontSize="36">过桥问题</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24">定义</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>人过桥，由于不考虑人的宽度，从人上桥到下桥，所行路程就是桥的长度，是普通的行程问题，但火车过桥就不一样，火车有长度，从火车头接触桥头开始，到火车尾正好离开桥尾为止，所行路程为桥长+车长。</Run>
+        </Paragraph>
+        <Paragraph>
+            过桥问题是行程问题的一种情况。我们所说的列车通过一座桥，是指从车头上桥到车尾离桥的这个过程。这时，列车行驶的总路程是桥长加上车长，这是解决过桥问题的关键。
+        </Paragraph>
+
+        <Paragraph>
+            过桥问题也是在研究路程、速度、时间这三量之间的关系。
+            <LineBreak />
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="24">过桥问题的一般数量关系</Run>
+    </Paragraph>
+    <List>
+        <ListItem>
+            <Paragraph>路程=桥长+车长</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>车速=（桥长+车长）÷通过时间</Paragraph></ListItem>
+
+        <ListItem>
+            <Paragraph>通过时间=（桥长+车长）÷车速</Paragraph></ListItem>
+
+        <ListItem>
+            <Paragraph>桥长=车速×通过时间－车长</Paragraph></ListItem>
+
+        <ListItem>
+            <Paragraph>车长=车速×通过时间－桥长</Paragraph></ListItem>
+    </List>
+    
+    <Paragraph>
+        <Run FontSize="24">要点</Run>
+    </Paragraph>
+    <Paragraph>
+        把握火车走的路程为桥长加车长。
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="24">例题</Run>
+    </Paragraph>
+    <Paragraph>
+        一列火车经过南京长江大桥，大桥长6700米，这列火车长140米，火车每分钟行400米，这列火车通过长江大桥需要多少分钟？
+    </Paragraph>
+    <Paragraph>
+        分析：这道题求的是通过时间。根据数量关系式，我们知道要想求通过时间，就要知道路程和速度。路程是用桥长加上车长。火车的速度是已知条件。
+    </Paragraph>
+    <Paragraph>总路程：6700+140=6840 （米）</Paragraph>
+    <Paragraph>通过时间：6840÷400=17.1 （分钟）</Paragraph>
+    <Paragraph>答：这列火车通过长江大桥需要17.1分钟。</Paragraph>
+
+</FlowDocument>

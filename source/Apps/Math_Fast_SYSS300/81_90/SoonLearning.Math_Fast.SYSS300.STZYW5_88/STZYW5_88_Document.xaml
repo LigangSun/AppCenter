@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首同中异尾5法，是指两个三位数相乘，其首位数字相同，中间（十位）数字不同，尾数均为5的求积方法。此法的速算过程是：将一因数的后两位与另一因数相加，其和乘以一个百位数，得积再与两个因数的后两位数的乘积相加，所得之和即为所求的积，可利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">100×a×[(10b+c)+(100*d+10*e+f)]+(10b+c)×(10e+f)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b、c表示被乘数百位、十位、个位上的数字，d、e、f表示乘数百位、十位、个位上的数字。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">235×225=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 235×225</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×2×(35+225)+35×25</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×520+875</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=52000+875</Run>
+    </Paragraph>  
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=52875</Run>
+    </Paragraph>
+</FlowDocument>

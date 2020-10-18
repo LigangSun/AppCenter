@@ -1,0 +1,39 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首异尾5法，是指当两个两位数的尾数都是5，首数是不同的数字时，先将首数之积加上25，再加上100倍的首数之和的半数，即得所要求的数。可利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">100ab+25+(a+b)×100÷2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b分别表示被乘数与乘数十位上的数字。</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">25×95=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 25×95</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×2×9+25+(2+9)×100÷2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1800+25+550</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=2375</Run>
+    </Paragraph>
+</FlowDocument>

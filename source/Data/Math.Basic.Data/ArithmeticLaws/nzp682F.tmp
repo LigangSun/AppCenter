@@ -1,0 +1,19 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="White">
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            两个数相加，交换加数的位置，它们的和不变。
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        3+5=5+3，在这个等式中，交换两个加数3和5的位置，和不变，都是8。
+    </Paragraph>
+</FlowDocument>

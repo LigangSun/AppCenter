@@ -1,0 +1,10 @@
+
+LIBRARY      "MathCalcDll"
+
+EXPORTS
+    ; Explicit exports can go here
+    
+MCInit						@1
+MCSelectRandom				@2
+MCSelectRule				@3
+MCDestroy                   @4

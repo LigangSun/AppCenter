@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首1中同尾合法，是指两个三位数相乘，其首位均为1，中间（十位）的数字相同，个位之和为10的求积方法。此法的速算过程是：将被乘数的前两位加1乘以乘数的前两位，其积扩大100倍；再加上两个乘数的个位数相乘的积，即为所求的积，利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">100×[(10×a+b)+1]×(10×a+b)+cd</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b分别表示被乘数、乘数百位上、十位上的数字，c、d分别表示被乘数与乘数个位上的数字。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">123×127=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 123×127</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×(12+1)×12+3×7</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×156+21</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=15600+21</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=15621</Run>
+    </Paragraph>
+</FlowDocument>

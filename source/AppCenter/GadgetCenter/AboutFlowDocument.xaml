@@ -1,0 +1,46 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="24" FontFamily="/Resources/迷你简卡通.TTF#迷你简卡通"
+              Foreground="White">
+    <Paragraph Margin="15,5,5,5">
+        <Run FontSize="22">
+            速学应用平台是教育应用的平台，主要特色如下：
+        </Run>
+    </Paragraph>
+    
+    <List MarkerOffset="10" MarkerStyle="Disc"
+          FontSize="18">
+        <ListItem>
+            <Paragraph>操作简洁，界面友好。</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>分类清晰，目标明确。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>智能出题，以练代考。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>边学边练，边练边学。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>创建编辑，灵活多变。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>寓教于乐，智能分析。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>平台开放，内容共享。</Paragraph></ListItem>
+        <ListItem>
+            <Paragraph>内容丰富，不断添加。</Paragraph></ListItem>
+    </List>
+    
+    <Paragraph Margin="15">
+        速学应用平台针对学前教育和基础教育开发了丰富多彩的应用：
+    </Paragraph>
+
+    <List MarkerOffset="10" MarkerStyle="Disc"
+          FontSize="18">
+        <ListItem>
+            <Paragraph>通过拼图、数数、画数字、打气球等多款精心设计的寓教于乐的应用，让小朋友们在玩中学，学中玩，培养他们的自信心与好奇心，并能快速提高小朋友的观察力、想象力、记忆力、敏捷力等，促进大脑全面发育。</Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>通过速算、探索、基础数学等教学合一的应用，让学生能够快速掌握各个知识点，提高学习、思维、分析能力；让教师从繁琐的工作中解脱出来，更多的与学生进行交流，真正做到因材施教；让家长更好的了解孩子的学习情况，并辅助家长完成课后辅导任务。</Paragraph>
+        </ListItem>
+		
+		
+    </List>
+</FlowDocument>

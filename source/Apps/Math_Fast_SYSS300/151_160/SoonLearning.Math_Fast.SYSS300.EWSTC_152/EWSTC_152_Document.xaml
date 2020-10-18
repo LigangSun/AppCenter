@@ -1,0 +1,35 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">二位数通乘法，任意两个二位数相乘，可用交叉相乘法，先把两个乘数的十位数和个位数分别各自相乘作积的前后两段并列，再将被乘数十位数与乘数个位数之积和被乘数个位数与乘数十位数之积的和数乘以10与前面结果相加，即得所求之积。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">26×65=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 26×65</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(20+6)×(60+5)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=20×60+6×5+(2×5+6×6)×10</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1200+30+460</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1690</Run>
+    </Paragraph>
+</FlowDocument>

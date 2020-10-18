@@ -1,0 +1,48 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求只是数字位置不同的两个两位数的差,可用组成两位数的两个数字的差与9相乘,所得的积就是要求的和。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">假设组成两位数的两个数字分别为a和b，且a>b，则(10a+b)-(10b+a)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=10a+b-10b-a</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=(10a-a)-(10b-b)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=9a-9b</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=9×(a-b)</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">83-38=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">83-38</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=9×(8-3)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=9×5</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=45</Run>
+    </Paragraph>
+</FlowDocument>

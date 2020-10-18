@@ -1,0 +1,43 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求由等差的三个连续数字组成的只是首尾换位的两个位数的和，可将三位数的十位数字去乘222，或者用十位数字的2倍与111相乘，所得的积就是得数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="30">假设组成三位数的三个数字分别为a、b和c，且a+c=2b，则(100a+10b+c)+(100c+10b+a)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=101×(a+c)+20b</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=101×2b+20b</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=222b</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">369+963=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">369+963</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=222×6</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1332</Run>
+    </Paragraph>
+</FlowDocument>

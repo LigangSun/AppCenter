@@ -1,0 +1,169 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.UserControls.AppDescriptionUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="600">
+    <Grid Margin="5,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Separator VerticalAlignment="Bottom" Margin="0" Style="{StaticResource SeparatorStyle1}"/>
+
+        <TextBlock x:Name="categroyTextBlock"
+    		FontSize="16" 
+    		Foreground="White"
+    		Margin="5,5,0,5"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Center"/>
+
+        <Button x:Name="addButton"
+                Grid.Row="0"
+                Grid.Column="2"
+                Margin="5,0"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                Content="添加"
+              
+              
+                Click="addButton_Click" />
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>               
+                	<RowDefinition Height="140" />
+                	<RowDefinition />
+                	<RowDefinition Height="360" />
+                	<RowDefinition Height="48"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                	<ColumnDefinition Width="150"/>
+                	<ColumnDefinition />
+                	<ColumnDefinition Width="138"/>
+                </Grid.ColumnDefinitions>
+        
+                <StackPanel Margin="10,5" Orientation="Vertical" d:LayoutOverrides="Height" Grid.RowSpan="2">
+        
+            		<Border BorderBrush="White" BorderThickness="3" CornerRadius="12" Height="130" Background="#33000000">
+
+
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="2" Direction="270" Opacity="0.4" />
+                        </Border.Effect>
+
+                        <Image x:Name="logoImage"
+            				Source="{Binding Thumbnail}"/>
+        
+            		</Border>
+            		<Border BorderBrush="White" BorderThickness="3" CornerRadius="12" Height="130" Opacity="0.3" RenderTransformOrigin="0.5,0.5" Background="#33000000">
+            			<Border.RenderTransform>
+            				<TransformGroup>
+            					<ScaleTransform ScaleY="-1" ScaleX="1"/>
+            					<SkewTransform AngleY="0" AngleX="0"/>
+            					<RotateTransform Angle="0"/>
+            					<TranslateTransform/>
+            				</TransformGroup>
+            			</Border.RenderTransform>
+            			<Border.OpacityMask>
+            				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            					<GradientStop Color="Black" Offset="1"/>
+            					<GradientStop Offset="0.733"/>
+            				</LinearGradientBrush>
+            			</Border.OpacityMask>
+
+
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="2" Direction="270" Opacity="0.4" />
+                        </Border.Effect>
+
+                        <Image x:Name="logoImage1"
+            				Source="{Binding Thumbnail}"/>
+        
+            		</Border>
+        
+            	</StackPanel>
+        
+                <StackPanel Grid.Row="0"
+                            Grid.Column="1"
+                            Margin="10,0">
+                    <TextBlock x:Name="titleTextBlock"
+                               FontSize="24"
+                               Margin="0,0,0,5"
+                               FontWeight="Bold"
+                               Text="{Binding Title}" Style="{StaticResource TextBlockStyle_BigHead}" Foreground="White"/>
+            
+                    <StackPanel Orientation="Horizontal" Margin="0,5"
+                              >
+                    	<TextBlock 
+                    		Text="上线时间：" Style="{StaticResource TextBlockStyle_Content}" />
+                    	<TextBlock x:Name="createTimeTextBlock" Style="{StaticResource TextBlockStyle_Content}"
+                                   />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5">
+                    	<TextBlock  Style="{StaticResource TextBlockStyle_Content}"
+                    		Text="版本：" />
+                    	<TextBlock x:Name="versionTextBlock" Style="{StaticResource TextBlockStyle_Content}"
+                                  
+                    		Text="{Binding Version}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5">
+                    	<TextBlock  Style="{StaticResource TextBlockStyle_Content}"
+                    		Text="开发商：" />
+                    	<TextBlock x:Name="authorTextBlock" Style="{StaticResource TextBlockStyle_Content}"
+                                   />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5">
+                        <TextBlock Style="{StaticResource TextBlockStyle_Content}"
+                    		       Text="价格：" />
+                        <TextBlock x:Name="priceTextBlock" Style="{StaticResource TextBlockStyle_Content}"
+                                   />
+                    </StackPanel>
+                </StackPanel>
+        
+                <StackPanel Orientation="Vertical"
+                            Grid.Row="1"
+                            Margin="10,0"
+                            Grid.ColumnSpan="3">
+                    <TextBlock
+                               Margin="0,0,0,10"
+                               FontWeight="Bold"
+                               Text="应用介绍" Style="{StaticResource TextBlockStyle_Head2}" />
+                    <TextBlock 
+                            
+                               Text="{Binding LongDescription}"
+                               LineHeight="24"
+                               LineStackingStrategy="BlockLineHeight"
+                               TextWrapping="Wrap" Style="{StaticResource TextBlockStyle_Content}" />
+                </StackPanel>
+        
+                <ListBox x:Name="snapshotListBox"
+                         Grid.ColumnSpan="3"
+                         Grid.Row="2" 
+                         Margin="10,5"
+                         ItemsPanel="{StaticResource appManagementTypePanelTemplate}"
+                         ItemContainerStyle="{StaticResource appSnapshotItemStyle}"
+                         Background="{x:Null}" BorderBrush="{x:Null}"/>
+
+                <StackPanel Grid.Row="3"
+                            Grid.ColumnSpan="3" 
+                            Visibility="Hidden">
+                    <StackPanel Orientation="Horizontal"
+                                VerticalAlignment="Center">
+                        <TextBlock Text="评论：" 
+                                   FontSize="14" />
+                        <TextBlock Text="0条" 
+                                   FontSize="14" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

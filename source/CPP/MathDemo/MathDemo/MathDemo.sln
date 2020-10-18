@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathDemo", "MathDemo\MathDemo.vcxproj", "{17408C58-1A1E-47B2-90C7-3BBD6E336129}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathCalcDll", "MathCalcDll\MathCalcDll.vcxproj", "{3A36E096-314A-4BD5-B985-7F77D8053F71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathMul", "MathMul\MathMul.vcxproj", "{6DA65CFD-20A5-494D-980A-B19F8B4FB186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17408C58-1A1E-47B2-90C7-3BBD6E336129}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17408C58-1A1E-47B2-90C7-3BBD6E336129}.Debug|Win32.Build.0 = Debug|Win32
+		{17408C58-1A1E-47B2-90C7-3BBD6E336129}.Release|Win32.ActiveCfg = Release|Win32
+		{17408C58-1A1E-47B2-90C7-3BBD6E336129}.Release|Win32.Build.0 = Release|Win32
+		{3A36E096-314A-4BD5-B985-7F77D8053F71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A36E096-314A-4BD5-B985-7F77D8053F71}.Debug|Win32.Build.0 = Debug|Win32
+		{3A36E096-314A-4BD5-B985-7F77D8053F71}.Release|Win32.ActiveCfg = Release|Win32
+		{3A36E096-314A-4BD5-B985-7F77D8053F71}.Release|Win32.Build.0 = Release|Win32
+		{6DA65CFD-20A5-494D-980A-B19F8B4FB186}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DA65CFD-20A5-494D-980A-B19F8B4FB186}.Debug|Win32.Build.0 = Debug|Win32
+		{6DA65CFD-20A5-494D-980A-B19F8B4FB186}.Release|Win32.ActiveCfg = Release|Win32
+		{6DA65CFD-20A5-494D-980A-B19F8B4FB186}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

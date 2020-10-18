@@ -1,0 +1,27 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">几个数公有的倍数，叫做这几个数的公倍数；其中最小的一个，叫做这几个数的最小公倍数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数中找出</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">3,5</Run>
+        <Run FontSize="30">的公倍数和最小公倍数。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">9, 10, 15, 20, 27, 30, 45, 60, 85</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">公倍数有15,30,45,60;最小公倍数是15</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3AC6092A-1008-4EF7-91C8-4E0BBD596B7F}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.Assessment.Player</RootNamespace>
+    <AssemblyName>SoonLearning.Assessment.Player</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_SAVE_CONTENT_AS_XAML_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;_SAVE_CONTENT_AS_XAML_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\..\Redist\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SoonLearning.AppCenter, Version=1.0.12.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\..\bin\SoonLearning.AppCenter.exe</HintPath>
+    </Reference>
+    <Reference Include="SoonLearning.AppCenter.Common">
+      <HintPath>..\..\Redist\SoonLearning.AppCenter.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SoonLearning.Assessment.Data">
+      <HintPath>..\..\Redist\SoonLearning.Assessment.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFControlsLibrary">
+      <HintPath>..\..\Redist\WPFControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFControlsLibraryInterface">
+      <HintPath>..\..\Redist\WPFControlsLibraryInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="XAMLConverter, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\..\Redist\XAMLConverter.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseObjectToFlowDocument.cs" />
+    <Compile Include="CommonControl\ArithmeticFractionControl.xaml.cs">
+      <DependentUpon>ArithmeticFractionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\CommonControlCreator.cs" />
+    <Compile Include="CommonControl\FractionControl.xaml.cs">
+      <DependentUpon>FractionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\MathEditorControl.xaml.cs">
+      <DependentUpon>MathEditorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\PowerExponentControl.xaml.cs">
+      <DependentUpon>PowerExponentControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\PowerExponentEditControl.xaml.cs">
+      <DependentUpon>PowerExponentEditControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\RichEditUserControl.xaml.cs">
+      <DependentUpon>RichEditUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AcmBitmapImageHolder.cs" />
+    <Compile Include="Data\ArithmeticLaws\ArithmeticLawsTypeCollection.cs" />
+    <Compile Include="Data\ArithmeticLaws\AssociativeLawOfAdditionDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\AssociativeLawOfMultiplicationDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\CharacterOfDivisionDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\CharacterOfSubtractionDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\CommutativeLawOfAdditionDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\CommutativeLawOfMultiplicationDataCreator.cs" />
+    <Compile Include="Data\ArithmeticLaws\DistributiveLawOfMultiplicationDataCreator.cs" />
+    <Compile Include="Data\Arithmetic\AdditionDataCreator.cs" />
+    <Compile Include="Data\Arithmetic\ArithmeticTypeCollection.cs" />
+    <Compile Include="Data\Arithmetic\DivisionDataCreator.cs" />
+    <Compile Include="Data\Arithmetic\MultiplicationDataCreator.cs" />
+    <Compile Include="Data\Arithmetic\SubtractionDataCreator.cs" />
+    <Compile Include="Data\AssessmentDataCreator.cs" />
+    <Compile Include="Data\DataCreator.cs" />
+    <Compile Include="Data\DataMgr.cs" />
+    <Compile Include="Data\Decimal\DecimalTypeCollection.cs" />
+    <Compile Include="Data\Decimal\DefinitionOfDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\FiniteDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\FormOfDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\InfiniteDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\InfiniteNonRepeatingDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\PureDecimalDataCreator.cs" />
+    <Compile Include="Data\Decimal\WithDecimalDataCreator.cs" />
+    <Compile Include="Data\Equation\DefinitionOfEquationDataCreator.cs" />
+    <Compile Include="Data\Equation\EquationTypeCollection.cs" />
+    <Compile Include="Data\Equation\MulOfSamePowerExponentDataCreator.cs" />
+    <Compile Include="Data\Equation\SolutionOfEquationDataCreator.cs" />
+    <Compile Include="Data\Equation\SolveEquationDataCreator.cs" />
+    <Compile Include="Data\ExerciseHistoryData.cs" />
+    <Compile Include="Data\Fraction\DefinitionOfFractionDataCreator.cs" />
+    <Compile Include="Data\Fraction\DenominatorAndNumeratorDataCreator.cs" />
+    <Compile Include="Data\Fraction\FractionTypeCollection.cs" />
+    <Compile Include="Data\Fraction\ProperFractionDataCreator.cs" />
+    <Compile Include="Data\Fraction\UnitOfFractionDataCreator.cs" />
+    <Compile Include="Data\Fraction\WithFractionDataCreator.cs" />
+    <Compile Include="Data\Geometry\GeometryTypeCollection.cs" />
+    <Compile Include="Data\Integer\CommonDivisorDataCreator.cs" />
+    <Compile Include="Data\Integer\CommonMultipleDataCreator.cs" />
+    <Compile Include="Data\Integer\CompositeNumberDataCreator.cs" />
+    <Compile Include="Data\Integer\CoprimenumbersDataCreator.cs" />
+    <Compile Include="Data\Integer\DecompoundPrimeFactorDataCreator.cs" />
+    <Compile Include="Data\Integer\EvenNumberDataCreator.cs" />
+    <Compile Include="Data\Integer\ExactDivisionDataCreator.cs" />
+    <Compile Include="Data\Integer\IntegerTypeCollection.cs" />
+    <Compile Include="Data\Integer\MultipleDataCreator.cs" />
+    <Compile Include="Data\Integer\OddNumberDataCreator.cs" />
+    <Compile Include="Data\Integer\PrimeFactorDataCreator.cs" />
+    <Compile Include="Data\Integer\PrimeNumberDataCreator.cs" />
+    <Compile Include="Data\Integer\SubmultipleDataCreator.cs" />
+    <Compile Include="Data\MathSubTypeItem.cs" />
+    <Compile Include="Data\NoMoreQuestionException.cs" />
+    <Compile Include="Data\ObjectCreator.cs" />
+    <Compile Include="Data\RelationalExpression\RelationalExpressionTypeCollection.cs" />
+    <Compile Include="Data\SectionInfo.cs" />
+    <Compile Include="Data\SectionValueRangeInfo.cs" />
+    <Compile Include="Data\Units\UnitsTypeCollection.cs" />
+    <Compile Include="Editor\AttachedProperties\RichTextboxAssistant.cs" />
+    <Compile Include="Editor\Commands\CommandReference.cs" />
+    <Compile Include="Editor\Commands\DelegateCommand.cs" />
+    <Compile Include="Editor\Commands\MathCommands.cs" />
+    <Compile Include="Editor\Commands\MiscCommands.cs" />
+    <Compile Include="Editor\Commands\PictureCommands.cs" />
+    <Compile Include="Editor\Commands\TableCommands.cs" />
+    <Compile Include="Editor\Controls\RichEditorEduToolBarUserControl.xaml.cs">
+      <DependentUpon>RichEditorEduToolBarUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Controls\RichEditorToolBarUserControl.xaml.cs">
+      <DependentUpon>RichEditorToolBarUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Controls\RichTextEditor.xaml.cs">
+      <DependentUpon>RichTextEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\EquationEditorDialog.xaml.cs">
+      <DependentUpon>EquationEditorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\FractionDialog.xaml.cs">
+      <DependentUpon>FractionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\HyperlinkPropertiesDialog.xaml.cs">
+      <DependentUpon>HyperlinkPropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\ImagePropertiesDialog.xaml.cs">
+      <DependentUpon>ImagePropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\TablePropertiesDialog.xaml.cs">
+      <DependentUpon>TablePropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Helper.cs" />
+    <Compile Include="Editor\TableDragHandle.cs" />
+    <Compile Include="Entry\AssessmentAppControl.cs" />
+    <Compile Include="Entry\AssessmentBasicEntry.cs" />
+    <Compile Include="Entry\AssessmentGradeMathEntry.cs" />
+    <Compile Include="Entry\PowerExponentEntry.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControls\AllQuestionUserControl.xaml.cs">
+      <DependentUpon>AllQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ControlMgr.cs" />
+    <Compile Include="UserControls\EndExamUserControl.xaml.cs">
+      <DependentUpon>EndExamUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ESQuestionUserControl.xaml.cs">
+      <DependentUpon>ESQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExamHistoryUserControl.xaml.cs">
+      <DependentUpon>ExamHistoryUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExamSettingUserControl.xaml.cs">
+      <DependentUpon>ExamSettingUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExamUserControl.xaml.cs">
+      <DependentUpon>ExamUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExerciseHistoryUserControl.xaml.cs">
+      <DependentUpon>ExerciseHistoryUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExerciseSettingUserControl.xaml.cs">
+      <DependentUpon>ExerciseSettingUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FIBQuestionUserControl.xaml.cs">
+      <DependentUpon>FIBQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NotImplementUserControl.xaml.cs">
+      <DependentUpon>NotImplementUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QuestionIndexListUserControl.xaml.cs">
+      <DependentUpon>QuestionIndexListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SectionInfoSettingUserControl.xaml.cs">
+      <DependentUpon>SectionInfoSettingUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ExerciseUserControl.xaml.cs">
+      <DependentUpon>ExerciseUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MathSubTypeListUserControl.xaml.cs">
+      <DependentUpon>MathSubTypeListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MCQuestionUserControl.xaml.cs">
+      <DependentUpon>MCQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StartupUserControl.xaml.cs">
+      <DependentUpon>StartupUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TableQuestionUserControl.xaml.cs">
+      <DependentUpon>TableQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TeachUserControl.xaml.cs">
+      <DependentUpon>TeachUserControl.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Data\ArithmeticLaws\nzp681E.tmp" />
+    <None Include="Data\ArithmeticLaws\nzp681F.tmp" />
+    <None Include="Data\ArithmeticLaws\nzp682F.tmp" />
+    <None Include="Data\Arithmetic\nzp680B.tmp" />
+    <None Include="Data\Arithmetic\nzp680C.tmp" />
+    <None Include="Data\Arithmetic\nzp681D.tmp" />
+    <None Include="Data\Decimal\nzp6855.tmp" />
+    <None Include="Data\Decimal\nzp6856.tmp" />
+    <None Include="Data\Decimal\nzp6866.tmp" />
+    <None Include="Data\Decimal\nzp6867.tmp" />
+    <None Include="Data\Decimal\nzp6878.tmp" />
+    <None Include="Data\Decimal\nzp6879.tmp" />
+    <None Include="Data\Decimal\nzp6889.tmp" />
+    <None Include="Data\Decimal\nzp688A.tmp" />
+    <None Include="Data\Decimal\nzp688B.tmp" />
+    <None Include="Data\Decimal\nzp689C.tmp" />
+    <None Include="Data\Decimal\nzp689D.tmp" />
+    <None Include="Data\Equation\nzp689E.tmp" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="迷你简卡通.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\CommonControl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CommonControl\ArithmeticFractionControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\FractionControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\MathEditorControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\PowerExponentControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\PowerExponentEditControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\RichEditUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\AssociativeLawOfAdditionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\AssociativeLawOfMultiplicationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\CharacterOfDivisionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\CharacterOfSubtractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\CommutativeLawOfAdditionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\CommutativeLawOfMultiplicationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\ArithmeticLaws\DistributiveLawOfMultiplicationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Arithmetic\AdditionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Arithmetic\DivisionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Arithmetic\MultiplicationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Arithmetic\SubtractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\DefinitionOfDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\FiniteDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\FormOfDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\InfiniteDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\InfiniteNonRepeatingDecimalFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\PureDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Decimal\WithDecimalDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Equation\DefinitionOfEquationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Equation\MulOfSamePowerExponentFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Equation\SolutionOfEquationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Equation\SolveEquationFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Fraction\DefinitionOfFractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Fraction\DenominatorAndNumeratorFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Fraction\ProperFractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Fraction\UnitOfFractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Fraction\WithFractionFlowDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\CommonDivisorDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\CommonMultipleDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\CompositeNumberDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\CoprimenumbersDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\DecompoundPrimeFactorDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\EvenNumberDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\ExactDivisionDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\MultipleDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\OddNumberDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\PrimeFactorDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\PrimeNumberDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\Integer\SubmultipleDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data\QuestionPaperFlowDocumentSample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Controls\RichEditorEduToolBarUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Controls\RichEditorToolBarUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Controls\RichTextEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Dialogs\EquationEditorDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Dialogs\FractionDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Dialogs\HyperlinkPropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Dialogs\ImagePropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Editor\Dialogs\TablePropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\MainViewStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AllQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\EndExamUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ESQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExamHistoryUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExamSettingUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExamUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExerciseHistoryUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExerciseSettingUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\FIBQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\NotImplementUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\QuestionIndexListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SectionInfoSettingUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExerciseUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MathSubTypeListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MCQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\StartupUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\TableQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\TeachUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\integer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\decimal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fraction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arithmetic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arithmeticlaws.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\equation.png" />
+    <Resource Include="Resources\Geometry.png" />
+    <Resource Include="Resources\unit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\RelationalExpression.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppCenter\AppCenter.Common\AppCenter.Common.csproj">
+      <Project>{445D729D-0C54-4EFC-96EB-C641BC03EDB8}</Project>
+      <Name>AppCenter.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Editor\Controls\Images\charactergrowfont.png" />
+    <Resource Include="Editor\Controls\Images\charactershrinkfont.png" />
+    <Resource Include="Editor\Controls\Images\editcopy.png" />
+    <Resource Include="Editor\Controls\Images\editcut.png" />
+    <Resource Include="Editor\Controls\Images\editpaste.png" />
+    <Resource Include="Editor\Controls\Images\editredo.png" />
+    <Resource Include="Editor\Controls\Images\editundo.png" />
+    <Resource Include="Editor\Controls\Images\fileopen.png" />
+    <Resource Include="Editor\Controls\Images\filesave.png" />
+    <Resource Include="Editor\Controls\Images\fraction.png" />
+    <Resource Include="Editor\Controls\Images\image %28add%29.png" />
+    <Resource Include="Editor\Controls\Images\listbullets.png" />
+    <Resource Include="Editor\Controls\Images\listnumbering.png" />
+    <Resource Include="Editor\Controls\Images\paragraphcenterjustify.png" />
+    <Resource Include="Editor\Controls\Images\paragraphdecreaseindentation.png" />
+    <Resource Include="Editor\Controls\Images\paragraphfulljustify.png" />
+    <Resource Include="Editor\Controls\Images\paragraphincreaseindentation.png" />
+    <Resource Include="Editor\Controls\Images\paragraphleftjustify.png" />
+    <Resource Include="Editor\Controls\Images\paragraphrightjustify.png" />
+    <Resource Include="Editor\Controls\Images\picture.png" />
+    <Resource Include="Editor\Controls\Images\subscript.png" />
+    <Resource Include="Editor\Controls\Images\superscript.png" />
+    <Resource Include="Editor\Controls\Images\table2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Wood_Border.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

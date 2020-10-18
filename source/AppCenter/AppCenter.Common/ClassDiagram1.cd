@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SoonLearning.AppCenter.Controls.AppWindow" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAEAEAFQBBNAAAABAAAAAEABFAAAAACAAwhAAAAAA=</HashCode>
+      <FileName>Controls\AppWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.GadgetControlPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAANAIIAAQwkCAiphwEIAEURDCWQGYwRAJTxxQQ5mgE=</HashCode>
+      <FileName>Controls\GadgetControlPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.GadgetUserControl" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAABAAEAAAACAAAAAAACAQAAAAEEAAAAAAAA=</HashCode>
+      <FileName>Controls\GadgetUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumberOnlyTextBox" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\IntegerOnlyTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.ListBoxEx" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Controls\ListBoxEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.ListBoxExItem" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ListBoxEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.MouseClickManager" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAAAAAAAABIAAAAAACAEAAECABAAAAAAAAEgA=</HashCode>
+      <FileName>Controls\MouseClickManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NavigationPanel" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAhAAgAEAAAIQAAAAICABAAJgAEAABAAABABCRA=</HashCode>
+      <FileName>Controls\NavigationPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumberRangeValidationRule" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\NumberRangeValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumericUpDown" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACCAAAAAAAgAIAEQoAACEEAAAAEAIAAkABAEAAA=</HashCode>
+      <FileName>Controls\NumericUpDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.TimeControlEngine" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAABAQKAABAAAAAQAAAAAAgAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Controls\TimeControlEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.VirtualizingWrapPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAdgIBAASBACACIMQELAEcRGAaUmYwAKFEJKAQBiMA=</HashCode>
+      <FileName>Controls\VirtualizingWrapPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Converter.AppInstallState2StringConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\AppInstallState2StringConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Converter.Index2DspIndexConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\Index2DspIndexConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.AppInstallItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAEAAIAAAAAAAgAAAABAMAgAADAIAAEg=</HashCode>
+      <FileName>Data\AppInstallItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.AppMainTag" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAEAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Data\AppMainTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.GadgetItemOnline" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAIAAAAAgQEAAAAAACAgAAAAAIAAAEAABAACAAAA=</HashCode>
+      <FileName>Data\GadgetItemOnline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.StageItem" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAoAEAAIAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\StageItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.SubTypeItem" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAhAEAIIAAACAAAAAABAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Data\SubTypeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.ThumbnailItem" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ThumbnailItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.TypeItem" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAgAEAoIAAACAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Data\TypeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.UIStyleSetting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgIAEAAgAAEIAIAACAAAAiADAAAEAwAAACAAAAAA=</HashCode>
+      <FileName>Data\UIStyleSetting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.License.EncryptHelper" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAAAAAAAAIAAAAAAAAAMIAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>License\EncryptHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.License.LicenseAPI" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAAAAAAAAACAAAgAAAAAIgAAAAA=</HashCode>
+      <FileName>License\LicenseAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.License.LicenseMgr" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQCBMAAAAAAEAAAAAAAAAhAAAgCQAACAAAAQAA=</HashCode>
+      <FileName>License\LicenseMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Player.AudioPlayer" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAACAQoAgAAAFAARAAAwAAAAAoAIAAAAAAAA=</HashCode>
+      <FileName>Player\AudioPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Player.EventQueue" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQAIAAAAAYAAAACAAAgAAAAACAAAAABAAAEAAAAAY=</HashCode>
+      <FileName>Player\EventQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Player.PlayerThread" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIhAAAAYAAAAAAAAAQAAAgAAAAAEUAAAAgAAEAA=</HashCode>
+      <FileName>Player\PlayerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Properties.Resources" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQBM2IBAWCx5AENEEACHkE5ECQDAsBAQbgERygjlALE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.AssemblyFactory" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\AssemblyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.Compression" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAgAAAAAAEAAEQAAgAAAAAAAAEACAAA=</HashCode>
+      <FileName>Utility\CompressHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.Hardware" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAEAA=</HashCode>
+      <FileName>Utility\Hardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.LocalLoader" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAABACAAAAQAAARAAQACEEAAQAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Utility\LocalLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.RemoteLoader" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABQAAAQIAQACEAQAQCAAAAAQAAACQAAAAA=</HashCode>
+      <FileName>Utility\RemoteLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.SerializerHelper&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAAAAAACAAAAAAAAAAAAAAAAAAAAhABAAAAAA=</HashCode>
+      <FileName>Utility\SerializerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.SpeechHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQGgIAAAAAAAACAAAAIAAYAAAQAAAKAAABCA=</HashCode>
+      <FileName>Utility\SpeechHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.TimeHelper" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg=</HashCode>
+      <FileName>Utility\TimeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.UIHelper" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACAAAAAAAAIAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Utility\UIHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Win32.Win32API" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAACEABAIAAAACICAAAAAIAABAAAABAAAQEARAEAA=</HashCode>
+      <FileName>Win32\Win32API.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SoonLearning.AppCenter.Interfaces.IAuthorInfo">
+    <Position X="1.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAuthorInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoonLearning.AppCenter.Interfaces.IGadgetControl" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIQABAAAAAAAAAAAABIAIAAAAAAAEAIAEAABIAAAA=</HashCode>
+      <FileName>Interfaces\IGadgetControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoonLearning.AppCenter.Interfaces.IGadgetEntry">
+    <Position X="7.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAEAAAAAACAAAAAAAAIAAAAABAAgAAAA=</HashCode>
+      <FileName>Interfaces\IGadgetEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoonLearning.AppCenter.Interfaces.IMessageControl" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMessageControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SoonLearning.AppCenter.Controls.NavigationType" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAAAAEAAAAAAAEAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\NavigationPanel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Data.InstallState" Collapsed="true">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgIAAAARAAAAAEAAAAEAAAAAAIAAACAAAQAgEAAA=</HashCode>
+      <FileName>Data\AppInstallItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Data.MainTagType" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAE=</HashCode>
+      <FileName>Data\AppMainTag.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Data.GadgetType" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAQgAEAAAA=</HashCode>
+      <FileName>Data\Contants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Data.GadgetSubType" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAIAAAAAAAAAAEAAAACIAAEAAEAAUAQQABAAgEAAAQ=</HashCode>
+      <FileName>Data\Contants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Data.PointInWindowPart" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAAKACAAAEAAEA=</HashCode>
+      <FileName>Data\PointInWindowPart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Interfaces.ControlAbility" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAABAAEBAAA=</HashCode>
+      <FileName>Interfaces\IGadgetControl.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SoonLearning.AppCenter.Interfaces.ControlPanelVisible" Collapsed="true">
+    <Position X="3" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGadgetControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

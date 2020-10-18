@@ -1,0 +1,1 @@
+devenv AppCenter.sln /build Debug

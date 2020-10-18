@@ -1,0 +1,39 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求末位带1的两位数乘法，其要领是：（1）算出被乘数与乘数的首数积；（2）乘数的整十数和被乘数相加；（3）将（1）和（2）连接起来，即为所求的积。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(10a+1)(10b+1)=100×a×b+(10b+(10a+1))</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b分别是被乘数、乘数十位上的数字。</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">61×71=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 61×71</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=100×6×7+(70+61)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=4200+131</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=4331</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,27 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">整数a除以整数b（b≠0），除得的商正好是整数而且没有余数，我们就说a能被b整除，或者说b能整除a。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数中找出可以被</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">4</Run>
+        <Run FontSize="30">整除的数。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">4, 6, 12, 18, 20, 25, 26, 28, 36, 42, 52, 60, 72, 80, 94, 100</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">4, 12, 20, 28, 36, 52, 60, 72, 80, 100</Run>
+    </Paragraph>
+</FlowDocument>

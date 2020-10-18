@@ -1,0 +1,33 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求偶数个等差连续数的和，可用最小加数与最大加数的和乘以加数个数的一半，所得的积就是得数，即：得数=（小+大）×（个数÷2）。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">4+5+6+7+8+9+10+11+12+13=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">4+5+6+7+8+9+10+11+12+13</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=（4+13）×（10÷2）</Run>
+    </Paragraph>
+     <Paragraph>
+        <Run FontSize="24" Foreground="Black">=17×5</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=85</Run>
+    </Paragraph>
+</FlowDocument>

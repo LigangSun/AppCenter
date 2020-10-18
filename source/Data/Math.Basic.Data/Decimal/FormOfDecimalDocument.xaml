@@ -1,0 +1,24 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">一个小数由整数部分、小数部分和小数点部分组成。数中的圆点叫做小数点，小数点左边的数叫做整数部分，小数点右边的数叫做小数部分。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">小数</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">1.25</Run>
+        <Run FontSize="30">的整数部分和小数部分各是多少？</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">整数部分是1，小数部分是25。</Run>
+    </Paragraph>
+</FlowDocument>

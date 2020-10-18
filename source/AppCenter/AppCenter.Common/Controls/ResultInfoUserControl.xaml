@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.Controls.ResultInfoUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Background="{StaticResource BGMainBrush_Dark}"
+             d:DesignHeight="300" 
+             d:DesignWidth="300"
+             PreviewKeyDown="UserControl_KeyDown"
+             MouseLeftButtonUp="UserControl_MouseLeftButtonUp"
+             MouseRightButtonUp="UserControl_MouseRightButtonUp">
+    
+    <Grid VerticalAlignment="Center"
+          HorizontalAlignment="Center">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal"
+                    x:Name="resultInfoPanel"
+                    Height="170">
+                <Image x:Name="resultImage"
+                       VerticalAlignment="Center" />
+                <TextBlock x:Name="infoLabel"
+                           VerticalAlignment="Center"
+                           Margin="10, 0, 0, 0"
+                           FontWeight="Bold"
+                           Foreground="{StaticResource TextColorBrush_Light}"
+                           FontSize="28">
+                </TextBlock>
+                
+                <TextBlock x:Name="leftHideTimeTextBlock"
+                           VerticalAlignment="Center"
+                           Margin="30, 0, 0, 0"
+                           FontWeight="Bold"
+                           Foreground="{StaticResource TextColorBrush_LightGrey}"
+                           FontSize="24"/>
+            </StackPanel>
+
+            <Rectangle Name="ReflectedText" 
+                  Height="{Binding ElementName=resultInfoPanel, Path=ActualHeight}"
+                  Width="{Binding ElementName=resultInfoPanel, Path=ActualWidth}"
+                  HorizontalAlignment="Left">
+                <Rectangle.OpacityMask>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Offset="0.0" Color="#66000000" />
+                            <GradientStop Offset="1.0" Color="#00000000" />
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Rectangle.OpacityMask>
+                <Rectangle.Fill>
+                    <VisualBrush 
+                        Visual="{Binding ElementName=resultInfoPanel}">
+                        <VisualBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1" ScaleY="-1" />
+                                <TranslateTransform Y="1" />
+                            </TransformGroup>
+                        </VisualBrush.RelativeTransform>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </StackPanel>
+    </Grid>
+</UserControl>

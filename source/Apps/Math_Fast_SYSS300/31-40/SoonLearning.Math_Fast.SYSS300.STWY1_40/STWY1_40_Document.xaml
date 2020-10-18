@@ -1,0 +1,42 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首同尾异，即求十位上数字相同而个位上数字不相同的两个位数的积。在一个因数与另一个因数的个位数字的和乘以十位数字积的后面，添写一个0（即乘以10），再加上这两个因数的个位数字的积，所得的数就是要求的积。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">可以利用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">[(10a+b)+c]×a×10+bc</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a是被乘数十位上的数字，b、c分别是被乘数、乘数个位上的数字。</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">53×58=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 53×58</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(53+8)×5×10+3×8</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=3050+24</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=3074</Run>
+    </Paragraph>
+ </FlowDocument>

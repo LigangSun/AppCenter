@@ -1,0 +1,29 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>减法是寻找两个数的差的算术运算。</Run>
+        </Paragraph>
+        <Paragraph>
+            减法的符号是减号(-)。
+        </Paragraph>
+
+        <Paragraph>
+            <Run FontSize="30">
+                在数式a-b=c里，a称为被减数，b称为减数，c是a和b的差。
+            </Run>
+            <LineBreak />
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        10-3=7，在这个减法算式中，10是被减数，3是减数，7是差。
+    </Paragraph>
+</FlowDocument>

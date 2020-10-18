@@ -1,0 +1,27 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">如果数a能被数b整除，a就叫做b的倍数。一个数倍数的个数是无限的，最小的倍数是它本身，没有最大的倍数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数中找出是</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">3</Run>
+        <Run FontSize="30">倍数的数。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">4, 6, 11, 18, 20, 25, 27, 28, 36, 41, 52, 60, 72, 81, 99, 100</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">6, 18, 27, 36, 60, 72, 81, 99</Run>
+    </Paragraph>
+</FlowDocument>

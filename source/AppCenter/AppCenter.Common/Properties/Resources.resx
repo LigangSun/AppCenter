@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutMessage" xml:space="preserve">
+    <value>Education Gadget Center v{0}.</value>
+  </data>
+  <data name="AllApps" xml:space="preserve">
+    <value>All Apps</value>
+  </data>
+  <data name="AppCenterDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Background Color:</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Background Image:</value>
+  </data>
+  <data name="BackWarning" xml:space="preserve">
+    <value>Are you sure you want to back to the gadget list?
+If you back to the gadget list the current operation will be lost.</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="BeautifulFlower" xml:space="preserve">
+    <value>Beautiful Flower</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="BlueSky" xml:space="preserve">
+    <value>Blue Sky</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="DownloadFail" xml:space="preserve">
+    <value>Download Fail</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Downloading...</value>
+  </data>
+  <data name="Drop" xml:space="preserve">
+    <value>Drop</value>
+  </data>
+  <data name="EnableSpeechRecognizer" xml:space="preserve">
+    <value>Some gadgets support speech recognizer. Enable speech recognizer now!</value>
+  </data>
+  <data name="EndColor" xml:space="preserve">
+    <value>End Color</value>
+  </data>
+  <data name="EnterNextStage" xml:space="preserve">
+    <value>You have passed this stage. Enter next stage or retry this stage?</value>
+  </data>
+  <data name="EnterValueBetweenMinAndMax" xml:space="preserve">
+    <value>Please enter a value between min value and max value.</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Explore</value>
+  </data>
+  <data name="ForegroundColor" xml:space="preserve">
+    <value>Foreground Color:</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Full Screen Apps</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Goal</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="GreenLeaf" xml:space="preserve">
+    <value>Green Leaf</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="IllegalCharacters" xml:space="preserve">
+    <value>Illegal characters or {0}</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="InstallDone" xml:space="preserve">
+    <value>Installation successfully completed.</value>
+  </data>
+  <data name="InstalledApps" xml:space="preserve">
+    <value>Installed Apps</value>
+  </data>
+  <data name="InstallFail" xml:space="preserve">
+    <value>Install Fail</value>
+  </data>
+  <data name="Installing" xml:space="preserve">
+    <value>Installing...</value>
+  </data>
+  <data name="LeftTime" xml:space="preserve">
+    <value>Left Time:</value>
+  </data>
+  <data name="LoadingDone" xml:space="preserve">
+    <value>Loading Done， {0} gadgets have been loaded.</value>
+  </data>
+  <data name="LoadingGadgetData" xml:space="preserve">
+    <value>Gadget Center is loading data.</value>
+  </data>
+  <data name="LoadingIndex" xml:space="preserve">
+    <value>Loadiing {0}， {1}</value>
+  </data>
+  <data name="LoadOnlineGadgetInfo" xml:space="preserve">
+    <value>Loading online apps information... ...</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>SoonLearning App Market</value>
+  </data>
+  <data name="Math" xml:space="preserve">
+    <value>Math</value>
+  </data>
+  <data name="Math_Basic" xml:space="preserve">
+    <value>Mathematics Basic</value>
+  </data>
+  <data name="Math_Game" xml:space="preserve">
+    <value>Mathematic Game</value>
+  </data>
+  <data name="Math_Olympic" xml:space="preserve">
+    <value>Mathematics Olympic</value>
+  </data>
+  <data name="Math_Rapid" xml:space="preserve">
+    <value>Rapid</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="MostPopular" xml:space="preserve">
+    <value>Most Popular</value>
+  </data>
+  <data name="NextStage" xml:space="preserve">
+    <value>Next Stage</value>
+  </data>
+  <data name="NotExit" xml:space="preserve">
+    <value>No, I still need you!</value>
+  </data>
+  <data name="NotPass" xml:space="preserve">
+    <value>Not Pass</value>
+  </data>
+  <data name="NotStart" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OpenSound" xml:space="preserve">
+    <value>Open Sound</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Perfect" xml:space="preserve">
+    <value>Perfect</value>
+  </data>
+  <data name="PreStage" xml:space="preserve">
+    <value>Previous Stage</value>
+  </data>
+  <data name="Puzzle" xml:space="preserve">
+    <value>Puzzle</value>
+  </data>
+  <data name="Puzzle_Block" xml:space="preserve">
+    <value>Block Puzzle</value>
+  </data>
+  <data name="Puzzle_Jigsaw" xml:space="preserve">
+    <value>Jigsaw Puzzle</value>
+  </data>
+  <data name="Puzzle_Other" xml:space="preserve">
+    <value>Other Puzzle</value>
+  </data>
+  <data name="RecentUpdate" xml:space="preserve">
+    <value>Recent Update</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="RetryStage" xml:space="preserve">
+    <value>You fail to pass this stage. Try this stage again.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SelectGadgetTip" xml:space="preserve">
+    <value>Please select a gadget from the gadget list!</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="SpeechRecognizer" xml:space="preserve">
+    <value>Speech Recognizer</value>
+  </data>
+  <data name="StageList" xml:space="preserve">
+    <value>Stage List</value>
+  </data>
+  <data name="StartColor" xml:space="preserve">
+    <value>Start Color</value>
+  </data>
+  <data name="StartToUse" xml:space="preserve">
+    <value>Start to Use</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Soon Learning Intelligent System</value>
+  </data>
+  <data name="UIStyle" xml:space="preserve">
+    <value>UI Style:</value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="UserCancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="UserCancelling" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="ViewInstallingList" xml:space="preserve">
+    <value>View Installing List</value>
+  </data>
+  <data name="WarningExit" xml:space="preserve">
+    <value>Are you sure you want to exit?</value>
+  </data>
+  <data name="YesExit" xml:space="preserve">
+    <value>Yes, Bye Gadget Center.</value>
+  </data>
+</root>

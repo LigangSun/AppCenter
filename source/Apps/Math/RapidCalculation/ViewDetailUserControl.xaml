@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="SoonLearning.Math.Fast.RapidCalculation.ViewDetailUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lang="clr-namespace:SoonLearning.Math.Fast.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="800"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="240" />
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="questionGrid"
+                Margin="5"
+                Grid.Row="1"
+                Grid.Column="1"
+                Opacity="1.0">
+        </Grid>
+
+        <StackPanel Grid.Column="1"
+                    Grid.Row="0"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,20,0">
+                <Label x:Name="countPerPageLabel"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+                <Label x:Name="pageIndexLabel"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Margin="10,0,0,0"/>
+            </StackPanel>
+
+        <Button x:Name="backButton"
+        	    Click="backButton_Click" 
+                VerticalAlignment="Center"
+                Margin="5"
+                Content="返回"/>
+
+        <Button x:Name="prePage"
+                Grid.Row="1"
+                Grid.Column="0"
+                VerticalAlignment="Center"
+                Style="{StaticResource ButtonStyle_Navi_Icon}" 
+                ContentTemplate="{StaticResource DataTemplate_Previous}"
+                Margin="0" Click="prePage_Click" />
+
+        <Button x:Name="nextPage"
+                Grid.Row="1"
+                Grid.Column="2"
+                VerticalAlignment="Center"
+                Style="{StaticResource ButtonStyle_Navi_Icon}"
+                ContentTemplate="{StaticResource DataTemplate_Next}"
+                Margin="0,0"
+                Click="nextPage_Click" />
+
+
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Margin="10,0,0,0">
+            <Label VerticalAlignment="Center" 
+                   FontSize="24"
+                   Content="{x:Static lang:Resources.Result}"
+                   Margin="0,5" />
+            <Label x:Name="correctResultLabel" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Foreground="Green"
+                   Margin="0,5" />
+            <Label x:Name="incorrectResultLabel" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Foreground="Red" 
+                   Margin="0,5" />
+            <Label x:Name="noAnswerResultLabel" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Foreground="Orange" />
+            <Label x:Name="scoreLabel" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Margin="0,5" />
+        </StackPanel>
+
+    </Grid>
+</UserControl>

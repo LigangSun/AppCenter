@@ -1,0 +1,10 @@
+; PuzzleMxNDef.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PuzzleMxN"
+
+EXPORTS
+    ; Explicit exports can go here
+    
+PGInit				@1
+PGGetAnswer			@2
+PGGetNextMovePath	@3

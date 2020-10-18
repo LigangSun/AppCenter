@@ -1,0 +1,130 @@
+﻿<Window x:Class="MemorizeAppCreator.MemorizeStageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="记忆关卡设置" 
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        SizeToContent="Height"
+        ShowInTaskbar="False"
+        Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0" />
+            <RowDefinition Height="0" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="44" />
+        </Grid.RowDefinitions>
+
+        <RadioButton x:Name="stableRadioButton"
+                     Margin="10"
+                     GroupName="StageGroupName"
+                     VerticalAlignment="Center"
+                     Visibility="Hidden"
+                     IsEnabled="False"
+                     Content="固定内容关卡{请在确定后为关卡设置内容)" />
+
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="1"
+                    Visibility="Hidden"
+                    IsEnabled="False"
+                    Margin="5">
+            <RadioButton x:Name="randomRadioButton"
+                         Margin="5"
+                         GroupName="StageGroupName"
+                         VerticalAlignment="Center"
+                         Content="随机内容关卡" />
+            <StackPanel Orientation="Horizontal"
+                        Margin="5"
+                        IsEnabled="{Binding ElementName=randomRadioButton, Path=IsChecked}">
+                <TextBlock Text="记忆物品数量:" 
+                           VerticalAlignment="Center"/>
+                <TextBox x:Name="itemCountTextBox"
+                         Width="100"
+                         Height="30"
+                         VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Vertical"
+                    Margin="5">
+            <RadioButton Content="数学算式关卡" 
+                         Margin="5"
+                         Foreground="Black"
+                         IsChecked="True"
+                         x:Name="mathStageRadioButton"
+                         GroupName="StageGroupName"/>
+            <StackPanel IsEnabled="{Binding ElementName=mathStageRadioButton, Path=IsChecked}">
+                <StackPanel Orientation="Horizontal"
+                            Margin="5"
+                            VerticalAlignment="Center">
+                    <TextBlock Text="类型：" 
+                               VerticalAlignment="Center"/>
+
+                    <CheckBox x:Name="addCheckBox"
+                              Content="加法" 
+                              Foreground="Black"
+                              Margin="5,0"/>
+                    <CheckBox x:Name="minusCheckBox"
+                          Content="减法" 
+                              Foreground="Black"
+                          Margin="5,0"/>
+                    <CheckBox x:Name="multiplyCheckBox"
+                          Content="乘法"
+                              Foreground="Black"
+                          Margin="5,0"/>
+                    <CheckBox x:Name="divisionCheckBox"
+                          Content="除法"
+                              Foreground="Black"
+                          Margin="5,0"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            Margin="5">
+                    <TextBlock Text="取值范围：" 
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="minValueTextBox" 
+                             Height="36"
+                             Margin="5,0"
+                             Style="{DynamicResource TextBoxStyle_Login}"
+                             Width="60"/>
+                    <TextBlock Text="到" 
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="maxValueTextBox" 
+                             Height="36"
+                             Margin="5,0"
+                             Style="{DynamicResource TextBoxStyle_Login}"
+                             Width="60"/>
+
+                    <TextBlock Text="表达式数量:" 
+                               Margin="5,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="mathCountTextBox"
+                             Width="80"
+                             Height="36"
+                             Style="{DynamicResource TextBoxStyle_Login}"
+                             VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="okButton"
+                    Content="确定"
+                    Width="100"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Margin="5"
+                    Click="okButton_Click" />
+            <Button x:Name="cancelButton"
+                    Content="取消"
+                    Width="100"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Margin="5"
+                    Click="cancelButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

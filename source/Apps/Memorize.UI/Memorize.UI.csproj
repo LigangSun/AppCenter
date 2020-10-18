@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAC40E46-BB68-44CA-A6AF-476E0BD5EBB2}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.Memorize.UI</RootNamespace>
+    <AssemblyName>SoonLearning.Memorize.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SoonLearning.Memorize.Data">
+      <HintPath>..\..\Redist\SoonLearning.Memorize.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Help.cs" />
+    <Compile Include="MemorizeControl.cs" />
+    <Compile Include="MemorizeDataMgr.cs" />
+    <Compile Include="MemorizeGrid.xaml.cs">
+      <DependentUpon>MemorizeGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizePlayerUserControl.xaml.cs">
+      <DependentUpon>MemorizePlayerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizeResultWindow.xaml.cs">
+      <DependentUpon>MemorizeResultWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizeSettingUserControl.xaml.cs">
+      <DependentUpon>MemorizeSettingUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizeStartupUserControl.xaml.cs">
+      <DependentUpon>MemorizeStartupUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizeUIContainerUserControl.xaml.cs">
+      <DependentUpon>MemorizeUIContainerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MemorizeGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MemorizePlayerUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MemorizeResultWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MemorizeSettingUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MemorizeStartupUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MemorizeUIContainerUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SoundLogo.png" />
+    <Resource Include="Resources\default_background_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\PC.png" />
+    <Resource Include="Resources\Person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SoonLearningLogoBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Dialogue_BGTile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppCenter\AppCenter.Common\AppCenter.Common.csproj">
+      <Project>{445d729d-0c54-4efc-96eb-c641bc03edb8}</Project>
+      <Name>AppCenter.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Card_Background.png" />
+    <Resource Include="Resources\Card_Shadow.png" />
+    <Content Include="Resources\default_background_music.mp3" />
+    <Resource Include="Resources\Icon_Question.png" />
+    <Resource Include="Resources\Shadow_1.png" />
+    <Resource Include="Resources\Shadow_2.png" />
+    <Resource Include="Resources\Shadow_3.png" />
+    <Resource Include="Resources\Shadow_4.png" />
+    <Resource Include="Resources\Shadow_5.png" />
+    <Resource Include="Resources\Shadow_6.png" />
+    <Resource Include="Resources\Shadow_7.png" />
+    <Resource Include="Resources\Shadow_8.png" />
+    <Resource Include="Resources\Shadow_9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

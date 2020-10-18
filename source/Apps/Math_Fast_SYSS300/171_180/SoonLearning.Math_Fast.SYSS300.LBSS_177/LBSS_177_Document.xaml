@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">66倍速算法，66与某数相乘时，先将某数除以1.5，除尽为首商，除不尽余数变末商（余0.5变33，余1变66），首末连写，再减首商，即为其积。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(n×1.5+a)×66=n×100+a×66-n</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中某数为n×1.5+a（n为任意正整数，a为等于、大于0.5而小于1.5的数）。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">66×58=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 66×58</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=38×100+1×66-38</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=3866-38</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=3828</Run>
+    </Paragraph>
+</FlowDocument>

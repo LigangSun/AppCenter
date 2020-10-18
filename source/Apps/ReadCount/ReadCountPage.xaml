@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="SoonLearning.ReadCount.ReadCountPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+             xmlns:local="clr-namespace:SoonLearning.ReadCount"
+             mc:Ignorable="d" 
+             Background="White"
+             Loaded="Window_Loaded" 
+             Unloaded="UserControl_Unloaded"
+             d:DesignHeight="400"
+             d:DesignWidth="600">
+    
+    <UserControl.Resources>
+        
+        <local:IsCorrect2Image x:Key="isCorrect2Image" />
+
+        <Image x:Key="yesImage" Source="pack://application:,,,/SoonLearning.ReadCount;component/Resources/pig_yes.png" />
+        <Image x:Key="noImage" Source="pack://application:,,,/SoonLearning.ReadCount;component/Resources/pig_no.png" />
+        
+        <Style x:Key="goodsListBoxItemStyle" 
+               TargetType="{x:Type ListBoxItem}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate x:Name="goodsListBoxStyleTemplate" TargetType="{x:Type ListBoxItem}" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60" />
+                                <ColumnDefinition Width="60" />
+                                <ColumnDefinition Width="60" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image x:Name="iconImage"
+                                   Grid.Column="2"
+                                   Opacity="0.7"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center" 
+                                   Source="{Binding Path=GoodsImage}"/>
+
+                            
+                            <TextBlock x:Name="numberTextBlock"
+                                       Grid.Column="1"
+                                       VerticalAlignment="Center"
+                                       FontSize="20"
+                                       FontWeight="Medium"
+                                       Foreground="{StaticResource TextColorBrush_Light}"
+                                       Text="{Binding Path=Result, UpdateSourceTrigger=PropertyChanged}" />
+                                       
+                            <commCtrl:NumberOnlyTextBox x:Name="numberTextBox"
+                                                        Grid.Column="1"
+                                                        FontSize="20"
+                                                        FontWeight="Medium"
+                                                        VerticalAlignment="Center" 
+                                                        Visibility="Hidden"
+                                                        Foreground="{StaticResource TextColorBrush_Light}"
+                                                        Text="{Binding Path=Result, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <Image x:Name="resultImage"
+                                   Grid.Column="0"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center" 
+                                   Source="{Binding Path=IsCorrect, Converter={StaticResource isCorrect2Image}}"/>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Visibility" Value="Visible" TargetName="numberTextBox" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <ItemsPanelTemplate x:Key="goodsListBoxItemsPanel">
+            <StackPanel Margin="1"
+                        IsItemsHost="True"
+                        Orientation="Vertical" 
+                        HorizontalAlignment="Left">
+            </StackPanel>
+        </ItemsPanelTemplate>
+    </UserControl.Resources>
+
+    <Grid x:Name="rootGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image x:Name="backgroundImage"
+               Grid.ColumnSpan="2"
+               Source="{Binding BackgroundImage}"
+               Stretch="UniformToFill" 
+               Opacity="0.7"/>
+
+        <Canvas x:Name="goodsCanvas"
+                Grid.Column="0"
+                Grid.ColumnSpan="1">
+        </Canvas>
+ 
+        <ListBox x:Name="readCountResultListBox" 
+                 Grid.Column="1"
+                 Margin="0,0,10,10"
+                 Opacity="0.85"
+                 Background="{StaticResource BGMainBrush_Dark}"
+                 VerticalAlignment="Bottom"
+                 ItemContainerStyle="{StaticResource goodsListBoxItemStyle}" 
+                 ItemsSource="{Binding Path=Items}"
+                 ItemsPanel="{StaticResource goodsListBoxItemsPanel}"
+                 SelectionChanged="readCountResultListBox_SelectionChanged"/>
+
+    </Grid>
+</UserControl>

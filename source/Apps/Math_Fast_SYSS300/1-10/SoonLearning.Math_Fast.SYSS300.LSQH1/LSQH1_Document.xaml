@@ -1,0 +1,30 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求奇数个等差连续数的和，可用中间数乘以加数的个数，所得的积就是得数，即：得数=中间数×个数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">3+4+5+6+7+8+9+10+11+12+13=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">3+4+5+6+7+8+9+10+11+12+13</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=8×11</Run>
+    </Paragraph>
+     <Paragraph>
+        <Run FontSize="24" Foreground="Black">=88</Run>
+    </Paragraph>
+</FlowDocument>

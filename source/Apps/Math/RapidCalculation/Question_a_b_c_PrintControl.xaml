@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="SoonLearning.Math.Fast.RapidCalculation.Question_a_b_c_PrintControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             FontFamily="pack://application:,,,/SoonLearning.AppCenter;component/Resources/迷你简卡通.TTF#迷你简卡通"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid x:Name="rootGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="16"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="indexLabel" 
+               Width="40"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Right"
+              Foreground="{StaticResource Brush_LableIndex}"
+               Margin="0,0,10,0"
+               HorizontalContentAlignment="Center"
+               Content="{Binding Path=Index, Converter={StaticResource indexStringFormatConverter}}" />
+
+        <Label x:Name="alabel" 
+               FontSize="20"
+               FontWeight="Bold"
+               Grid.Column="1" 
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"  Style="{StaticResource Label_StyleGrey}"
+               Content="{Binding Path=A}"/>
+
+        <Image x:Name="opImage"
+               Grid.Column="2" 
+               Width="12"
+               Height="12"
+               Opacity="0.6"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"/>
+
+        <Label x:Name="blabel" 
+               Grid.Column="3" 
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center" Style="{StaticResource Label_StyleGrey}"
+               Content="{Binding Path=B}"/>
+
+        <Label x:Name="eqlabel" 
+               Grid.Column="4" 
+               Width="20"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"  Style="{StaticResource Label_StyleGrey}"
+               Content="=" FontSize="64"/>
+
+        <Label x:Name="resultLabel" 
+                 Grid.Column="5"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"   Style="{StaticResource Label_StyleGrey}"
+                 Content="{Binding Path=Result}"/>
+
+        <Image x:Name="feedbackImage" 
+               Grid.Column="6"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Left"
+               Margin="5,0,0,0"
+               Height="20"
+               Width="20"
+               Source="{Binding Path=IsCorrect, Converter={StaticResource feedbackImageConverter}}"/>
+
+        <Label x:Name="correctAnswerLabel" 
+                 Grid.Column="7"
+                 Width="60"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Left"   Style="{StaticResource Label_StyleGrey}"
+                 Content="{Binding Path=C}"/>
+    </Grid>
+</UserControl>

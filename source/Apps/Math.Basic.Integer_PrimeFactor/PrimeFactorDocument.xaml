@@ -1,0 +1,26 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">如果一个自然数的因数是质数，这个因数就叫做这个自然数的质因数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数中找出</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">18</Run>
+        <Run FontSize="30">的质因数。</Run>    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">0, 2, 3, 5, 6, 8, 9, 12, 18, 54</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">2,3</Run>
+    </Paragraph>
+</FlowDocument>

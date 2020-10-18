@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.UserControls.AppInstallingListUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Utility="clr-namespace:SoonLearning.AppCenter.Utility"
+             xmlns:lang="clr-namespace:SoonLearning.AppCenter.Resources"
+             mc:Ignorable="d" 
+          
+             d:DesignHeight="300" 
+             d:DesignWidth="300">
+    <Grid Margin="5,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Separator VerticalAlignment="Bottom" Style="{StaticResource SeparatorStyle1}" Margin="0"/>
+        
+        <ListBox x:Name="pendingListBox"
+                 Margin="1"
+                 Grid.Row="1"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 ItemsSource="{Binding AppInstallItems, Source={x:Static Utility:AppInstallMgr.Instance}}"
+                 ItemContainerStyle="{StaticResource PenddingAppItemStyle}"
+                 Background="{x:Null}"
+                 SelectionChanged="pendingListBox_SelectionChanged" 
+                 BorderBrush="{x:Null}"/>
+
+        <StackPanel Grid.Row="0"
+                    Margin="2,0"
+                    Orientation="Horizontal">
+            <Button x:Name="cancelPenddingAppButton"
+                    Margin="5, 0"
+                  
+                    Content="{x:Static lang:Strings.Cancel}"
+                    Click="cancelPenddingAppButton_Click"
+                    IsEnabled="False"/>
+            <Button x:Name="retryButton"
+                    Margin="5, 0"
+                   
+                    Content="{x:Static lang:Strings.Retry}"
+                    Click="retryButton_Click" 
+                    IsEnabled="False"/>
+            <Button x:Name="deleteButton"
+                    Margin="5, 0"
+                  
+                    Content="删除记录"
+                    Click="deleteButton_Click" 
+                    IsEnabled="False" />
+        </StackPanel>
+
+    </Grid>
+</UserControl>

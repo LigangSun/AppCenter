@@ -1,0 +1,171 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">把单位“1”平均分成若干份，表示这样的一份或者几份的数叫做分数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="30">从下面序列中选出分数。</Run>
+    </Paragraph>
+    <BlockUIContainer>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" 
+                        Margin="3,0">
+                <TextBlock Text="1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="3,0">
+                <TextBlock Text="1.5" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+            
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="4" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="4" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="3,0">
+                <TextBlock Text="1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="3,0">
+                <TextBlock Text="0.1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="3,0">
+                <TextBlock Text="5" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="6" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="5" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </BlockUIContainer>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+    </Paragraph>
+
+    <BlockUIContainer>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical"
+                        Margin="5,0">
+                <TextBlock Text="1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="1" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="2" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="4" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="3" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="4" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <TextBlock Text=", " Foreground="Black" FontSize="24" FontWeight="Medium" VerticalAlignment="Bottom"/>
+
+            <StackPanel Orientation="Vertical"
+                        Margin="3,0">
+                <TextBlock Text="6" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+                <Line Stroke="Black" Fill="Black" StrokeThickness="2" X1="0" X2="20"/>
+                <TextBlock Text="5" Foreground="Black" FontSize="24" FontWeight="Medium" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+        </StackPanel>
+    </BlockUIContainer>
+
+</FlowDocument>

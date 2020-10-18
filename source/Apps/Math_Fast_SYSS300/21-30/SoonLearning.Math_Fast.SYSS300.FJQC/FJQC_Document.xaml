@@ -1,0 +1,33 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求一个数与它末n位数的补数的差（减数大于被减数的末n位数）时，如果减数为n位数，且它比被减数的末n位数大，那么差为：在比被减数末n位前面的数少1的数后面，接着添写被减数末n位数的2倍，如果2倍不满n位，就在它前面补足0。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">1725-75=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">1725-75</Run>
+    </Paragraph>
+     <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(17-1)×100+25×2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1600+50</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1650</Run>
+    </Paragraph>
+</FlowDocument>

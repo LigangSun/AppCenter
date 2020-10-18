@@ -1,0 +1,35 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            求方程解的过程叫做解方程。
+            解方程的步骤：
+            （1）有分母先去分母；
+            （2）有括号就先去掉；
+            （3）移项：将含未知数的项移到左边，常数项移到另右边；
+            （4）合并同类项：使方程变形为单项式；
+            （5）方程两边同时除以未知数的系数得未知数的值。
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        求解方程(x-2)×3+3＝18。
+        解: 
+        (1)去括号：x×3-2×3+3=18
+        (2)移项：x×3=18+2×3-3
+        (3)合并同类项：x×3=18+6-3
+        (4)x×3=24-3
+        (5)x×3=21
+        (6)x×3÷3=21÷3
+        (7)x=7
+        
+        ∴x=7是方程的解。
+    </Paragraph>
+</FlowDocument>

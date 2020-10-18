@@ -1,0 +1,33 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">求互补的两个数的差，可用被减数（n-1位数）的最高位数减去5，被减数的其余各位数字不变，把所得到的这个数乘以2，此积就是其结果。即：得数=（被减数-5×10的（n-1）方）×2。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">982-18=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 982-18</Run>
+    </Paragraph>
+     <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(982-500)×2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=482×2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=964</Run>
+    </Paragraph>
+</FlowDocument>

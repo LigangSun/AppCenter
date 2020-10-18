@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace MemorizeAppCreator
+{
+    /// <summary>
+    /// Interaction logic for NewWindow.xaml
+    /// </summary>
+    public partial class NewWindow : Window
+    {
+        internal int Type
+        {
+            get
+            {
+                if (this.generalRadioButton.IsChecked.Value)
+                    return 0;
+                if (this.mathRadioButton.IsChecked.Value)
+                    return 1;
+
+                return -1;
+            }
+        }
+
+        public NewWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+            this.Close();
+        }
+    }
+}

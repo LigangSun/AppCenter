@@ -1,0 +1,35 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">补数加乘法，是指当被乘数大数字（5、6、7、8、9）较多时，可先把被乘数扩大乘数的满数倍，然后加上被乘数凑数个乘数的补数，再减去被乘数超数个乘数的补数的一种求积方法。由“补数减乘法”的数理说明可知：乘积=被乘数×满数-被乘数×补数，而某数=超数-凑数，则：乘积=被乘数×满数-被乘数×补数=被乘数×满数-（超数-凑数）×补数=被乘数×满数-（超数×补数-凑数×补数）=被乘数×满数+凑数×补数-超数×补数。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">89×77=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 89×77</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=89×100+1×23-90×23</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=8900+23-2070</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=8923-2070</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=6853</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,120 @@
+﻿<Window x:Class="SoonLearning.AppCenter.Windows.AdminLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Title="管理员登陆">
+    <Grid>
+    	
+		<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="10"/>
+    		<ColumnDefinition Width="0.8*"/>
+    		<ColumnDefinition Width="10"/>
+    	</Grid.ColumnDefinitions>
+    	<Grid.RowDefinitions>
+    		<RowDefinition Height="10"/>
+    		<RowDefinition Height="0.8*"/>
+    		<RowDefinition Height="10"/>
+    	</Grid.RowDefinitions>
+		
+		<Grid Grid.Row="1" Grid.Column="1" >
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="6" Direction="270" Opacity="0.5" />
+            </Grid.Effect>
+            <Border Grid.RowSpan="2" 
+				Grid.ColumnSpan="2" 
+				CornerRadius="30"
+				BorderThickness="3">
+				<Border.BorderBrush>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FF6DD0F9" Offset="0"/>
+						<GradientStop Color="#FF2E92D8" Offset="1"/>
+					</LinearGradientBrush>
+				</Border.BorderBrush>
+				<Border.Background>
+					<ImageBrush ViewportUnits="Absolute" TileMode="Tile"   Viewport="0,0,150,150" Stretch="Uniform" ImageSource="/SoonLearning.AppCenter;component/Resources/Images/Dialogue_BGTile.png"/>
+				</Border.Background>
+			</Border>
+			<Border 
+				CornerRadius="30"
+				BorderThickness="3" Opacity="0.5">
+				<Border.BorderBrush>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FF6DD0F9" Offset="0"/>
+						<GradientStop Color="#FF2E92D8" Offset="1"/>
+					</LinearGradientBrush>
+				</Border.BorderBrush>
+				<Border.Background>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FF89D1FF" Offset="0.009"/>
+						<GradientStop Offset="0.216" Color="#00008BE4"/>
+					</LinearGradientBrush>
+				</Border.Background>
+			</Border>
+			<StackPanel Grid.Column="1" Orientation="Vertical" d:LayoutOverrides="Height" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="40,60">
+
+				<TextBlock Text="管理员登陆"
+        			
+					Foreground="{StaticResource TextColorBrush_Light}" Margin="0,0,0,40" Style="{StaticResource TextBlockStyle_BigHead}"
+        		/>
+
+				<StackPanel d:LayoutOverrides="Width" Margin="0,0,0,10">
+
+					<TextBlock Text="用户名："
+                   
+						Foreground="{StaticResource TextColorBrush_Light}"
+						VerticalAlignment="Center"
+						Margin="0,5"
+						Style="{StaticResource TextBlockStyle_Head2_Light}" />
+
+					<TextBox x:Name="idTextBox"
+						FontSize="20"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Left"
+						Margin="0,5" 
+						Width="280" Style="{StaticResource TextBoxStyle_Login}"/>
+
+				</StackPanel>
+				<StackPanel d:LayoutOverrides="Width" Margin="0,0,0,20">
+
+					<TextBlock Text="密码："
+                      
+						Foreground="{StaticResource TextColorBrush_Light}"
+						VerticalAlignment="Center"
+						Margin="0,5"
+						Style="{StaticResource TextBlockStyle_Head2_Light}" />
+
+					<PasswordBox x:Name="passwordTextBox"
+						FontSize="20"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Left"
+						Margin="0,5" 
+						Width="280" />
+
+				</StackPanel>
+				<StackPanel Orientation="Horizontal"
+					HorizontalAlignment="Left" Margin="0,0,0,20"/>
+				<Button x:Name="loginBtn"
+					VerticalAlignment="Center"
+					HorizontalAlignment="Center"
+					Margin="0,0,10,0"
+					Width="140"
+					Content="登录" Click="loginBtn_Click" />
+
+			</StackPanel>
+			<Button x:Name="x_Name__cancelBtn_" Click="x_Name__cancelBtn__Click"
+				Content="Button" 
+				HorizontalAlignment="Right" 
+				Height="51" Margin="0,0,8,0" VerticalAlignment="Top" Width="51" ContentTemplate="{StaticResource DataTemplate_Close}" Style="{StaticResource IconButton}"/>
+		</Grid>
+	</Grid>
+</Window>

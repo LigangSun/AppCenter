@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8025D9FE-113D-4646-8C64-55FF2A0A079C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.AppCenter</RootNamespace>
+    <AssemblyName>SoonLearning.AppCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30816.0</ExpressionBlendVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Gadget.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="PresentationUI" />
+    <Reference Include="SevenZipSharp, Version=0.64.4685.37914, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdParty\SevenZip\bin\Debug\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SoonLearning.Assessment.Data, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Redist\SoonLearning.Assessment.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SoonLearning.Memorize.Data">
+      <HintPath>..\..\Redist\SoonLearning.Memorize.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="CommonControl\Block.xaml.cs">
+      <DependentUpon>Block.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\LoadGadgetDataWindow.xaml.cs">
+      <DependentUpon>LoadGadgetDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\LoadingAnimation.xaml.cs">
+      <DependentUpon>LoadingAnimation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\NumberVirtualKeyboard.xaml.cs">
+      <DependentUpon>NumberVirtualKeyboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AddAppItem.cs" />
+    <Compile Include="Data\AdminInformation.cs" />
+    <Compile Include="Data\AppInstallCompletedEventArgs.cs" />
+    <Compile Include="Data\AppMainTagCollection.cs" />
+    <Compile Include="Data\AssessmentAppItem.cs" />
+    <Compile Include="Data\DataMgr.cs" />
+    <Compile Include="Data\AppItem.cs" />
+    <Compile Include="Data\DllAppItem.cs" />
+    <Compile Include="Data\GadgetItemCollection.cs" />
+    <Compile Include="Data\LoginInfo.cs" />
+    <Compile Include="Data\MathFastAppItem.cs" />
+    <Compile Include="Data\MemorizeAppItem.cs" />
+    <Compile Include="Data\MemorizeDataLoader.cs" />
+    <Compile Include="Data\MRUAppCollection.cs" />
+    <Compile Include="Data\TypeCollection.cs" />
+    <Compile Include="License\GetPreviewLicenseWindow.xaml.cs">
+      <DependentUpon>GetPreviewLicenseWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="License\LicenseInputUserControl.xaml.cs">
+      <DependentUpon>LicenseInputUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="License\PreviewLicenseInputUserControl.xaml.cs">
+      <DependentUpon>PreviewLicenseInputUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AppDescriptionUserControl.xaml.cs">
+      <DependentUpon>AppDescriptionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AppInstallingListUserControl.xaml.cs">
+      <DependentUpon>AppInstallingListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AppManagementUserControl.xaml.cs">
+      <DependentUpon>AppManagementUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ControlMgr.cs" />
+    <Compile Include="UserControls\ExitUserControl.xaml.cs">
+      <DependentUpon>ExitUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GadgetContainerUserControl.xaml.cs">
+      <DependentUpon>GadgetContainerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GadgetListUserControl.xaml.cs">
+      <DependentUpon>GadgetListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StageListUserControl.xaml.cs">
+      <DependentUpon>StageListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SubTypeListUserControl.xaml.cs">
+      <DependentUpon>SubTypeListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControl\ThumbnailListControl.xaml.cs">
+      <DependentUpon>ThumbnailListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\AppInstallMgr.cs" />
+    <Compile Include="Utility\AppMgr.cs" />
+    <Compile Include="Utility\AppService.cs" />
+    <Compile Include="Utility\UIHelper.cs" />
+    <Compile Include="Windows\AboutWindow.xaml.cs">
+      <DependentUpon>AboutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddAppTipWindow.xaml.cs">
+      <DependentUpon>AddAppTipWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminLoginWindow.xaml.cs">
+      <DependentUpon>AdminLoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AppStoreWindow.xaml.cs">
+      <DependentUpon>AppStoreWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CommentWindow.xaml.cs">
+      <DependentUpon>CommentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\LoadGadgetWindow.xaml.cs">
+      <DependentUpon>LoadGadgetWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SettingWindow.xaml.cs">
+      <DependentUpon>SettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SharedWindow.xaml.cs">
+      <DependentUpon>SharedWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UpgradeMessageWindow.xaml.cs">
+      <DependentUpon>UpgradeMessageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WaitingPayWindow.xaml.cs">
+      <DependentUpon>WaitingPayWindow.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutFlowDocument.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <Page Include="CommonControl\Block.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\LoadGadgetDataWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControl\LoadingAnimation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControl\NumberVirtualKeyboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="License\GetPreviewLicenseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="License\LicenseInputUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="License\PreviewLicenseInputUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Properties\DesignTimeResources.xaml" Condition="'$(DesignTime)'=='true' OR ('$(SolutionPath)'!='' AND Exists('$(SolutionPath)') AND '$(BuildingInsideVisualStudio)'!='true' AND '$(BuildingInsideExpressionBlend)'!='true')">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ContainsDesignTimeResources>true</ContainsDesignTimeResources>
+    </Page>
+    <Page Include="Resources\Black\BlackStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\Button.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\CheckBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\ColorTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\Combobox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\Data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\ListBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\Others.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style\ScollBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\Strings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AppDescriptionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AppInstallingListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AppManagementUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ExitUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GadgetContainerUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GadgetListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\StageListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SubTypeListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControl\ThumbnailListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AboutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddAppTipWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminLoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AppStoreWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CommentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\LoadGadgetWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SettingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SharedWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\UpgradeMessageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WaitingPayWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Strings.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app1.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Resources\Images\wood_BG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Images\Wood_BG_Dark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Images\Wood_Border.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Resource Include="Resources\迷你简卡通.TTF" />
+    <Resource Include="Resources\Images\btn_Shadow_01.png" />
+    <Resource Include="Resources\Images\btn_Shadow_02.png" />
+    <Resource Include="Resources\Images\btn_Shadow_03.png" />
+    <Resource Include="Resources\Images\Close_D.png" />
+    <Resource Include="Resources\Images\Close_H.png" />
+    <Resource Include="Resources\Images\Close_U.png" />
+    <Resource Include="Resources\Images\cloud2.png" />
+    <Resource Include="Resources\Images\cloud3.png" />
+    <Resource Include="Resources\Images\Cloud_1.png" />
+    <Resource Include="Resources\Images\Dec_screw.png" />
+    <Resource Include="Resources\Images\Dialogue_BGTile.png" />
+    <Resource Include="Resources\Images\Dialogue_BGTile2.png" />
+    <Resource Include="Resources\Images\Help_D.png" />
+    <Resource Include="Resources\Images\IMG_Loading.png" />
+    <Resource Include="Resources\Images\Item_Shadow.png" />
+    <Resource Include="Resources\Images\Item_Specular.png" />
+    <Resource Include="Resources\Images\MainHub_Tile.png" />
+    <Resource Include="Resources\Images\ProgressBar_Tile.png" />
+    <Resource Include="Resources\Images\ProgressBar_Tile2.png" />
+    <Resource Include="Resources\Images\rocket_Logo.png" />
+    <Resource Include="Resources\Images\shadow_01.png" />
+    <Resource Include="Resources\Images\shadow_02.png" />
+    <Resource Include="Resources\Images\shadow_04.png" />
+    <Resource Include="Resources\Images\shadow_05.png" />
+    <Resource Include="Resources\Images\shadow_07.png" />
+    <Resource Include="Resources\Images\shadow_10.png" />
+    <Resource Include="Resources\Images\shadow_13.png" />
+    <Resource Include="Resources\Images\shadow_BG.png" />
+    <Resource Include="Resources\Images\Tab_Cloud.png" />
+    <Resource Include="Resources\迷你简细等线.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Rocket2.png" />
+    <Resource Include="Resources\Images\Titlelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Gadget.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Gadget.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\IntroBG.png" />
+    <Resource Include="Resources\Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\shadow.png" />
+    <Resource Include="Resources\Images\SoonLearning_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\BadSurprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\BigSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\BiggestSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\CleverSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Blue\add_New.png" />
+    <Resource Include="Resources\Images\Blue\arrow-left.png" />
+    <Resource Include="Resources\Images\Blue\arrow-right.png" />
+    <Resource Include="Resources\Images\Blue\edit.png" />
+    <Resource Include="Resources\Images\Blue\exit.png" />
+    <Resource Include="Resources\Images\Blue\home.png" />
+    <Resource Include="Resources\Images\Blue\Info.png" />
+    <Resource Include="Resources\Images\Blue\printer.png" />
+    <Resource Include="Resources\Images\Blue\question.png" />
+    <Resource Include="Resources\Images\Blue\refresh.png" />
+    <Resource Include="Resources\Images\Blue\save.png" />
+    <Resource Include="Resources\Images\Blue\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Blue\list.png" />
+    <Resource Include="Resources\Images\Blue\restart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Blue\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\GadgetLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Apps\Assessment.Player\Assessment.Player.csproj">
+      <Project>{3AC6092A-1008-4EF7-91C8-4E0BBD596B7F}</Project>
+      <Name>Assessment.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Apps\Memorize.UI\Memorize.UI.csproj">
+      <Project>{DAC40E46-BB68-44CA-A6AF-476E0BD5EBB2}</Project>
+      <Name>Memorize.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppCenter.Common\AppCenter.Common.csproj">
+      <Project>{445d729d-0c54-4efc-96eb-c641bc03edb8}</Project>
+      <Name>AppCenter.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\FastCalc.png" />
+    <Resource Include="Resources\Images\GradeMath.png" />
+    <Content Include="ChangeList.htm" />
+    <Resource Include="Resources\Images\addApp.png" />
+    <Resource Include="Resources\Images\BG_Specular.png" />
+    <Resource Include="Resources\Images\BlackBoard_BG.png" />
+    <Resource Include="Resources\Images\Checkbox_BG.png" />
+    <Resource Include="Resources\Images\Checkbox_Checked.png" />
+    <Resource Include="Resources\Images\Emotes-face-smile-icon.png" />
+    <Resource Include="Resources\Images\Gadget.png" />
+    <Resource Include="Resources\Images\Icon_Back.png" />
+    <Resource Include="Resources\Images\main.png" />
+    <Resource Include="Resources\Images\wood_Top.png" />
+    <Content Include="SharedPage.htm" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

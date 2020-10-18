@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SoonLearning.Assessment.Player.UserControls.NotImplementUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <TextBlock FontSize="24"
+                   FontWeight="Medium"
+                   Foreground="White"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Text="该知识点正在开发中，敬请关注... ..." />
+    </Grid>
+</UserControl>

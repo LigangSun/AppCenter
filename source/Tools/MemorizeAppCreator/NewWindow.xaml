@@ -1,0 +1,63 @@
+﻿<Window x:Class="MemorizeAppCreator.NewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="新建速学记忆应用" 
+        Icon="memorize.ico"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Height="450" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="44" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <StackPanel Margin="8">
+                <RadioButton Content="翻牌记忆应用" 
+                             x:Name="generalRadioButton"
+                             FontSize="18"
+                             Foreground="Black"
+                             GroupName="memorizeAppTypeGroup"
+                             IsChecked="True"/>
+                <TextBlock Text="翻开纸牌找到两个同类的物品，可以设置文字（中文、英文、拼音等）。声音、图片等为记忆物品。"
+                           Margin="15,5"
+                           FontSize="14"
+                           Foreground="Green"
+                           TextWrapping="Wrap"/>
+            </StackPanel>
+        
+            <StackPanel Margin="8">
+                <RadioButton Content="翻牌记忆应用（数学表达式）"
+                             FontSize="18"
+                             Foreground="Black"
+                             GroupName="memorizeAppTypeGroup"
+                             x:Name="mathRadioButton"/>
+                <TextBlock Text="翻开纸牌找到两个同类的物品，可以设置数学中的加减乘除法表达式为记忆物品，例如：      1+1=2，翻开1+1的牌，再找到有2的牌既为正确答案。"
+                           Margin="15,5"
+                           FontSize="14"
+                           Foreground="Green"
+                           TextWrapping="Wrap"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="okButton"
+                    Content="确定"
+                    IsDefault="True"
+                    Width="100"
+                    Margin="10,5"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Click="okButton_Click"/>
+            <Button x:Name="cancelButton"
+                    Content="取消"
+                    IsDefault="True"
+                    IsCancel="True"
+                    Width="100"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Margin="10,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

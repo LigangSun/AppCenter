@@ -1,0 +1,23 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            初中数学基本知识点之同底数幂的乘法。
+            法则：底数不变，指数相加
+	        公式：a^m a^n=a^(m+n)。
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        (1) b^2m b^(2m+1)=b^(2m+2m+1)=b^(4m+1)
+	    (2) -x^3 x^5=-x^(3+5)=-x^8
+
+    </Paragraph>
+</FlowDocument>

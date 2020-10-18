@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2447DF06-A841-4191-9EBD-15347AC02706}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.TeachAppMaker</RootNamespace>
+    <AssemblyName>SoonLearning.TeachAppMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_SAVE_CONTENT_AS_XAML_</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TeachAppMaker.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;E:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;E:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\SoonLearning.TeachAppMaker.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;E:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;E:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TeachApp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>Redist\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFControlsLibrary">
+      <HintPath>Redist\WPFControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFControlsLibraryInterface">
+      <HintPath>Redist\WPFControlsLibraryInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AboutWindow.xaml.cs">
+      <DependentUpon>AboutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\AboutCommand.cs" />
+    <Compile Include="Commands\AddQuestionCommand.cs" />
+    <Compile Include="Commands\AddSubQuestionCommand.cs" />
+    <Compile Include="Commands\CheckUpdateCommand.cs" />
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\DeleteCommand.cs" />
+    <Compile Include="Commands\DuplicateCommand.cs" />
+    <Compile Include="Commands\EditAppCommand.cs" />
+    <Compile Include="Commands\EditCommand.cs" />
+    <Compile Include="Commands\EditCommands.cs" />
+    <Compile Include="Commands\EditKnowledgeCommand.cs" />
+    <Compile Include="Commands\ExitCommand.cs" />
+    <Compile Include="Commands\HelpCommand.cs" />
+    <Compile Include="Commands\HelpCommands.cs" />
+    <Compile Include="Commands\MiscCommands.cs" />
+    <Compile Include="Commands\NewProjectCommand.cs" />
+    <Compile Include="Commands\OpenProjectCommand.cs" />
+    <Compile Include="Commands\ProjectCommands.cs" />
+    <Compile Include="Commands\SaveProjectCommand.cs" />
+    <Compile Include="Commands\SettingCommand.cs" />
+    <Compile Include="CreatePackageWindow.xaml.cs">
+      <DependentUpon>CreatePackageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AcmBitmapImage.cs" />
+    <Compile Include="Data\AppDescription.cs" />
+    <Compile Include="Data\AppService.cs" />
+    <Compile Include="Data\Helper.cs" />
+    <Compile Include="Data\KnowledgeTreeNode.cs" />
+    <Compile Include="Data\ProjectMgr.cs" />
+    <Compile Include="Data\ProjectTreeNode.cs" />
+    <Compile Include="Data\QuestionBankTreeNode.cs" />
+    <Compile Include="Data\QuestionTypeTreeNode.cs" />
+    <Compile Include="Data\SerializerHelper.cs" />
+    <Compile Include="Data\TableDragHandle.cs" />
+    <Compile Include="Data\Xaml2FlowDocumentConverter.cs" />
+    <Compile Include="Dialogs\EquationEditorDialog.xaml.cs">
+      <DependentUpon>EquationEditorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FractionDialog.xaml.cs">
+      <DependentUpon>FractionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\HyperlinkPropertiesDialog.xaml.cs">
+      <DependentUpon>HyperlinkPropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ImagePropertiesDialog.xaml.cs">
+      <DependentUpon>ImagePropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SubQuestionTypeDialog.xaml.cs">
+      <DependentUpon>SubQuestionTypeDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TablePropertiesDialog.xaml.cs">
+      <DependentUpon>TablePropertiesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Html2FlowDocumentConverter.cs" />
+    <Compile Include="KnowledgeUserControl.xaml.cs">
+      <DependentUpon>KnowledgeUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KnowledgeWindow.xaml.cs">
+      <DependentUpon>KnowledgeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\EditModule.cs" />
+    <Compile Include="Modules\HelpModule.cs" />
+    <Compile Include="Modules\ProjectModule.cs" />
+    <Compile Include="PublishWindow.xaml.cs">
+      <DependentUpon>PublishWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionEditWindow.xaml.cs">
+      <DependentUpon>QuestionEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\CPQuestionUserControl.xaml.cs">
+      <DependentUpon>CPQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\ESQuestionUserControl.xaml.cs">
+      <DependentUpon>ESQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\FIBQuestionUserControl.xaml.cs">
+      <DependentUpon>FIBQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\FIBReferenceAnswerUserControl.xaml.cs">
+      <DependentUpon>FIBReferenceAnswerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\IEditQuestion.cs" />
+    <Compile Include="Questions\MAQuestionUserControl.xaml.cs">
+      <DependentUpon>MAQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\MCQuestionUserControl.xaml.cs">
+      <DependentUpon>MCQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\MRQuestionUserControl.xaml.cs">
+      <DependentUpon>MRQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionListUserControl.xaml.cs">
+      <DependentUpon>QuestionListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionUserControl.xaml.cs">
+      <DependentUpon>QuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\TFQuestionUserControl.xaml.cs">
+      <DependentUpon>TFQuestionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingWindow.xaml.cs">
+      <DependentUpon>SettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SolutionEditWindow.xaml.cs">
+      <DependentUpon>SolutionEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartupWindow.xaml.cs">
+      <DependentUpon>StartupWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AboutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreatePackageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\EquationEditorDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\FractionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\HyperlinkPropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\ImagePropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialogs\SubQuestionTypeDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogs\TablePropertiesDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="KnowledgeUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KnowledgeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="NewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpenWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PublishWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuestionEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\CPQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\ESQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\FIBQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\FIBReferenceAnswerUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\MAQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\MCQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\MRQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\QuestionListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\QuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Questions\TFQuestionUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Styles\MainViewStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SolutionEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartupWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NewWindow.xaml.cs">
+      <DependentUpon>NewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpenWindow.xaml.cs">
+      <DependentUpon>OpenWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="App1.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Apps\Assessment.Player\Assessment.Player.csproj">
+      <Project>{3AC6092A-1008-4EF7-91C8-4E0BBD596B7F}</Project>
+      <Name>Assessment.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\Math.Data\Assessment.Data.csproj">
+      <Project>{FEA34E7A-75A5-4110-9B1B-86E8342198D5}</Project>
+      <Name>Assessment.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ThirdParty\html-xaml\convertHTML.csproj">
+      <Project>{DC692379-518F-4241-9BBA-4E3F4A9BCE13}</Project>
+      <Name>convertHTML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ThirdParty\SevenZip\SevenZip2010.csproj">
+      <Project>{4960DD14-3431-47EC-B9D9-9D2730A98DC3}</Project>
+      <Name>SevenZip2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppManagementTool\AppManagementTool.csproj">
+      <Project>{0C297D4E-FD5F-4172-A64D-50D572E934C4}</Project>
+      <Name>AppManagementTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\BlankImage.png" />
+    <Resource Include="Resources\Images\CPImage.png" />
+    <Resource Include="Resources\Images\FIBImage.png" />
+    <Resource Include="Resources\Images\MAImage.png" />
+    <Resource Include="Resources\Images\MCImage.png" />
+    <Resource Include="Resources\Images\MCOptionImage.png" />
+    <Resource Include="Resources\Images\MMImage.png" />
+    <Resource Include="Resources\Images\MRImage.png" />
+    <Resource Include="Resources\Images\MROptionImage.png" />
+    <Resource Include="Resources\Images\TFImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\QuestionBank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Quiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\ESImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TeachApp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TeachApp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

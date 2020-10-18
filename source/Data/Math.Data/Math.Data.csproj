@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEA34E7A-75A5-4110-9B1B-86E8342198D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.Math.Data</RootNamespace>
+    <AssemblyName>SoonLearning.Math.Data</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Redist\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Redist\SoonLearning.Math.Data.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Redist\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Content\ArithmaticSignPart.cs" />
+    <Compile Include="Content\ArithmeticDecimalValuePart.cs" />
+    <Compile Include="Content\ArithmeticFractionValuePart.cs" />
+    <Compile Include="Consts\ContentType.cs" />
+    <Compile Include="Consts\DifficultyLevel.cs" />
+    <Compile Include="Content\QuestionFractionPart.cs" />
+    <Compile Include="Content\QuestionPowerExponentPart.cs" />
+    <Compile Include="Content\QuestionPowerPart.cs" />
+    <Compile Include="Help\Helper.cs" />
+    <Compile Include="Response\ESQuestionResponse.cs" />
+    <Compile Include="Response\ExerciseResponse.cs" />
+    <Compile Include="Response\FIBQuestionResponse.cs" />
+    <Compile Include="Blank\QuestionBlankCollection.cs" />
+    <Compile Include="Response\QuestionBlankResponse.cs" />
+    <Compile Include="Question\QuestionCollection.cs" />
+    <Compile Include="Content\QuestionFlowDocumentPart.cs" />
+    <Compile Include="Option\QuestionOption.cs" />
+    <Compile Include="Option\QuestionOptionCollection.cs" />
+    <Compile Include="Content\QuestionPartCollection.cs" />
+    <Compile Include="Content\QuestionContentPart.cs" />
+    <Compile Include="Base\BaseObject.cs" />
+    <Compile Include="Question\CPQuestion.cs" />
+    <Compile Include="Consts\DisplayAnswerType.cs" />
+    <Compile Include="Consts\DisplayFeedbackType.cs" />
+    <Compile Include="Consts\DisplaySolutionType.cs" />
+    <Compile Include="Question\ESQuestion.cs" />
+    <Compile Include="Assessment\Exam.cs" />
+    <Compile Include="Feedback\Feedback.cs" />
+    <Compile Include="Question\FIBQuestion.cs" />
+    <Compile Include="Question\MAQuestion.cs" />
+    <Compile Include="Consts\MarkType.cs" />
+    <Compile Include="Consts\MathBasicType.cs" />
+    <Compile Include="Question\MCQuestion.cs" />
+    <Compile Include="Question\MRQuestion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question\Question.cs" />
+    <Compile Include="Blank\QuestionBlank.cs" />
+    <Compile Include="Content\QuestionContent.cs" />
+    <Compile Include="Consts\QuestionDisplayType.cs" />
+    <Compile Include="Response\QuestionResponse.cs" />
+    <Compile Include="Content\QuestionTextPart.cs" />
+    <Compile Include="Consts\QuestionType.cs" />
+    <Compile Include="Response\Response.cs" />
+    <Compile Include="Section\Section.cs" />
+    <Compile Include="Assessment\Exercise.cs" />
+    <Compile Include="Section\SectionCollection.cs" />
+    <Compile Include="Question\SelectableQuestion.cs" />
+    <Compile Include="Response\SelectableQuestionResponse.cs" />
+    <Compile Include="Consts\Symbol.cs" />
+    <Compile Include="Question\TableQuestion.cs" />
+    <Compile Include="Question\TFQuestion.cs" />
+    <Compile Include="User\User.cs" />
+    <Compile Include="Question\VerticalFormQuestion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,32 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">625倍速算法，方法三，因为1÷16=0.0625，所以0.0625×16=1；因为5÷8=0.625，所以0.625×8=5；因为25÷4=6.25，所以6.25×4=25；又因为125÷2=62.5，所以62.5×2=125.由此可知，625与16乘积的计算数字是1；625与8的乘积的计算数字是5；625与4乘积的计算数字是25；625与2乘积的计算数字是125，熟记这四个数字，就能很快算出625与某数的乘积。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">625×42=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 625×42</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=625×40+625×2</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=25000+1250</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=26250</Run>
+    </Paragraph>
+</FlowDocument>

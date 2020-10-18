@@ -1,0 +1,20 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            三个数相乘，先把前两个数相乘，再同第三个数相乘；或者先把后两个数相乘，再同第一个数相乘，它们的积不变。如：
+            (a×b)×c=a×(b×c)
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        (2×5)×3=2×(5×3)，在这个等式中，先2乘以5再乘以3，和先5乘以3再乘以2，结果不变，都是30。
+    </Paragraph>
+</FlowDocument>

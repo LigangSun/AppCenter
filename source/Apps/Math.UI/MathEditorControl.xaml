@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="SoonLearning.Math.UI.MathEditorControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             PreviewKeyDown="UserControl_PreviewKeyDown"
+             Keyboard.PreviewKeyDown="UserControl_PreviewKeyDown" >
+    <WrapPanel x:Name="rootPanel"
+               Orientation="Horizontal"
+               PreviewKeyDown="rootPanel_PreviewKeyDown"
+               KeyDown="WrapPanel_KeyDown">
+        
+    </WrapPanel>
+</UserControl>

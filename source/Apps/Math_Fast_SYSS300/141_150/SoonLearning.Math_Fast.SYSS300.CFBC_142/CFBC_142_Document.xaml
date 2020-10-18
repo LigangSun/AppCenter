@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">乘方补差法，两个相接近的乘数相乘，可先计算较小乘数的平方后，再加上两乘数之差乘以较小乘数；或先计算较大乘数的平方后，再减去两乘数之差乘以较大乘数。可利用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">a(a+b)=a×a+a×b或a(a-b)=a×a-a×b</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算。其中a、a+b/a-b分别表示两个乘数。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">35×25=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 35×25</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=25×25+25×10</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=625+250</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=875</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.Host.ExitUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lang="clr-namespace:SoonLearning.AppCenter.Host.Properties"
+             Background="{DynamicResource BGMainBrush_Dark}"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="infoTextBlock"
+                   FontSize="36"
+                   FontWeight="Bold"
+                   Foreground="{StaticResource TextColorBrush_Light}"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20" />
+        
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,20,0,0"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Height="64"
+                    Grid.Row="1">
+            <Button x:Name="okButton"
+                    Content="{x:Static lang:Resources.YesExit}"
+                    Click="okButton_Click" 
+                    Width="200"
+                    Margin="5"/>
+            <Button x:Name="cancelButton"
+                    Content="{x:Static lang:Resources.NotExit}"
+                    Click="cancelButton_Click"
+                    Width="200"
+                    Margin="5" Style="{DynamicResource ButtonStyle_Sub}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

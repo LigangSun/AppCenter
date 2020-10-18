@@ -1,0 +1,20 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            一个数连续除以两个数，等于这个数除以两个除数的积。如：
+            a÷b÷c=a÷(b×c)
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        18÷2÷3=18÷(2×3)，在这个等式中，18除以2再除以3；和先2乘以3等于6，然后18除以6，结果不变，都是3。
+    </Paragraph>
+</FlowDocument>

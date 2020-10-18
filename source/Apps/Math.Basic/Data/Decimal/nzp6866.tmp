@@ -1,0 +1,24 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="White">
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">把整数1平均分成10份、100份、1000份…… 得到的十分之几、百分之几、千分之几…… 可以用小数表示。一位小数表示十分之几，两位小数表示百分之几，三位小数表示千分之几……</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">把1分成</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">100</Run>
+        <Run FontSize="30">份，可以用多少位小数表示？</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="White">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">2位小数。</Run>
+    </Paragraph>
+</FlowDocument>

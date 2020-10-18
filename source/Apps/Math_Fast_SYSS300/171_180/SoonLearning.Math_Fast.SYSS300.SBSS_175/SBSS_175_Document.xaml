@@ -1,0 +1,32 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">37倍速算法，37与某数（30以内）相乘时，某数是3的几倍，其积就是三个“几”。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(n×3)×37=100n+10n+n</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中某数为n×3（n为任意正整数）。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">37×18=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 37×18</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=666</Run>
+    </Paragraph>
+</FlowDocument>

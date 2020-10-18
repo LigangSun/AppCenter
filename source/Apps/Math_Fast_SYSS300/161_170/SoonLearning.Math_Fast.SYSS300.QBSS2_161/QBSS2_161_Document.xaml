@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">7倍速算法，方法二，7与某数相乘时，可将某数除以14，得首商（商的首几位数字）扩大100倍后，再减去2倍的首商，最后加上余数的7倍，即为其积。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(n×14+a)×7=n×100-n×2+a×7</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中被乘数为n×14+a，且n是任意正整数，a为等于、大于零而小于14的整数。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">36×7=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 36×7</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=2×100-2×2+8×7</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=200-4+56</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=196+56</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=252</Run>
+    </Paragraph>
+</FlowDocument>

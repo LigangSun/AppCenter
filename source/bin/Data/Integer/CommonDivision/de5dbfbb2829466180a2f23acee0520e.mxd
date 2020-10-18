@@ -1,0 +1,1289 @@
+<?xml version="1.0"?>
+<Exercise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>de5dbfbb2829466180a2f23acee0520e</Id>
+  <Title>公约数练习</Title>
+  <Description />
+  <RetryTimes>-1</RetryTimes>
+  <MarkType>AutoAfterEachQuestion</MarkType>
+  <DisplayAnswerType>AutoAfterEachQuestion</DisplayAnswerType>
+  <DisplaySolutionType>AutoAfterEachQuestion</DisplaySolutionType>
+  <DisplayFeedbackType>AfterEachQuestion</DisplayFeedbackType>
+  <DisplayMark>false</DisplayMark>
+  <DisplayScore>false</DisplayScore>
+  <QuestionDisplayType>Question</QuestionDisplayType>
+  <QuestionCountPerPage>2</QuestionCountPerPage>
+  <CreateTime>2012-06-17T11:39:15.7978477+08:00</CreateTime>
+  <UsedTime />
+  <SectionCollection>
+    <Section>
+      <Id>4b470020dd624036b43677529798c159</Id>
+      <Title>单选题：</Title>
+      <Description>（下面每道题都只有一个选项是正确的）</Description>
+      <QuestionCollection>
+        <Question xsi:type="MCQuestion">
+          <Id>360aa27d3f044e06bdbed49c3d03caf5</Id>
+          <Content>
+            <Id>d07c6e99c0b24eb1802a1a1eefda11c8</Id>
+            <QuestionPartCollection />
+            <Content>请找出69和46的最大公约数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>782d88a2897b4e6babd1687c319d40bf</Id>
+            <QuestionPartCollection />
+            <Content>31不是69和46的最大公约数。
+21不是69和46的最大公约数。
+5不是69和46的最大公约数。
+69除以23等于3，没有余数，并且46除以23等于2，没有余数，23是最大公约数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:15.7978477Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>98e8feee9d8246ac976124522332b031</Id>
+              <OptionContent>
+                <Id>ccd8dc2641854df08c8ee15771aec921</Id>
+                <QuestionPartCollection />
+                <Content>31</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7cd54050e3264e0b944f28c77581c322</Id>
+              <OptionContent>
+                <Id>aa0b5a3d4958485c95a8274ab53e28dd</Id>
+                <QuestionPartCollection />
+                <Content>21</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>01f8c779b9c742b88a1da7826f7e385a</Id>
+              <OptionContent>
+                <Id>818c8a0202e847f095725ea73037cde5</Id>
+                <QuestionPartCollection />
+                <Content>5</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>eda15a712c234711a9c7215d55721092</Id>
+              <OptionContent>
+                <Id>792061cc1dc64ebfa8a2c981f66c08af</Id>
+                <QuestionPartCollection />
+                <Content>23</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>5bc0301d895043dd9d7be8ace1d32a2d</Id>
+          <Content>
+            <Id>4fd7c87f6a054731ba3dd9bd15cf2684</Id>
+            <QuestionPartCollection />
+            <Content>请找出52和78的最大公约数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>fb98701871ae4a509e8c79f037588934</Id>
+            <QuestionPartCollection />
+            <Content>52除以26等于2，没有余数，并且78除以26等于3，没有余数，26是最大公约数，是正确答案。
+37不是52和78的最大公约数。
+20不是52和78的最大公约数。
+25不是52和78的最大公约数。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:15.8986508Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>8a692f7e27f642069a8489550cf87cdd</Id>
+              <OptionContent>
+                <Id>0402d43d1f4b470780b697f1ba33d323</Id>
+                <QuestionPartCollection />
+                <Content>26</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1ab0152e1b374b85a99264caace8af22</Id>
+              <OptionContent>
+                <Id>15788c2140dd4f08ba77ea5898484f04</Id>
+                <QuestionPartCollection />
+                <Content>37</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b4eb6cdf9dba4f3b9c60b88c1930b789</Id>
+              <OptionContent>
+                <Id>c63ea8bdb6d94580b59edc476ea1f31d</Id>
+                <QuestionPartCollection />
+                <Content>20</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d6212f1d5e6e40eaa037c14858194b76</Id>
+              <OptionContent>
+                <Id>207739fd1e7b4348ac4c7196ae94a501</Id>
+                <QuestionPartCollection />
+                <Content>25</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>e0326c30ac0c4437a76c32ae277b87b1</Id>
+          <Content>
+            <Id>db743e657b124a959d42c504d4e05a79</Id>
+            <QuestionPartCollection />
+            <Content>请找出40和48的最大公约数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>69f9c93b07fd43c68d0f1050c5ea62ca</Id>
+            <QuestionPartCollection />
+            <Content>5不是40和48的最大公约数。
+23不是40和48的最大公约数。
+40除以8等于5，没有余数，并且48除以8等于6，没有余数，8是最大公约数，是正确答案。
+1不是40和48的最大公约数。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:15.9986566Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>d3c7707168cf4b2c993a80d08cc75ac4</Id>
+              <OptionContent>
+                <Id>1c640b9a174b40f788e7c7cd0da27f7d</Id>
+                <QuestionPartCollection />
+                <Content>5</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>dc0b6d620b394418a12c73408dcc1b20</Id>
+              <OptionContent>
+                <Id>6e59299b88f64045a459cbab26d7b3f0</Id>
+                <QuestionPartCollection />
+                <Content>23</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ca03aee7b92848a38e564c6c2753e815</Id>
+              <OptionContent>
+                <Id>d7eacc6710d442ccaa45a5c8b08ea774</Id>
+                <QuestionPartCollection />
+                <Content>8</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>eeaa8506948e424d85892dd5701129ac</Id>
+              <OptionContent>
+                <Id>2a4fe3ce7105460a854dd09c183a8af5</Id>
+                <QuestionPartCollection />
+                <Content>1</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>7b6c50dbab8840609473272d2cebd0cf</Id>
+          <Content>
+            <Id>5b749b27434246b899b80a977ffc6735</Id>
+            <QuestionPartCollection />
+            <Content>请找出20和15的最大公约数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>333a9efc46cc42059f985e15ed3e8b0b</Id>
+            <QuestionPartCollection />
+            <Content>2不是20和15的最大公约数。
+12不是20和15的最大公约数。
+13不是20和15的最大公约数。
+20除以5等于4，没有余数，并且15除以5等于3，没有余数，5是最大公约数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.0986623Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>bdcb957e9a0741498bd31850d4ddba67</Id>
+              <OptionContent>
+                <Id>95efdda73c55458792bd45fad91f9350</Id>
+                <QuestionPartCollection />
+                <Content>2</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>69e9693b87b84e9daa5e447b012b190f</Id>
+              <OptionContent>
+                <Id>1d64cc08432a4a77891c63cfa9b4265c</Id>
+                <QuestionPartCollection />
+                <Content>12</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9e42adee6e9a49ee8ebb31fc5894e582</Id>
+              <OptionContent>
+                <Id>99dfac98b2b14192a952bbdd6466b4ef</Id>
+                <QuestionPartCollection />
+                <Content>13</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>cd5bdd5bdb4c4eb3baaceef3627cfe31</Id>
+              <OptionContent>
+                <Id>108bc7c232bf471d894170f0cd86ac97</Id>
+                <QuestionPartCollection />
+                <Content>5</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>95a2516d115043fba95bcbf44c1a4e63</Id>
+          <Content>
+            <Id>653304351f44419a8021643995ebbff4</Id>
+            <QuestionPartCollection />
+            <Content>请找出72和48的最大公约数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>9eb608aed65046c6b5cb3e4685051161</Id>
+            <QuestionPartCollection />
+            <Content>11不是72和48的最大公约数。
+16不是72和48的最大公约数。
+72除以12等于6，没有余数，并且48除以12等于4，没有余数，12是最大公约数，是正确答案。
+27不是72和48的最大公约数。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.2086686Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>8fc36fd51071418198d34f273e2d348e</Id>
+              <OptionContent>
+                <Id>1f99ee225f03410a945637159477b9c5</Id>
+                <QuestionPartCollection />
+                <Content>11</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>db016ccf0efd431ab184a9d27a713c07</Id>
+              <OptionContent>
+                <Id>9fb20a95948049a4882638ded58444d8</Id>
+                <QuestionPartCollection />
+                <Content>16</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3230895877b64442a9253b1449dade30</Id>
+              <OptionContent>
+                <Id>ec0aa8e5632943a2acf6eba0e9728d6a</Id>
+                <QuestionPartCollection />
+                <Content>12</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b0153b0fde024849a47ee1f26ba5135b</Id>
+              <OptionContent>
+                <Id>285f2a44d75e4e188fdefc4462becbcd</Id>
+                <QuestionPartCollection />
+                <Content>27</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+      </QuestionCollection>
+    </Section>
+    <Section>
+      <Id>a090e842fe78436cbdf9d2ae574c6d5f</Id>
+      <Title>填空题：</Title>
+      <Description>（在空格中填入符合条件的数）</Description>
+      <QuestionCollection>
+        <Question xsi:type="FIBQuestion">
+          <Id>58067a22a9e746779e91ee24e2808f68</Id>
+          <Content>
+            <Id>e35048ac4f8c467cb65d86a48fcbd9fd</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>4ac2e2312aa54e9cbb10eead008a04c5</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>9ba5b1092b604b02913e3563c021e168</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>a186f2ee35914ddfab57e3266408546a</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>1369cd3b45924b638f2c89bf9345706c</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>b24224a1488743169f48207f22da2899</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>7e4c1048607b423ca93ebe51a9d2f0d0</Id>
+                    <QuestionPartCollection />
+                    <Content>4</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出64和76的所有公约数_$BLANK__4ac2e2312aa54e9cbb10eead008a04c5$__$BLANK__a186f2ee35914ddfab57e3266408546a$__$BLANK__b24224a1488743169f48207f22da2899$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>9e484f0722ff4fdba0848249bafa6889</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.3196749Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>4ac2e2312aa54e9cbb10eead008a04c5</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>9ba5b1092b604b02913e3563c021e168</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>a186f2ee35914ddfab57e3266408546a</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>1369cd3b45924b638f2c89bf9345706c</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>b24224a1488743169f48207f22da2899</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>7e4c1048607b423ca93ebe51a9d2f0d0</Id>
+                  <QuestionPartCollection />
+                  <Content>4</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>7957249535394eceb5ebd13dbe90b366</Id>
+          <Content>
+            <Id>1e24b6f6d472435ebef1df45176c84ed</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>494994ff4fe947d289d4ae34c592f449</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>3fed24971b784800a1725e2c68731d92</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>37bde6361ee24117b6e81ddf81b59d0d</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>21fc764ec98f429e9ee7ef4dbec78160</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出18和40的所有公约数_$BLANK__494994ff4fe947d289d4ae34c592f449$__$BLANK__37bde6361ee24117b6e81ddf81b59d0d$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>63a75b50db264119ae8dcdcb0030e41c</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.3716779Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>494994ff4fe947d289d4ae34c592f449</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>3fed24971b784800a1725e2c68731d92</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>37bde6361ee24117b6e81ddf81b59d0d</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>21fc764ec98f429e9ee7ef4dbec78160</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>ac657c55b1984a6c999fc967abd75cea</Id>
+          <Content>
+            <Id>cae9c2368112490a8eab4d9e80bb97bf</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>beb82eb9c0ba4bd0927b0d5d733b5e17</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c2ec6f0f187843e7aa5cd141df2bc4af</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>7f246ef6afdb4276b6181bc46fd0924d</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>155dc93230344c198408617960a0aa67</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出26和38的所有公约数_$BLANK__beb82eb9c0ba4bd0927b0d5d733b5e17$__$BLANK__7f246ef6afdb4276b6181bc46fd0924d$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>49b610469fd84ee09aad63412a9bcc73</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.4216807Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>beb82eb9c0ba4bd0927b0d5d733b5e17</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c2ec6f0f187843e7aa5cd141df2bc4af</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>7f246ef6afdb4276b6181bc46fd0924d</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>155dc93230344c198408617960a0aa67</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>20bdc57ed8224a0aaf823be3a4f28ab8</Id>
+          <Content>
+            <Id>fe1957925c494aeeb4ca10fc1003522c</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>1abd71802ac44b7ab73f057f26dfcf79</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>70335176b13c45b69a0c4b78029b67a4</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>ffd235b525ad4d7c9d7b067dfc0238b2</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>71eb1b48d5d6472bab736e1501b959d1</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出74和42的所有公约数_$BLANK__1abd71802ac44b7ab73f057f26dfcf79$__$BLANK__ffd235b525ad4d7c9d7b067dfc0238b2$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>a8d2908ab77f491d96171ca5431c71a8</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.4838826Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>1abd71802ac44b7ab73f057f26dfcf79</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>70335176b13c45b69a0c4b78029b67a4</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>ffd235b525ad4d7c9d7b067dfc0238b2</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>71eb1b48d5d6472bab736e1501b959d1</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>ffe5abd1603c4dc58ce0eb489c0b72db</Id>
+          <Content>
+            <Id>a7a8a31f1ebc485ab8258eb5ad200fc4</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>6b9d691e11a14c11a0e993a7d5be77d8</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>cde9778751c546a58a45f565a146c28d</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>57064308e7d2490594fe9e5ec239570f</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>f487ff8ef17b4332a25d2ecaba1c5819</Id>
+                    <QuestionPartCollection />
+                    <Content>3</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出39和45的所有公约数_$BLANK__6b9d691e11a14c11a0e993a7d5be77d8$__$BLANK__57064308e7d2490594fe9e5ec239570f$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>7b76151b1064406eb76401a410ba68c7</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.5462827Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>6b9d691e11a14c11a0e993a7d5be77d8</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>cde9778751c546a58a45f565a146c28d</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>57064308e7d2490594fe9e5ec239570f</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>f487ff8ef17b4332a25d2ecaba1c5819</Id>
+                  <QuestionPartCollection />
+                  <Content>3</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>e1a78c87969643b58892193f847a92a5</Id>
+          <Content>
+            <Id>e1cbf15470b04a859f4e1a178db036f6</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>748567e3fd4944d3a298ccef6aaab7ec</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c3a5ad30573c4e47af02881ee11f591f</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>424f6c77d15a4bd1a6e271b90b4ae2bc</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>aefed637f2074b0c938cf0269bd7bbd9</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>ef3e30f58bfc4ad9a51fbd28f1df08b8</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>ade20fb8420342ababfcebc727fddfd8</Id>
+                    <QuestionPartCollection />
+                    <Content>4</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出80和84的所有公约数_$BLANK__748567e3fd4944d3a298ccef6aaab7ec$__$BLANK__424f6c77d15a4bd1a6e271b90b4ae2bc$__$BLANK__ef3e30f58bfc4ad9a51fbd28f1df08b8$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>0f744daed9b74d7696ac8137665c82fe</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.6086828Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>748567e3fd4944d3a298ccef6aaab7ec</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c3a5ad30573c4e47af02881ee11f591f</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>424f6c77d15a4bd1a6e271b90b4ae2bc</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>aefed637f2074b0c938cf0269bd7bbd9</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>ef3e30f58bfc4ad9a51fbd28f1df08b8</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>ade20fb8420342ababfcebc727fddfd8</Id>
+                  <QuestionPartCollection />
+                  <Content>4</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>674c1cacd30f4e37842436155ab5f2f9</Id>
+          <Content>
+            <Id>4a5eccd286b54e199441d52efbcce263</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>572dab7c16124f4d8a7b40d9fcf83190</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c11107ba3476459f925f2b4bfa6590fd</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>2a7ddeeeeeaa4f778867e4b6d7291aa1</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>1d90fbe1607249b48ac429b3f050a496</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>a8462165b56245b78480ac2f0c65c2bb</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>357eff15cec74a72adf3eecf82a36520</Id>
+                    <QuestionPartCollection />
+                    <Content>3</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>648193abddde4a89ac658732284af99b</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>698d8019cff0429bb5abf012bc12e22d</Id>
+                    <QuestionPartCollection />
+                    <Content>4</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>eeea07b10453422dafeb09bdd05ec244</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>8581f3a0d9544017ba4a11788f0a8610</Id>
+                    <QuestionPartCollection />
+                    <Content>6</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>8c8a09507ed342128204016b5f5e901a</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>4e0bcb7ff8da48c4b904390abbcf5906</Id>
+                    <QuestionPartCollection />
+                    <Content>12</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出96和84的所有公约数_$BLANK__572dab7c16124f4d8a7b40d9fcf83190$__$BLANK__2a7ddeeeeeaa4f778867e4b6d7291aa1$__$BLANK__a8462165b56245b78480ac2f0c65c2bb$__$BLANK__648193abddde4a89ac658732284af99b$__$BLANK__eeea07b10453422dafeb09bdd05ec244$__$BLANK__8c8a09507ed342128204016b5f5e901a$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>6f30fdf041744ccea9bb9ae4c3109d0b</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.6710829Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>572dab7c16124f4d8a7b40d9fcf83190</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c11107ba3476459f925f2b4bfa6590fd</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>2a7ddeeeeeaa4f778867e4b6d7291aa1</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>1d90fbe1607249b48ac429b3f050a496</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>a8462165b56245b78480ac2f0c65c2bb</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>357eff15cec74a72adf3eecf82a36520</Id>
+                  <QuestionPartCollection />
+                  <Content>3</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>648193abddde4a89ac658732284af99b</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>698d8019cff0429bb5abf012bc12e22d</Id>
+                  <QuestionPartCollection />
+                  <Content>4</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>eeea07b10453422dafeb09bdd05ec244</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>8581f3a0d9544017ba4a11788f0a8610</Id>
+                  <QuestionPartCollection />
+                  <Content>6</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>8c8a09507ed342128204016b5f5e901a</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>4e0bcb7ff8da48c4b904390abbcf5906</Id>
+                  <QuestionPartCollection />
+                  <Content>12</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>8d4efd0feab74400b114e9482ada4ccf</Id>
+          <Content>
+            <Id>17612c2221e645b8931d03222ea8cf0a</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>05a256ad09e740ab98014512091f6d7a</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>91cab396841a4092918ec75e89438974</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>c729572bc3d24eb1a6920d93975c2694</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c3b427196cf848daaca56df328737c6d</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出74和62的所有公约数_$BLANK__05a256ad09e740ab98014512091f6d7a$__$BLANK__c729572bc3d24eb1a6920d93975c2694$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>665317bef4524e51a51cc9babc441613</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.733483Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>05a256ad09e740ab98014512091f6d7a</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>91cab396841a4092918ec75e89438974</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>c729572bc3d24eb1a6920d93975c2694</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c3b427196cf848daaca56df328737c6d</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>de19ab8f0ff546ed8ed6201aaf9f2b26</Id>
+          <Content>
+            <Id>38e1d21eadce45d8a4ae53e1886e3a3e</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>8d8a5ca56e6240da896aeaf5b0d4fba2</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>4e0949f4dcec46e0b313dc4f08b0c96b</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>53c9de38557144aeb2ab52b15c36c5b6</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>2300290577fd41fd9701948e4bedb6e7</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>db1684ab27124ffe86cb1716bbb2c7df</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>53c5a08db9f84dd3b5aca98433cba8bd</Id>
+                    <QuestionPartCollection />
+                    <Content>7</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>ef55c5d5ad2540a78a72c10484ea8f65</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>e5c99db8d4e646159cae145af5424ce0</Id>
+                    <QuestionPartCollection />
+                    <Content>14</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出56和98的所有公约数_$BLANK__8d8a5ca56e6240da896aeaf5b0d4fba2$__$BLANK__53c9de38557144aeb2ab52b15c36c5b6$__$BLANK__db1684ab27124ffe86cb1716bbb2c7df$__$BLANK__ef55c5d5ad2540a78a72c10484ea8f65$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>080d657d873e43ab8b7f4d6888676c1f</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.7958831Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>8d8a5ca56e6240da896aeaf5b0d4fba2</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>4e0949f4dcec46e0b313dc4f08b0c96b</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>53c9de38557144aeb2ab52b15c36c5b6</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>2300290577fd41fd9701948e4bedb6e7</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>db1684ab27124ffe86cb1716bbb2c7df</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>53c5a08db9f84dd3b5aca98433cba8bd</Id>
+                  <QuestionPartCollection />
+                  <Content>7</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>ef55c5d5ad2540a78a72c10484ea8f65</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>e5c99db8d4e646159cae145af5424ce0</Id>
+                  <QuestionPartCollection />
+                  <Content>14</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>e22206066a804e1d9c8c7b341d1554e2</Id>
+          <Content>
+            <Id>11eb7af8e579467990c7f6733d9b3c03</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>5b577058b0974262a508b1eeaec6f393</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>130ba992d5884190bd5b0e1e926a880c</Id>
+                    <QuestionPartCollection />
+                    <Content>1</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>86e1682965a44d2386096a207caedf68</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>d24b6643506340da8bee0c0caf0e0022</Id>
+                    <QuestionPartCollection />
+                    <Content>2</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>49cba3850a0d4b4f9740f4ce52fd7ad7</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>d373642fbd9640be81e3ab211262729c</Id>
+                    <QuestionPartCollection />
+                    <Content>4</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>写出28和36的所有公约数_$BLANK__5b577058b0974262a508b1eeaec6f393$__$BLANK__86e1682965a44d2386096a207caedf68$__$BLANK__49cba3850a0d4b4f9740f4ce52fd7ad7$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>5774b98730394984a8766c8fa60b36a4</Id>
+            <QuestionPartCollection />
+            <Content />
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-06-17T03:39:16.8582832Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>5b577058b0974262a508b1eeaec6f393</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>130ba992d5884190bd5b0e1e926a880c</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>86e1682965a44d2386096a207caedf68</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>d24b6643506340da8bee0c0caf0e0022</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>49cba3850a0d4b4f9740f4ce52fd7ad7</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>d373642fbd9640be81e3ab211262729c</Id>
+                  <QuestionPartCollection />
+                  <Content>4</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+      </QuestionCollection>
+    </Section>
+  </SectionCollection>
+</Exercise>

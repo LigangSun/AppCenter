@@ -1,0 +1,430 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ap="clr-namespace:SoonLearning.AppCenter"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:win="clr-namespace:System.Windows;assembly=PresentationFramework"
+                    xmlns:data="clr-namespace:SoonLearning.AppCenter.Data;assembly=SoonLearning.AppCenter.Common"
+                    xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+                    xmlns:convert="clr-namespace:SoonLearning.AppCenter.Converter;assembly=SoonLearning.AppCenter.Common" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" mc:Ignorable="d">
+
+    <Style x:Key="titleTextBlockStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Margin" Value="0,10,40,0" />
+        <Setter Property="Foreground" Value="{StaticResource titleTextColorBrush}" />
+        <Setter Property="OpacityMask">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                    <GradientStop Offset="0.0" Color="#FF000000" />
+                    <GradientStop Offset="1.0" Color="#55000000" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="thumbnailUserControlStyle" TargetType="{x:Type commCtrl:GadgetUserControl}">
+        <Setter Property="FocusManager.IsFocusScope" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type commCtrl:GadgetUserControl}" >
+                    <Grid>
+                        <Image Source="/Resources/Images/GadgetLogo.png"
+                               Stretch="Uniform"
+                               Height="200"
+                               Margin="0,0,64,64"
+                               VerticalAlignment="Bottom"
+                               HorizontalAlignment="Right"
+                               Opacity="0.5" />
+
+                        <TextBlock x:Name="titleTextBlock"
+                               Style="{StaticResource titleTextBlockStyle}"
+                               Text="{TemplateBinding Title}" />
+
+                        <AdornerDecorator ClipToBounds="True">
+                            <ContentPresenter x:Name="ContentPresenter"
+										      Content="{TemplateBinding Content}"
+										      ContentTemplate="{TemplateBinding ContentTemplate}"
+										      Width="Auto"
+										      Height="Auto" />
+                        </AdornerDecorator>
+
+                        <StackPanel Grid.Row="2"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,40,124">
+                            <Label x:Name="indexTextBlock"
+                                   Grid.Row="2"
+                                   FontSize="20"
+                                   FontWeight="Medium"
+                                   Content="{TemplateBinding Index, Converter={StaticResource index2DspIndexConverter}}"
+                                   >
+                                <Label.Effect>
+                                    <DropShadowEffect BlurRadius="6" Opacity="1" />
+                                </Label.Effect>
+                            </Label>
+
+                            <Label Content=" / "
+                                   FontSize="20"
+                                   FontWeight="Medium"
+                                   >
+                                <Label.Effect>
+                                    <DropShadowEffect BlurRadius="6" Opacity="1" />
+                                </Label.Effect>
+                            </Label>
+
+                            <Label x:Name="totalTextBlock"
+                                   FontSize="20"
+                                   FontWeight="Medium"
+                                   Content="{TemplateBinding Total}"
+                                   >
+                                <Label.Effect>
+                                    <DropShadowEffect BlurRadius="6" Opacity="1" />
+                                </Label.Effect>
+                            </Label>
+                        </StackPanel>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="titleUserControlStyle" TargetType="{x:Type commCtrl:GadgetUserControl}">
+        <Setter Property="FocusManager.IsFocusScope" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type commCtrl:GadgetUserControl}" >
+                    <Grid>
+                        <Image Source="/Resources/Images/GadgetLogo.png"
+                               Stretch="Uniform"
+                               Height="200"
+                               Margin="0,0,64,64"
+                               VerticalAlignment="Bottom"
+                               HorizontalAlignment="Right"
+                               Opacity="0.5" />
+
+                        <TextBlock x:Name="titleTextBlock"
+                               Style="{StaticResource titleTextBlockStyle}"
+                               Text="{TemplateBinding Title}" />
+
+                        <AdornerDecorator ClipToBounds="True">
+                            <ContentPresenter x:Name="ContentPresenter"
+										  Content="{TemplateBinding Content}"
+										  ContentTemplate="{TemplateBinding ContentTemplate}"
+										  Width="Auto"
+										  Height="Auto" />
+                        </AdornerDecorator>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="NumericUpDownReadonlyToggleButton" TargetType="{x:Type ToggleButton}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="ClickMode" Value="Press"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ToggleButton}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Storyboard1"/>
+                        <Storyboard x:Key="Storyboard2"/>
+                    </ControlTemplate.Resources>
+                    <Grid HorizontalAlignment="Stretch" x:Name="Combobox">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="50"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.Effect>
+                            <DropShadowEffect ShadowDepth="2" Direction="270" Opacity="0.4" />
+                        </Grid.Effect>
+
+                        <Border x:Name="border" CornerRadius="26" BorderThickness="3" Background="{StaticResource Brush_ButtonN2}" Grid.ColumnSpan="2" Margin="0,0,0,5" d:LayoutOverrides="Height">
+                            <Border.BorderBrush>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFBDF8FD"/>
+                                    <GradientStop Color="#FF036AA0" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.BorderBrush>
+                        </Border>
+                        <Border x:Name="border_H_Copy" CornerRadius="26" BorderThickness="3" Visibility="Hidden" Background="{StaticResource Brush_ButtonH2}" Grid.ColumnSpan="2" Margin="0,0,0,5" d:LayoutOverrides="Height"/>
+                        <Border x:Name="border_D_Copy" CornerRadius="26" BorderThickness="3" Visibility="Hidden" Background="{StaticResource Brush_ButtonD2}" Grid.ColumnSpan="2" Margin="0,0,0,5" d:LayoutOverrides="Height"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Visibility" TargetName="border_H_Copy" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="true">
+                            
+                            <Setter Property="Visibility" TargetName="border_D_Copy" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Opacity" TargetName="Combobox" Value="0.3"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style TargetType="{x:Type commCtrl:NumericUpDown}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource NumericUpDownReadonlyToggleButton}"/>
+        <Setter Property="Foreground" Value="#ffffff"/>
+        <Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        <!--<Setter Property="Padding" Value="4,3"/>-->
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type commCtrl:NumericUpDown}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Storyboard1"/>
+                    </ControlTemplate.Resources>
+                    <Grid x:Name="MainGrid" SnapsToDevicePixels="true">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition MinWidth="{StaticResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}" Width="40"/>
+                        </Grid.ColumnDefinitions>
+
+                        <ToggleButton Style="{StaticResource NumericUpDownReadonlyToggleButton}"
+    						        Background="{TemplateBinding Background}" 
+    						        BorderBrush="{TemplateBinding BorderBrush}"
+    						        Grid.ColumnSpan="2" />
+                        
+                        <StackPanel Grid.Column="1"
+                    		        HorizontalAlignment="Center" 
+                    		        Orientation="Vertical" 
+                    		        VerticalAlignment="Center">
+                            <RepeatButton Content="Button"
+                    			          Style="{StaticResource arrow_Button}"
+                    			          ContentTemplate="{StaticResource ArrowUp}"
+                    			          Width="20" 
+                    			          Height="12"
+                    			          Command="{x:Static commCtrl:NumericUpDown.IncreaseCommand}"/>
+                            <RepeatButton Content="Button" 
+                    			          Width="20" 
+                    			          Style="{StaticResource arrow_Button}" 
+                    			          ContentTemplate="{StaticResource ArrowDown}" 
+                    			          Height="12"
+                    			          Command="{x:Static commCtrl:NumericUpDown.DecreaseCommand}"/>
+                        </StackPanel>
+                        
+                        <ContentPresenter x:Name="contentPresenter" 
+    						            IsHitTestVisible="false"
+    						            SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+    						            Content="{Binding Value, RelativeSource={x:Static RelativeSource.TemplatedParent}}" 
+    						            VerticalAlignment="Center"
+    						            HorizontalAlignment="Left"
+    						            Margin="30,0,0,0">
+
+                            <ContentPresenter.Effect>
+                                <DropShadowEffect ShadowDepth="2" Direction="85" Opacity="0.4" Color="#000000"/>
+                            </ContentPresenter.Effect>
+                        </ContentPresenter>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+    
+	<LinearGradientBrush x:Key="ProgressBarBackground" EndPoint="1,0" StartPoint="0,0">
+		<GradientStop Color="#BABABA" Offset="0"/>
+		<GradientStop Color="#C7C7C7" Offset="0.5"/>
+		<GradientStop Color="#BABABA" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarBorderBrush" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#B2B2B2" Offset="0"/>
+		<GradientStop Color="#8C8C8C" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarGlassyHighlight" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#50FFFFFF" Offset="0.5385"/>
+		<GradientStop Color="#00FFFFFF" Offset="0.5385"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarTopHighlight" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#80FFFFFF" Offset="0.05"/>
+		<GradientStop Color="#00FFFFFF" Offset="0.25"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarIndicatorAnimatedFill" EndPoint="1,0" StartPoint="0,0">
+		<GradientStop Color="#00FFFFFF" Offset="0"/>
+		<GradientStop Color="#60FFFFFF" Offset="0.4"/>
+		<GradientStop Color="#60FFFFFF" Offset="0.6"/>
+		<GradientStop Color="#00FFFFFF" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarIndicatorDarkEdgeLeft" EndPoint="1,0" StartPoint="0,0">
+		<GradientStop Color="#0C000000" Offset="0"/>
+		<GradientStop Color="#20000000" Offset="0.3"/>
+		<GradientStop Color="#00000000" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarIndicatorDarkEdgeRight" EndPoint="1,0" StartPoint="0,0">
+		<GradientStop Color="#00000000" Offset="0"/>
+		<GradientStop Color="#20000000" Offset="0.7"/>
+		<GradientStop Color="#0C000000" Offset="1"/>
+	</LinearGradientBrush>
+	<RadialGradientBrush x:Key="ProgressBarIndicatorLightingEffectLeft" RadiusY="1" RadiusX="1" RelativeTransform="1,0,0,1,0.5,0.5">
+		<GradientStop Color="#60FFFFC4" Offset="0"/>
+		<GradientStop Color="#00FFFFC4" Offset="1"/>
+	</RadialGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarIndicatorLightingEffect" EndPoint="0,0" StartPoint="0,1">
+		<GradientStop Color="#60FFFFC4" Offset="0"/>
+		<GradientStop Color="#00FFFFC4" Offset="1"/>
+	</LinearGradientBrush>
+	<RadialGradientBrush x:Key="ProgressBarIndicatorLightingEffectRight" RadiusY="1" RadiusX="1" RelativeTransform="1,0,0,1,-0.5,0.5">
+		<GradientStop Color="#60FFFFC4" Offset="0"/>
+		<GradientStop Color="#00FFFFC4" Offset="1"/>
+	</RadialGradientBrush>
+	<LinearGradientBrush x:Key="ProgressBarIndicatorGlassyHighlight" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#90FFFFFF" Offset="0.5385"/>
+		<GradientStop Color="#00FFFFFF" Offset="0.5385"/>
+	</LinearGradientBrush>
+	<Style x:Key="ProgressBarStyle1" TargetType="{x:Type ProgressBar}">
+		<Setter Property="Foreground" Value="#01D328"/>
+		<Setter Property="Background" Value="{StaticResource ProgressBarBackground}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ProgressBarBorderBrush}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ProgressBar}">
+					<Grid x:Name="TemplateRoot" SnapsToDevicePixels="true" Width="Auto">
+						<Rectangle x:Name="PART_Track" Margin="1"/>
+                        <Border CornerRadius="12" BorderThickness="3" Height="Auto">
+                        	<Border.Background>
+                        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        			<GradientStop Color="#FF77B1E5" Offset="0"/>
+                        			<GradientStop Color="#FF88BCE9" Offset="1"/>
+                        		</LinearGradientBrush>
+                        	</Border.Background>
+							<Border.BorderBrush>
+								<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+									<GradientStop Color="#FF5991D6" Offset="0"/>
+									<GradientStop Color="#FFCFE2F1" Offset="1"/>
+								</LinearGradientBrush>
+							</Border.BorderBrush>
+						</Border>
+						<Decorator x:Name="PART_Indicator" HorizontalAlignment="Left" Margin="1">
+							<Grid x:Name="Foreground">
+								<Rectangle x:Name="Indicator" RadiusX="10" RadiusY="10" Height="Auto" Margin="3" StrokeThickness="1" Visibility="Visible">
+									<Rectangle.Stroke>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="White" Offset="0"/>
+											<GradientStop Color="#FF368BCC" Offset="1"/>
+										</LinearGradientBrush>
+									</Rectangle.Stroke>
+									<Rectangle.Fill>
+										<ImageBrush  ViewportUnits="Absolute"   Viewport="0,0,50,50"  ImageSource="/SoonLearning.AppCenter;component/Resources/Images/ProgressBar_Tile.png" TileMode="Tile"/>
+									</Rectangle.Fill>
+								</Rectangle>
+								<Grid x:Name="Animation" ClipToBounds="true"/>
+							</Grid>
+						</Decorator>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="Orientation" Value="Vertical">
+							<Setter Property="LayoutTransform" TargetName="TemplateRoot">
+								<Setter.Value>
+									<RotateTransform Angle="-90"/>
+								</Setter.Value>
+							</Setter>
+						</Trigger>
+						<Trigger Property="IsIndeterminate" Value="true">
+							<Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+						</Trigger>
+						<Trigger Property="IsIndeterminate" Value="false"/>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="SeparatorStyle1" TargetType="{x:Type Separator}">
+		<Setter Property="Background" Value="{StaticResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
+		<Setter Property="Margin" Value="0,2,0,2"/>
+		<Setter Property="Focusable" Value="false"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Separator}">
+					<StackPanel Orientation="Vertical" Height="2">
+						<Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Height="1" SnapsToDevicePixels="true" d:LayoutOverrides="Height" Background="#7F271A12"/>
+						<Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Height="1" SnapsToDevicePixels="true" d:LayoutOverrides="Height" Background="#FFFFDBA6" Opacity="0.4"/>
+					</StackPanel>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ProgressBarStyle2" TargetType="{x:Type ProgressBar}">
+		<Setter Property="Foreground" Value="#01D328"/>
+		<Setter Property="Background" Value="{StaticResource ProgressBarBackground}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ProgressBarBorderBrush}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ProgressBar}">
+					<Grid x:Name="TemplateRoot" SnapsToDevicePixels="true" Width="Auto">
+						<Rectangle x:Name="PART_Track" Margin="1"/>
+						<Border CornerRadius="12" BorderThickness="3" Height="Auto">
+							<Border.Background>
+								<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+									<GradientStop Color="#FF452505" Offset="0"/>
+									<GradientStop Color="#FF542F08" Offset="1"/>
+								</LinearGradientBrush>
+							</Border.Background>
+							<Border.BorderBrush>
+								<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+									<GradientStop Color="#99271400" Offset="0"/>
+									<GradientStop Color="#FF9B6939" Offset="1"/>
+								</LinearGradientBrush>
+							</Border.BorderBrush>
+						</Border>
+						<Decorator x:Name="PART_Indicator" HorizontalAlignment="Left" Margin="1">
+							<Grid x:Name="Foreground">
+								<Rectangle x:Name="Indicator" RadiusX="10" RadiusY="10" Height="Auto" Margin="3" StrokeThickness="1" Visibility="Visible">
+									<Rectangle.Stroke>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="White" Offset="0"/>
+											<GradientStop Color="#FF368BCC" Offset="1"/>
+										</LinearGradientBrush>
+									</Rectangle.Stroke>
+									<Rectangle.Fill>
+										<ImageBrush  ViewportUnits="Absolute"   Viewport="0,0,50,50"  ImageSource="/SoonLearning.AppCenter;component/Resources/Images/ProgressBar_Tile2.png" TileMode="Tile"/>
+									</Rectangle.Fill>
+								</Rectangle>
+								<Grid x:Name="Animation" ClipToBounds="true"/>
+							</Grid>
+						</Decorator>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="Orientation" Value="Vertical">
+							<Setter Property="LayoutTransform" TargetName="TemplateRoot">
+								<Setter.Value>
+									<RotateTransform Angle="-90"/>
+								</Setter.Value>
+							</Setter>
+						</Trigger>
+						<Trigger Property="IsIndeterminate" Value="true">
+							<Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+						</Trigger>
+						<Trigger Property="IsIndeterminate" Value="false"/>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	
+	
+	
+	<Style x:Key="PopupStyle1" TargetType="{x:Type Popup}"/>
+
+</ResourceDictionary>

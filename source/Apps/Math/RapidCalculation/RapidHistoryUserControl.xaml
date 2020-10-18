@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="SoonLearning.Math.Fast.RapidCalculation.RapidHistoryUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Loaded="UserControl_Loaded"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <Grid Margin="6,6,6,0">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="historyListView" ItemContainerStyle="{StaticResource ListViewItemStyle1}"
+                  Margin="0,0,0,10"
+                  Background="Transparent"
+                  SelectionChanged="historyListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+
+                    <GridViewColumn Header="练习时间"
+                                      Width="250"
+                                    DisplayMemberBinding="{Binding CreateTime}" />
+                    
+                    <GridViewColumn Header="练习时限(分钟)"
+                                     Width="160"
+                                    DisplayMemberBinding="{Binding ExamTime}" />
+
+                    <GridViewColumn Header="用时(分:秒)"
+                                       Width="140"
+                                    DisplayMemberBinding="{Binding UsedTimeText}" />
+                    
+                    <GridViewColumn Header="出题范围"
+                                        Width="120"
+                                    DisplayMemberBinding="{Binding RangeText}" />
+
+                    <GridViewColumn Header="题目数量"
+                                       Width="120"
+                                    DisplayMemberBinding="{Binding QuestionCount}" />
+
+                    <GridViewColumn Header="完成题目数"
+                                    Width="120"
+                                    DisplayMemberBinding="{Binding AnsweredCount}" />
+
+                    <GridViewColumn Header="正确题目数"
+                                    Width="120"
+                                    DisplayMemberBinding="{Binding CorrectCount}" />
+
+                    <GridViewColumn Header="错误题目数"
+                                    Width="160"
+                                    DisplayMemberBinding="{Binding IncorrectCount}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="1"
+                    HorizontalAlignment="Left">
+            
+            <Button x:Name="backButton"
+                    Content="返回"
+                    Margin="5,2"
+                    Click="backButton_Click" />
+            
+            <Button x:Name="viewDetailButton"
+                    Content="查看详情"
+                    Margin="5,2" 
+                    IsEnabled="False"
+                    Click="viewDetailButton_Click" Style="{StaticResource ButtonStyle_IconBtn_Single}" />
+
+            <Button x:Name="retryButton"
+                    Content="重新测验"
+                    Margin="5,2"
+                    IsEnabled="False"
+                    Click="retryButton_Click"  Style="{StaticResource ButtonStyle_IconBtn_Single}"/>
+
+            <Button x:Name="continueButton"
+                    Content="继续测验"
+                    Margin="5,2"
+                    IsEnabled="False"
+                    Click="continueButton_Click"  Style="{StaticResource ButtonStyle_IconBtn_Single}"/>
+
+            <Button x:Name="deleteButton"
+                    Content="删除"
+                    Margin="5,2"
+                    IsEnabled="False"
+                    Click="deleteButton_Click"  Style="{StaticResource ButtonStyle_IconBtn_Single}"/>
+            
+        </StackPanel>
+        <Separator Margin="0" Style="{StaticResource SeparatorStyle1}" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

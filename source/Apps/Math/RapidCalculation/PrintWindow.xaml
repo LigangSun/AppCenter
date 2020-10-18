@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="SoonLearning.Math.Fast.RapidCalculation.PrintWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" mc:Ignorable="d" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             FontFamily="pack://application:,,,/SoonLearning.AppCenter;component/Resources/迷你简卡通.TTF#迷你简卡通"
+             d:DesignHeight="230" 
+             d:DesignWidth="638">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <!--<ScrollViewer Background="White"
+                      Margin="5"
+                      VerticalScrollBarVisibility="Auto">
+            <Grid x:Name="printGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label x:Name="titleLabel"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontSize="24"
+                       Foreground="Black"
+                       FontWeight="Medium" />
+
+                <Grid x:Name="questionGrid"
+                      HorizontalAlignment="Center"
+                      Grid.Row="1" />
+            </Grid>
+        </ScrollViewer>-->
+
+        <Border BorderBrush="{StaticResource TextColorBrush_Light}"
+                BorderThickness="1.5"
+                Background="White"
+                Margin="0,0,0,0">
+            <FlowDocumentScrollViewer x:Name="questionDocumentViewer" 
+                                  Background="White"/>
+        </Border>
+
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0">
+            <Button Content="打印"
+                    x:Name="printBtn"
+                    Margin="2"
+                    Click="printBtn_Click" Style="{StaticResource ButtonStyle_IconBtn_Single}"/>
+
+            <!--<Button Content="打印预览"
+                    x:Name="printPreviewBtn"
+                    Width="80"
+                    Margin="5"
+                    VerticalAlignment="Center"
+                    Click="printPreviewBtn_Click"/>-->
+
+            <CheckBox x:Name="printResult"
+                      Content="打印结果" 
+                      Click="printResult_Click"
+                      VerticalAlignment="Center"
+                      Margin="10,5,5,5" Checked="printResult_Checked" />
+
+            <CheckBox x:Name="printAnswer"
+                      Content="打印答案" 
+                      Click="printAnswer_Click"
+                      VerticalAlignment="Center"
+                      Margin="10,5,5,5"/>
+            
+            <Label Content="每行:" 
+                   VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <ComboBox Width="100"
+                      x:Name="questionCountPerLineCbx"
+                      SelectedIndex="0"
+                      SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+            </ComboBox>
+            <Label Content="题"  
+                   VerticalAlignment="Center"/>
+            
+            <Button x:Name="closeBtn"
+                    Width="160"
+                    Margin="20,2,2,2"
+                    Content="关闭"
+                    Click="closeBtn_Click" />
+        </StackPanel>
+    </Grid>
+</UserControl>

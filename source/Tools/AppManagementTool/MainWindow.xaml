@@ -1,0 +1,34 @@
+﻿<Window x:Class="SoonLearning.AppManagementTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="550" Width="598">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="64" />
+        </Grid.RowDefinitions>
+        
+        <ListBox x:Name="appListBox" />
+        
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal">
+            <Button x:Name="loadAppsButton"
+                    Content="Load Apps"
+                    Margin="3"
+                    Width="120"
+                    Click="loadAppsButton_Click"/>
+
+            <Button x:Name="generateConfigFileButton"
+                    Content="Generate Config File"
+                    Margin="3"
+                    Width="120"
+                    Click="generateConfigFileButton_Click"/>
+
+            <Button x:Name="generatePackButton"
+                    Content="Generate Package"
+                    Margin="3"
+                    Width="120"
+                    Click="generatePackButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

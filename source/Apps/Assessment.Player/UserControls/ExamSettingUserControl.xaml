@@ -1,0 +1,91 @@
+﻿<UserControl x:Class="SoonLearning.Assessment.Player.UserControls.ExamSettingUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:SoonLearning.Assessment.Player.UserControls"
+             xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" 
+             d:DesignWidth="580"
+             Loaded="UserControl_Loaded">
+    <Grid Margin="0,0,0,10">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <my:SectionInfoSettingUserControl Margin="0"/>
+        
+            <Grid Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+            
+                <TextBlock Text="测验时间："
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       FontSize="20"
+                       FontWeight="Medium" Style="{StaticResource TextBlockStyle_Head2}"/>
+            
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            Grid.Column="1"
+                            HorizontalAlignment="Left">
+                    <commCtrl:NumberOnlyTextBox x:Name="examDurationTextBox"
+                                                Margin="0,5,5,5"
+                                                Text="10"
+                                                Width="60"
+                                                MaxLength="2"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center" 
+                                                FontSize="20"
+                                                FontWeight="Medium" Foreground="White"/>
+                    <TextBlock Text="分钟" 
+                           VerticalAlignment="Center"  Style="{StaticResource TextBlockStyle_Head2}"
+                        
+                           FontWeight="Medium"/>
+                       
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="260" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton"
+                    Content="返回定义"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Grid.Column="0"
+                    Margin="5"
+					 Style="{StaticResource ButtonStyle_BtnStart}" 
+					 ContentTemplate="{StaticResource DataTemplate_Previous}" 
+                    Click="backButton_Click" />
+            <StackPanel Orientation="Horizontal"
+                        Grid.Column="1"
+                        Grid.ColumnSpan="2"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                
+                <Button x:Name="startButton"
+                        Content="开始测验"
+                        
+                        Margin="5"
+                        Style="{StaticResource ButtonStyle_IconBtn_Single}"
+                        Click="startButton_Click" />
+                <Button x:Name="historyButton"
+                        Content="测验记录"
+                       
+                        Margin="5"  
+                       Style="{StaticResource ButtonStyle_IconBtn_Single}"
+                        Click="historyButton_Click" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">若两数之和为整十、整百、整千......，则称此二数互为补数。加上一个n位数，可先减去它的补数，再加上这个数和它补数，即10的n次方（n为正整数），次数就是所求的得数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="30">假设两个加数分别为a和b，且b+c=10的n次方，则</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=a+b</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=a+(10n-c)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">=a-c+10n</Run>
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">721+395=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">721+395</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=721-5+400</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=716+400</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1116</Run>
+    </Paragraph>
+</FlowDocument>

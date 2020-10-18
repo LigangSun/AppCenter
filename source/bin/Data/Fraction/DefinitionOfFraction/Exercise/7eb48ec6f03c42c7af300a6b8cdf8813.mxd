@@ -1,0 +1,3971 @@
+<?xml version="1.0"?>
+<Exercise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>7eb48ec6f03c42c7af300a6b8cdf8813</Id>
+  <Title>分数定义练习</Title>
+  <Description />
+  <RetryTimes>-1</RetryTimes>
+  <MarkType>AutoAfterEachQuestion</MarkType>
+  <DisplayAnswerType>AutoAfterEachQuestion</DisplayAnswerType>
+  <DisplaySolutionType>AutoAfterEachQuestion</DisplaySolutionType>
+  <DisplayFeedbackType>AfterEachQuestion</DisplayFeedbackType>
+  <DisplayMark>false</DisplayMark>
+  <DisplayScore>false</DisplayScore>
+  <QuestionDisplayType>Question</QuestionDisplayType>
+  <QuestionCountPerPage>2</QuestionCountPerPage>
+  <CreateTime>2012-08-10T07:20:28.7724464+08:00</CreateTime>
+  <UsedTime />
+  <SectionCollection>
+    <Section>
+      <Id>4d194baa0d4a4eb0b23e74640b824a65</Id>
+      <Title>单选题：</Title>
+      <Description>（下面每道题都只有一个选项是正确的）</Description>
+      <QuestionCollection>
+        <Question xsi:type="MCQuestion">
+          <Id>2a3c7d70a8d1497285d33300505f534d</Id>
+          <Content>
+            <Id>e2a0fd9454084e52ac054fa48196cb01</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>30af52d70c8b4238b0c0ff17d31447a4</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8e52223ecc7d4a3f8c2a2aaf4867e735</Id>
+                <Numerator>10</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>3.6是小数，不是正确答案。
+_$ARITHMETICFRACTION__8e52223ecc7d4a3f8c2a2aaf4867e735$_是分数，是正确答案。
+8是整数，不是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:28.7764466Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>c430bd2f3a954389ab2e63c0b8f57ec4</Id>
+              <OptionContent>
+                <Id>4811f9eecace42dab345a399ded40955</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>74eedd38ac3f48be85c384fcb62be678</Id>
+                    <Value>3.6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__74eedd38ac3f48be85c384fcb62be678$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>8fa4474430364e3987969d637cff9dd9</Id>
+              <OptionContent>
+                <Id>abf50f3be7d54c2f9e8ae7d2f228b29d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8e52223ecc7d4a3f8c2a2aaf4867e735</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8e52223ecc7d4a3f8c2a2aaf4867e735$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>78bd2522b4b84d8891ee4bde3c44d90f</Id>
+              <OptionContent>
+                <Id>7c66a90b1053444cbb2beb148bccb9d7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>35d91f5cade64aadbd21f9df11988a24</Id>
+                    <Value>8</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__35d91f5cade64aadbd21f9df11988a24$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>true</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>a9894e6e230d4b2baa10d47eae2730c0</Id>
+          <Content>
+            <Id>56f303c1f9a8488e9418aa5a632d538a</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>155f80ea6a10401b99081185899423e0</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>ec45f5768a8a4e50bcd03ae0d54c734a</Id>
+                <Numerator>10</Numerator>
+                <Denominator>6</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>8.4是小数，不是正确答案。
+_$ARITHMETICFRACTION__ec45f5768a8a4e50bcd03ae0d54c734a$_是分数，是正确答案。
+3是整数，不是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:28.9354557Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>bd07e499afa640c6a572efa71681a3fa</Id>
+              <OptionContent>
+                <Id>9e84a97612d540f68e445125be6e6053</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>f68b7caa245f496a94f0209f26746e70</Id>
+                    <Value>8.4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__f68b7caa245f496a94f0209f26746e70$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f5102bd145064f9692b756a329142d6e</Id>
+              <OptionContent>
+                <Id>8ec7530fb31b4e9d8210866a1f8fd16d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>ec45f5768a8a4e50bcd03ae0d54c734a</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>6</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__ec45f5768a8a4e50bcd03ae0d54c734a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>82e7afe9f4c54fcca8cddd1bb9eeec67</Id>
+              <OptionContent>
+                <Id>08ab9804f1fb4d208156bac4540cf8d1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>f5fe6defad38425cab53eac697afcb95</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__f5fe6defad38425cab53eac697afcb95$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>true</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>9ce8867c9fe84dc7913b08ecbd20c7d0</Id>
+          <Content>
+            <Id>6d6081fd8de146c48166c8cbbfb0c0c4</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>e33061e54c434a7ead5967be132ac821</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>67d465c3c89d4a32813540e875e265ca</Id>
+                <Numerator>3</Numerator>
+                <Denominator>9</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>3.2是小数，不是正确答案。
+_$ARITHMETICFRACTION__67d465c3c89d4a32813540e875e265ca$_是分数，是正确答案。
+4是整数，不是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:29.0864643Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>8443c67e9c8d4c1186e620e2b6d5d837</Id>
+              <OptionContent>
+                <Id>23b6745a39f449c79da279ab1817ae53</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>203d4d3a7c5e4b18b10db6e5c125b38b</Id>
+                    <Value>3.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__203d4d3a7c5e4b18b10db6e5c125b38b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>6dbacd6ad48a459fac37092a15416a02</Id>
+              <OptionContent>
+                <Id>e0f98ff12f7e4d1c9927d888ad13d255</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>67d465c3c89d4a32813540e875e265ca</Id>
+                    <Numerator>3</Numerator>
+                    <Denominator>9</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__67d465c3c89d4a32813540e875e265ca$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>72755107e9a64fa5ba548c05632c28f5</Id>
+              <OptionContent>
+                <Id>eb4b315f7a194640a581ab10c8898993</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>391b495556014aeea4782378feb6c957</Id>
+                    <Value>4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__391b495556014aeea4782378feb6c957$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>true</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>f5d308627fc0400e9974b2bb0788fb96</Id>
+          <Content>
+            <Id>35809a9430ce4c8f8a8d6e3bcb2b9a7a</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>1f6b4040e3374df7820b4d14c31b9c7a</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>b6b439376f36420d9cf75b8a67561672</Id>
+                <Numerator>2</Numerator>
+                <Denominator>6</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>10.6是小数，不是正确答案。
+_$ARITHMETICFRACTION__b6b439376f36420d9cf75b8a67561672$_是分数，是正确答案。
+9是整数，不是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:29.237473Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>3ae6733a21444dc18e8c46c07345149f</Id>
+              <OptionContent>
+                <Id>8938ac5813564f58a71091501392f2f7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>5699d835476947e682c0c9844efe5fdd</Id>
+                    <Value>10.6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__5699d835476947e682c0c9844efe5fdd$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1d8f896301844e45837853f785dea682</Id>
+              <OptionContent>
+                <Id>3e18056980f64aaaa8e0404aebd3d935</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>b6b439376f36420d9cf75b8a67561672</Id>
+                    <Numerator>2</Numerator>
+                    <Denominator>6</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__b6b439376f36420d9cf75b8a67561672$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4ca3c8d2c5684db8a10a01de7e8ec11e</Id>
+              <OptionContent>
+                <Id>2595e48a2f1b471e8f025a077a823161</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e37c44d103cc4eabbc8a35695f789e22</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e37c44d103cc4eabbc8a35695f789e22$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>true</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>001ce1e92bad4e7892fd353ff7850694</Id>
+          <Content>
+            <Id>b067dbee574941a7a9aae8e99e8304f2</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>c6abed7bd92848b9b768479fb7cf5380</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>70b43e91342b41f8949a8f696a9ceb6e</Id>
+                <Numerator>2</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>5.3是小数，不是正确答案。
+_$ARITHMETICFRACTION__70b43e91342b41f8949a8f696a9ceb6e$_是分数，是正确答案。
+4是整数，不是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:29.3894817Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>bee1e5a0e0544d2f8bb9d559d191cf30</Id>
+              <OptionContent>
+                <Id>bc15a330d80441b686c380f35478e7e3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>86138f9ef2a64b33b84347ba8be14877</Id>
+                    <Value>5.3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__86138f9ef2a64b33b84347ba8be14877$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>dabe3f8648d74f5a9050e592d8932f41</Id>
+              <OptionContent>
+                <Id>170162dfcb394663b44a51979e2bdad9</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>70b43e91342b41f8949a8f696a9ceb6e</Id>
+                    <Numerator>2</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__70b43e91342b41f8949a8f696a9ceb6e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>98a40b0dc59f43f9ac2b257bfdca2d86</Id>
+              <OptionContent>
+                <Id>1e261903d4514d0aadaf8fb3c56356fb</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>57423e107b87402c8ff74b6b81390f64</Id>
+                    <Value>4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__57423e107b87402c8ff74b6b81390f64$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>true</RandomOption>
+        </Question>
+      </QuestionCollection>
+    </Section>
+    <Section>
+      <Id>ca522996bc414545973669ea7a5584ba</Id>
+      <Title>表格题：</Title>
+      <Description>（从表格中选择符合条件的数）</Description>
+      <QuestionCollection>
+        <Question xsi:type="TableQuestion">
+          <Id>f985046f455e4417934c219eac9ff61b</Id>
+          <Content>
+            <Id>acbf94ceb8e34110a1d273034b6736de</Id>
+            <QuestionPartCollection />
+            <Content>请下表中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>6901c471064744049000be78caa6f3bc</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>b6f63cc4dc8f456a9d4762779cb800de</Id>
+                <Numerator>11</Numerator>
+                <Denominator>16</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>72525305ed01454aa443bc02e7852c01</Id>
+                <Numerator>5</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>15681ea7f0164af6a32680a4ee8c77fd</Id>
+                <Numerator>3</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>961eda46ec274e1594f305a7f0e2bb96</Id>
+                <Numerator>11</Numerator>
+                <Denominator>6</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>7d9fc53d89fe410793d7e5bc2510daf2</Id>
+                <Numerator>5</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>52ddcfc1f6b64bba9109a1b6b13ff3b1</Id>
+                <Numerator>9</Numerator>
+                <Denominator>19</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>2258efbc67a7481fa5c15904216986a2</Id>
+                <Numerator>11</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>a5363a0bc5154363afab8fadb67822d8</Id>
+                <Numerator>9</Numerator>
+                <Denominator>9</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>e61c8d0d14504b599956e72e76cd0afc</Id>
+                <Numerator>4</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>dcfb90597dd4476ab527727c83e99971</Id>
+                <Numerator>7</Numerator>
+                <Denominator>2</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>e3bc8c4f8ffb4004a4f36b26165e8a20</Id>
+                <Numerator>11</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6b3c657cd235406794fc9fe263044421</Id>
+                <Numerator>6</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>69f6a747bd90413ca36073fe0a593bbb</Id>
+                <Numerator>4</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>f0a0dda1d39b4c75a83b602eecb8b240</Id>
+                <Numerator>8</Numerator>
+                <Denominator>12</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>21a8b85b29224640a3eb4856805419de</Id>
+                <Numerator>10</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>e0986efc1daf45f38b0deed60d8c1aaa</Id>
+                <Numerator>4</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>40086f20e60e4233901e92b4d15d967c</Id>
+                <Numerator>8</Numerator>
+                <Denominator>2</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>_$ARITHMETICFRACTION__b6f63cc4dc8f456a9d4762779cb800de$_是分数，是正确答案。
+_$ARITHMETICFRACTION__72525305ed01454aa443bc02e7852c01$_是分数，是正确答案。
+11.7是小数，不是正确答案。
+_$ARITHMETICFRACTION__15681ea7f0164af6a32680a4ee8c77fd$_是分数，是正确答案。
+20是整数，不是正确答案。
+20.13是小数，不是正确答案。
+_$ARITHMETICFRACTION__961eda46ec274e1594f305a7f0e2bb96$_是分数，是正确答案。
+_$ARITHMETICFRACTION__7d9fc53d89fe410793d7e5bc2510daf2$_是分数，是正确答案。
+_$ARITHMETICFRACTION__52ddcfc1f6b64bba9109a1b6b13ff3b1$_是分数，是正确答案。
+11.18是小数，不是正确答案。
+2.14是小数，不是正确答案。
+_$ARITHMETICFRACTION__2258efbc67a7481fa5c15904216986a2$_是分数，是正确答案。
+4.6是小数，不是正确答案。
+_$ARITHMETICFRACTION__a5363a0bc5154363afab8fadb67822d8$_是分数，是正确答案。
+3是整数，不是正确答案。
+3是整数，不是正确答案。
+3是整数，不是正确答案。
+_$ARITHMETICFRACTION__e61c8d0d14504b599956e72e76cd0afc$_是分数，是正确答案。
+_$ARITHMETICFRACTION__dcfb90597dd4476ab527727c83e99971$_是分数，是正确答案。
+_$ARITHMETICFRACTION__e3bc8c4f8ffb4004a4f36b26165e8a20$_是分数，是正确答案。
+6是整数，不是正确答案。
+_$ARITHMETICFRACTION__6b3c657cd235406794fc9fe263044421$_是分数，是正确答案。
+4是整数，不是正确答案。
+4.17是小数，不是正确答案。
+15是整数，不是正确答案。
+_$ARITHMETICFRACTION__69f6a747bd90413ca36073fe0a593bbb$_是分数，是正确答案。
+_$ARITHMETICFRACTION__f0a0dda1d39b4c75a83b602eecb8b240$_是分数，是正确答案。
+7是整数，不是正确答案。
+7.18是小数，不是正确答案。
+18是整数，不是正确答案。
+18.14是小数，不是正确答案。
+_$ARITHMETICFRACTION__21a8b85b29224640a3eb4856805419de$_是分数，是正确答案。
+_$ARITHMETICFRACTION__e0986efc1daf45f38b0deed60d8c1aaa$_是分数，是正确答案。
+8是整数，不是正确答案。
+8是整数，不是正确答案。
+_$ARITHMETICFRACTION__40086f20e60e4233901e92b4d15d967c$_是分数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:29.5424904Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>231d151f88b24b5da20905bc2a2f1811</Id>
+              <OptionContent>
+                <Id>ab16e1746d5645ae913a99a2c4d9ae1e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>b6f63cc4dc8f456a9d4762779cb800de</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>16</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__b6f63cc4dc8f456a9d4762779cb800de$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4d183dc5b6654a5c8688d94a7aaa9e94</Id>
+              <OptionContent>
+                <Id>3d3c081cab7a400c9d840665eb8946c7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>72525305ed01454aa443bc02e7852c01</Id>
+                    <Numerator>5</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__72525305ed01454aa443bc02e7852c01$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c8b2ba0205d546e09f87595734f3ce68</Id>
+              <OptionContent>
+                <Id>20c4725da42f4c10b63efc1dfa18ff59</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>fbec785bc0e84231910bba62d709dd25</Id>
+                    <Value>11.7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__fbec785bc0e84231910bba62d709dd25$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3fafc21d8115447ea69f5f8911dd83fb</Id>
+              <OptionContent>
+                <Id>9d637f2aad0a4614bdc9aa32d8fdd442</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>15681ea7f0164af6a32680a4ee8c77fd</Id>
+                    <Numerator>3</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__15681ea7f0164af6a32680a4ee8c77fd$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>74d7a508e07a47afa15da3e6e4c678f0</Id>
+              <OptionContent>
+                <Id>ab9af8eb1c784c9b81ab406e8a903a90</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>fef1f5d86cd5495a95916c308412e4a4</Id>
+                    <Value>20</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__fef1f5d86cd5495a95916c308412e4a4$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>30de14de2d5c45f5b30cb8b48815a089</Id>
+              <OptionContent>
+                <Id>0758dbb6d749495eb60d1bd9fe6106c2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>5e01e6b2a51844d9a4c96fbcf9847675</Id>
+                    <Value>20.13</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__5e01e6b2a51844d9a4c96fbcf9847675$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c44c557c2014441ba246414d26d327d4</Id>
+              <OptionContent>
+                <Id>55be90c34d9d4f30be0a3f29c1bdb798</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>961eda46ec274e1594f305a7f0e2bb96</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>6</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__961eda46ec274e1594f305a7f0e2bb96$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>cd18a66881ad478fafc9f292626fb17b</Id>
+              <OptionContent>
+                <Id>86fe0fd5a76b484d9e8979c01e1e6a57</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>7d9fc53d89fe410793d7e5bc2510daf2</Id>
+                    <Numerator>5</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__7d9fc53d89fe410793d7e5bc2510daf2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0ca6c95173424ddaa5aacebef641aa46</Id>
+              <OptionContent>
+                <Id>e45aeae6ae4342e1b5e3c48cd47b64de</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>52ddcfc1f6b64bba9109a1b6b13ff3b1</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>19</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__52ddcfc1f6b64bba9109a1b6b13ff3b1$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>184d650f45cb41418ebbeee511be3a5e</Id>
+              <OptionContent>
+                <Id>6ec6f9caabce4331a2441edb8f9d2c00</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b4f7ae33fa2b4bcbb22b34e9bec95e57</Id>
+                    <Value>11.18</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b4f7ae33fa2b4bcbb22b34e9bec95e57$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>31cb7526db8444e090b74662a2adef15</Id>
+              <OptionContent>
+                <Id>992b7f1ade044c088619456e85cd1762</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b87c1ff900704439843513e4a3b24334</Id>
+                    <Value>2.14</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b87c1ff900704439843513e4a3b24334$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ffb612afbed04d009b8104641d28eea2</Id>
+              <OptionContent>
+                <Id>b876041e11c04c95a3a8beafc401db65</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>2258efbc67a7481fa5c15904216986a2</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__2258efbc67a7481fa5c15904216986a2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>2de2ca5a05de4be986ad735438d34152</Id>
+              <OptionContent>
+                <Id>843cdc0e9cca4d309f13ecce288c71d0</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>ced31fb056014a549e50f1dc3dd844c3</Id>
+                    <Value>4.6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__ced31fb056014a549e50f1dc3dd844c3$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c343e42d29254493ae4e131517a6d835</Id>
+              <OptionContent>
+                <Id>0d396207ebee4648af68d586411bfa1f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>a5363a0bc5154363afab8fadb67822d8</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>9</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__a5363a0bc5154363afab8fadb67822d8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5ee7e7cc12ee47bea0e81488cadece38</Id>
+              <OptionContent>
+                <Id>e7fe02121f1447d0b574565b836a2da6</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2618d1afc9c84cda8ddcd41977d53f60</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2618d1afc9c84cda8ddcd41977d53f60$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3ced3a45de5648eca5fca8be000183af</Id>
+              <OptionContent>
+                <Id>c3dcbf7e70664cdcab8de7c2b31df5ec</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e8b852e8d0af4f70bac086ec0575877d</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e8b852e8d0af4f70bac086ec0575877d$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9eb1855b277546b39a872a8f42560330</Id>
+              <OptionContent>
+                <Id>62d5989626c549deb9fa82cbe262547e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>d8ef049104bf4dc89a335033b8cea66c</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__d8ef049104bf4dc89a335033b8cea66c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ff1a49d2d6bf49ef8dc567a309c0b6d0</Id>
+              <OptionContent>
+                <Id>8f33d3e076954a628eb2317cfc78c032</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>e61c8d0d14504b599956e72e76cd0afc</Id>
+                    <Numerator>4</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__e61c8d0d14504b599956e72e76cd0afc$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>706200923c054d908493432577d4b409</Id>
+              <OptionContent>
+                <Id>1144521f6094495fb600cc196015050e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>dcfb90597dd4476ab527727c83e99971</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>2</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__dcfb90597dd4476ab527727c83e99971$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>59b89fe651424bd79f16c029ef4925f2</Id>
+              <OptionContent>
+                <Id>1fb78c814c394917bfbfdec6c58c9354</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>e3bc8c4f8ffb4004a4f36b26165e8a20</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__e3bc8c4f8ffb4004a4f36b26165e8a20$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d923e572589f48a4a32888efe44ef5ab</Id>
+              <OptionContent>
+                <Id>7486b995ca224c04bc57d650edefe4c2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>eefc1146ec4d40f9991a3f9b7e1be716</Id>
+                    <Value>6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__eefc1146ec4d40f9991a3f9b7e1be716$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3efb480efcdc44e48809f9f72e0b1553</Id>
+              <OptionContent>
+                <Id>2f0640dcb3b2467ba6ecdecabd2e1016</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6b3c657cd235406794fc9fe263044421</Id>
+                    <Numerator>6</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6b3c657cd235406794fc9fe263044421$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9c6238f2aec349fca872e3af39e4fa85</Id>
+              <OptionContent>
+                <Id>2f6268b7f1c04d8ba6e01894ebcb28e3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>5bafe57b91e14ce3b384b8bc218e45e2</Id>
+                    <Value>4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__5bafe57b91e14ce3b384b8bc218e45e2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>48577c09d658441dbf0813b847e19f3a</Id>
+              <OptionContent>
+                <Id>1c7a84cbc3b943c8bc56a8b2ad8c4c01</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>5eac5a0246d046c0bccedcadae56b39b</Id>
+                    <Value>4.17</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__5eac5a0246d046c0bccedcadae56b39b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>707fb01f87eb4f479ff445346ad54101</Id>
+              <OptionContent>
+                <Id>3aa6f5f5bd4b42499438dddba095fafb</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>95f8a7ac689b45a2830307a2738abe1c</Id>
+                    <Value>15</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__95f8a7ac689b45a2830307a2738abe1c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f3269f8eb8594d61a18c05ea03397662</Id>
+              <OptionContent>
+                <Id>7164ddeba0d540e2883c877acd72bfb6</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>69f6a747bd90413ca36073fe0a593bbb</Id>
+                    <Numerator>4</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__69f6a747bd90413ca36073fe0a593bbb$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1d7b6a614dd74314b0571d256343c8dc</Id>
+              <OptionContent>
+                <Id>860c912bb89041dcbddd6896abf3b819</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>f0a0dda1d39b4c75a83b602eecb8b240</Id>
+                    <Numerator>8</Numerator>
+                    <Denominator>12</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__f0a0dda1d39b4c75a83b602eecb8b240$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7d63e8247f634fd68e0e8b9f49cec1dc</Id>
+              <OptionContent>
+                <Id>d088b0bb87d949739fae11b1cdaca8d1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>007f6b24cedd4ea59983091b41708413</Id>
+                    <Value>7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__007f6b24cedd4ea59983091b41708413$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>85f13a42868349acad5548512dd941a2</Id>
+              <OptionContent>
+                <Id>ab8b42c18601484c8ba45bc38ded6033</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>5dacbc5140af4c06b849741be46f95cc</Id>
+                    <Value>7.18</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__5dacbc5140af4c06b849741be46f95cc$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>64966c932c4a43d5b93a2a181f802c89</Id>
+              <OptionContent>
+                <Id>1eef598b68034f2c9c7036c3364a238d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>d41e27de604d4409a3f0404ed58117f1</Id>
+                    <Value>18</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__d41e27de604d4409a3f0404ed58117f1$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f9ad27acfcdb4949828190aa5411b201</Id>
+              <OptionContent>
+                <Id>3e94f51fbdf54532b0ba5f19e5695669</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>f3ccdcde7c7c4727aaba91b403f27f2a</Id>
+                    <Value>18.14</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__f3ccdcde7c7c4727aaba91b403f27f2a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ce97a829c386499d9b05ba7836d64eda</Id>
+              <OptionContent>
+                <Id>3b5cb7d829fd4713b2ab3e4bd4fbe714</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>21a8b85b29224640a3eb4856805419de</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__21a8b85b29224640a3eb4856805419de$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>2bb24649d3bc4e29b11782af1b247afc</Id>
+              <OptionContent>
+                <Id>e7185dd174a747c3977b0fcccea70a7e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>e0986efc1daf45f38b0deed60d8c1aaa</Id>
+                    <Numerator>4</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__e0986efc1daf45f38b0deed60d8c1aaa$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>91f71cf309c9427b8d65bb2f52bf777d</Id>
+              <OptionContent>
+                <Id>b2809b042e6941e28b4eaafc546757e5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>750c34c490b6496ab253a325e2aac263</Id>
+                    <Value>8</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__750c34c490b6496ab253a325e2aac263$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4415e7ac3f934073b89b11bcbb7e019b</Id>
+              <OptionContent>
+                <Id>503f634941684348b627b3c4fce04849</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>862134a22b0e49b6b001a05466343ff2</Id>
+                    <Value>8</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__862134a22b0e49b6b001a05466343ff2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>337ffa202f0a4d4fa33b30aafada8c33</Id>
+              <OptionContent>
+                <Id>d93b719110ba4df08002a3d869fc769f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>40086f20e60e4233901e92b4d15d967c</Id>
+                    <Numerator>8</Numerator>
+                    <Denominator>2</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__40086f20e60e4233901e92b4d15d967c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="TableQuestion">
+          <Id>d9b8a15e2dd14225b853d9f3bf86f819</Id>
+          <Content>
+            <Id>6f0fd559b09a414187a359d393632677</Id>
+            <QuestionPartCollection />
+            <Content>请下表中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>e4c7c22da03a445da529ab288ff93ff0</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c09d5213d96f4887873e5c4e2c6cae3a</Id>
+                <Numerator>10</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>aa1ec243703848958aea2e872b001ba0</Id>
+                <Numerator>9</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>b06c862205324b2ca013b52a4b3afe46</Id>
+                <Numerator>11</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6876902a068e43e89e2ad46b46fe0372</Id>
+                <Numerator>5</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c1b8756d93004550a4f27a90a3519ffa</Id>
+                <Numerator>13</Numerator>
+                <Denominator>12</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>59212616558c4694aed94470600dd4f9</Id>
+                <Numerator>11</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>709955e4141644cfbcdd2c5dc9bb7d30</Id>
+                <Numerator>9</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>1fff36a6e41e4fd8a1db7d4a5858a6c3</Id>
+                <Numerator>13</Numerator>
+                <Denominator>2</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3f1047c4c7c747c09da69b47b64127f6</Id>
+                <Numerator>7</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>5d6e555ba94a4d7db9eca1d2b641c595</Id>
+                <Numerator>11</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>07f44a0779424b878b6bab71bc51b525</Id>
+                <Numerator>9</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>2697dc05fc884ce1881b8b9188abb688</Id>
+                <Numerator>13</Numerator>
+                <Denominator>12</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>e977f9f667d64882963ecf3b44085ff2</Id>
+                <Numerator>7</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8cf13944f9fc4decb960d786d913b4f8</Id>
+                <Numerator>11</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6c92a220959f45409cd8880e07d5b24b</Id>
+                <Numerator>5</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c978872e72ab4ed09c5c029940d62aef</Id>
+                <Numerator>13</Numerator>
+                <Denominator>2</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>496bc72f0f8d4e0490d7b5e71e08b577</Id>
+                <Numerator>11</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8f2f880275cf4af38f142c84ed73ba8c</Id>
+                <Numerator>5</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>10是整数，不是正确答案。
+_$ARITHMETICFRACTION__c09d5213d96f4887873e5c4e2c6cae3a$_是分数，是正确答案。
+18.5是小数，不是正确答案。
+9是整数，不是正确答案。
+9是整数，不是正确答案。
+_$ARITHMETICFRACTION__aa1ec243703848958aea2e872b001ba0$_是分数，是正确答案。
+20是整数，不是正确答案。
+20.17是小数，不是正确答案。
+20.7是小数，不是正确答案。
+_$ARITHMETICFRACTION__b06c862205324b2ca013b52a4b3afe46$_是分数，是正确答案。
+_$ARITHMETICFRACTION__6876902a068e43e89e2ad46b46fe0372$_是分数，是正确答案。
+10.2是小数，不是正确答案。
+_$ARITHMETICFRACTION__c1b8756d93004550a4f27a90a3519ffa$_是分数，是正确答案。
+13.14是小数，不是正确答案。
+_$ARITHMETICFRACTION__59212616558c4694aed94470600dd4f9$_是分数，是正确答案。
+11.13是小数，不是正确答案。
+2是整数，不是正确答案。
+_$ARITHMETICFRACTION__709955e4141644cfbcdd2c5dc9bb7d30$_是分数，是正确答案。
+_$ARITHMETICFRACTION__1fff36a6e41e4fd8a1db7d4a5858a6c3$_是分数，是正确答案。
+_$ARITHMETICFRACTION__3f1047c4c7c747c09da69b47b64127f6$_是分数，是正确答案。
+_$ARITHMETICFRACTION__5d6e555ba94a4d7db9eca1d2b641c595$_是分数，是正确答案。
+4.2是小数，不是正确答案。
+15是整数，不是正确答案。
+_$ARITHMETICFRACTION__07f44a0779424b878b6bab71bc51b525$_是分数，是正确答案。
+15是整数，不是正确答案。
+_$ARITHMETICFRACTION__2697dc05fc884ce1881b8b9188abb688$_是分数，是正确答案。
+6是整数，不是正确答案。
+_$ARITHMETICFRACTION__e977f9f667d64882963ecf3b44085ff2$_是分数，是正确答案。
+5是整数，不是正确答案。
+_$ARITHMETICFRACTION__8cf13944f9fc4decb960d786d913b4f8$_是分数，是正确答案。
+_$ARITHMETICFRACTION__6c92a220959f45409cd8880e07d5b24b$_是分数，是正确答案。
+16.17是小数，不是正确答案。
+_$ARITHMETICFRACTION__c978872e72ab4ed09c5c029940d62aef$_是分数，是正确答案。
+18.9是小数，不是正确答案。
+_$ARITHMETICFRACTION__496bc72f0f8d4e0490d7b5e71e08b577$_是分数，是正确答案。
+_$ARITHMETICFRACTION__8f2f880275cf4af38f142c84ed73ba8c$_是分数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:30.8445649Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>cb6b27cbba57446fabef241c0e20079d</Id>
+              <OptionContent>
+                <Id>04dced24815742f1a627d919d6c03d0c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e0eae75236d342ec8f44ac757f769bc7</Id>
+                    <Value>10</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e0eae75236d342ec8f44ac757f769bc7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>444e2339d772417aa464a25e6939cadf</Id>
+              <OptionContent>
+                <Id>536c6f73ae3843edacc841b18d1baed5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c09d5213d96f4887873e5c4e2c6cae3a</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c09d5213d96f4887873e5c4e2c6cae3a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>8d7b29f86627463899c5fdee1bbcc16b</Id>
+              <OptionContent>
+                <Id>86640919abf543be9b1156e9a429ebe7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>3cad814709e941878c8998e0fa3b65f9</Id>
+                    <Value>18.5</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__3cad814709e941878c8998e0fa3b65f9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>54d32612fc1f4bbba421fea95d8e886d</Id>
+              <OptionContent>
+                <Id>4628c67c1fcc431fb9bdabcedf635133</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>8859e208896a4af8aeacd3f632b69b30</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__8859e208896a4af8aeacd3f632b69b30$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f9abb7b7dd5f43a999395358d0ca3edb</Id>
+              <OptionContent>
+                <Id>c20a8129712b4329af3a5d16f39a46c6</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>543e592c825f4dc6bbeb5b4e90afce03</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__543e592c825f4dc6bbeb5b4e90afce03$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0fe6178b037049fa837beaecdf4efefc</Id>
+              <OptionContent>
+                <Id>ae370ea1b32f446d81c82fc837d0961d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>aa1ec243703848958aea2e872b001ba0</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__aa1ec243703848958aea2e872b001ba0$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>493bd06d1aa04bab89bd8a0ab95f329c</Id>
+              <OptionContent>
+                <Id>3395d2e20d474207a8bf6bf1d474518e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>504b52378d0c455ab860eec872f7c618</Id>
+                    <Value>20</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__504b52378d0c455ab860eec872f7c618$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b94c4ab89148448eacfed7c89c5b7dcc</Id>
+              <OptionContent>
+                <Id>c473a7bc1efd4ca6b3f61f070ef95fb4</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>cbc314e67ea04746817f52b4114bb6ee</Id>
+                    <Value>20.17</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__cbc314e67ea04746817f52b4114bb6ee$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>6c871880ee544df3b5dd482f7e7cd6eb</Id>
+              <OptionContent>
+                <Id>baaa026bef9a4cafac6848bc10137248</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>caecde80ee6a4fe6b3a3a3210298f69e</Id>
+                    <Value>20.7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__caecde80ee6a4fe6b3a3a3210298f69e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>823a5d409b044850a43a2c148daf8076</Id>
+              <OptionContent>
+                <Id>524d04aa13f345c8951c7662daf76fe5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>b06c862205324b2ca013b52a4b3afe46</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__b06c862205324b2ca013b52a4b3afe46$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>963defa1a21849dabec7370d143f8a12</Id>
+              <OptionContent>
+                <Id>552b5272cd304bfba2de23e6fc944562</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6876902a068e43e89e2ad46b46fe0372</Id>
+                    <Numerator>5</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6876902a068e43e89e2ad46b46fe0372$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f810473b61804c38b7402adce2976b00</Id>
+              <OptionContent>
+                <Id>eeffeb5db3e949d7b78369a4ff640fa2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>7e3a2a2e25b748d98cc7bd3e130c9c5a</Id>
+                    <Value>10.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__7e3a2a2e25b748d98cc7bd3e130c9c5a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>12bf1801e8684c31a02e70a64dfc598d</Id>
+              <OptionContent>
+                <Id>1f388cda7b474e698270298df2225836</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c1b8756d93004550a4f27a90a3519ffa</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>12</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c1b8756d93004550a4f27a90a3519ffa$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3bea6914f733427eaee1efb8774a774c</Id>
+              <OptionContent>
+                <Id>b7b6a5feecfc44d0adc26a072bce9b2a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>dfc727fb799141ce935550ca59f0293b</Id>
+                    <Value>13.14</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__dfc727fb799141ce935550ca59f0293b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>8f0a8d1f302b471c98a18d6e625e0c76</Id>
+              <OptionContent>
+                <Id>7fcf66a8f2b14edba67a712280013512</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>59212616558c4694aed94470600dd4f9</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__59212616558c4694aed94470600dd4f9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c6aed26d566148599dcabfc988c8fa2e</Id>
+              <OptionContent>
+                <Id>f448a4d0e4ef41ffb91da60ff2be1d14</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>009ca895e724469ea73c49fca2f9c484</Id>
+                    <Value>11.13</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__009ca895e724469ea73c49fca2f9c484$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>be7f72a0f11b4af4a8764acfb9503010</Id>
+              <OptionContent>
+                <Id>1c06ee2c2d4d4f3c84fc53cd3e6c1f83</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>0f217044e2be4379843b519c1bf26005</Id>
+                    <Value>2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__0f217044e2be4379843b519c1bf26005$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>db823f3767c14e3bb966f8cee9d4750a</Id>
+              <OptionContent>
+                <Id>ace2470320314b47988e7769aefc9811</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>709955e4141644cfbcdd2c5dc9bb7d30</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__709955e4141644cfbcdd2c5dc9bb7d30$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>6e5834d5f94a481fb3ea8095c2a2c741</Id>
+              <OptionContent>
+                <Id>f5dbae4c51ab458cb75e6804ab77c9c6</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>1fff36a6e41e4fd8a1db7d4a5858a6c3</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>2</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__1fff36a6e41e4fd8a1db7d4a5858a6c3$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c50f140069964016b6ea3612560bff4b</Id>
+              <OptionContent>
+                <Id>166bc4fb6580481fb05719fa304cee3a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3f1047c4c7c747c09da69b47b64127f6</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3f1047c4c7c747c09da69b47b64127f6$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>56f0792bdf8f483989e4e031fa820435</Id>
+              <OptionContent>
+                <Id>2c475d7db2a74cdfb2b92c92a06190bb</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>5d6e555ba94a4d7db9eca1d2b641c595</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__5d6e555ba94a4d7db9eca1d2b641c595$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c9e40c93af8f44b9bfd7b89903aee112</Id>
+              <OptionContent>
+                <Id>330c522968b64377b76a926fa8b40a37</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2bde594813f44a0a91f987089f5190a7</Id>
+                    <Value>4.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2bde594813f44a0a91f987089f5190a7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0c1636fda3de4f59811ce6bdbd765493</Id>
+              <OptionContent>
+                <Id>946cf03e940c46dba69420fb6beb4ec8</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>6aa5e7aaa66346528474745440722828</Id>
+                    <Value>15</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__6aa5e7aaa66346528474745440722828$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1caaafb706be473f832b059318ab6cb3</Id>
+              <OptionContent>
+                <Id>cb2bf0d65451467ab9f2c504adfb521b</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>07f44a0779424b878b6bab71bc51b525</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__07f44a0779424b878b6bab71bc51b525$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b8c8da685b0249c68d3fcbe3b92ecd7c</Id>
+              <OptionContent>
+                <Id>e66f34b08a624d678377c02d6f03590e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>63ec26f2acc74c239c939a965bfa43c6</Id>
+                    <Value>15</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__63ec26f2acc74c239c939a965bfa43c6$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3e1bcb9f9f1247a0822f641ed514d4ea</Id>
+              <OptionContent>
+                <Id>e3d825cd54b64e5cae9fd2306fa368b2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>2697dc05fc884ce1881b8b9188abb688</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>12</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__2697dc05fc884ce1881b8b9188abb688$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9857ce21215b45dd95a76f0cab0d1758</Id>
+              <OptionContent>
+                <Id>39deeca383f44997a842d3fa5b72615b</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>58fd9dd7ff644cf68bee37f60d64cea8</Id>
+                    <Value>6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__58fd9dd7ff644cf68bee37f60d64cea8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4201d84f5ade4e7ab6bce0e579968e96</Id>
+              <OptionContent>
+                <Id>ff1d9ae94895446a85c26b7adee50a48</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>e977f9f667d64882963ecf3b44085ff2</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__e977f9f667d64882963ecf3b44085ff2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0ea577f01c8e4a6eb8ba7c8fd3a93d46</Id>
+              <OptionContent>
+                <Id>10526267853b4d20b3df3c2b34a4ae7e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>af2b236892c74dda8880b66c5f672c66</Id>
+                    <Value>5</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__af2b236892c74dda8880b66c5f672c66$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>37f90f3dd98845ea8df5cb0de4a1508a</Id>
+              <OptionContent>
+                <Id>2f8b089cba324c76b7bff763387e216a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8cf13944f9fc4decb960d786d913b4f8</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8cf13944f9fc4decb960d786d913b4f8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4f0d3dc0914b49208b7bc03e9c2fa1eb</Id>
+              <OptionContent>
+                <Id>e1a846e7f858407bbe49cc86c8e96104</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6c92a220959f45409cd8880e07d5b24b</Id>
+                    <Numerator>5</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6c92a220959f45409cd8880e07d5b24b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5481389a98a24e5e97ac3b4eacb0c85d</Id>
+              <OptionContent>
+                <Id>2e8c0de0d2ee4229822e0769aaf59e54</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>c56db04498d848d4b59c6d5657afd52e</Id>
+                    <Value>16.17</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__c56db04498d848d4b59c6d5657afd52e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7583c379dbca4c1ebee705dda8cbf755</Id>
+              <OptionContent>
+                <Id>6221ba217d4c4a418507210c345d83a1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c978872e72ab4ed09c5c029940d62aef</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>2</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c978872e72ab4ed09c5c029940d62aef$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>172f612870604a728348f2ba5f5763dd</Id>
+              <OptionContent>
+                <Id>4108d0a455ed498496b758eb74bf871f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e6b9451322de42eeafb4ece92496b58e</Id>
+                    <Value>18.9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e6b9451322de42eeafb4ece92496b58e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5913303bd62e440b8c3206ba24327ec1</Id>
+              <OptionContent>
+                <Id>01157fb44e564e92b67bd026ad1025a1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>496bc72f0f8d4e0490d7b5e71e08b577</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__496bc72f0f8d4e0490d7b5e71e08b577$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>547ece2400a244eb88a03669f25996d0</Id>
+              <OptionContent>
+                <Id>699530e5544b469e92ef264b35e295d2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8f2f880275cf4af38f142c84ed73ba8c</Id>
+                    <Numerator>5</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8f2f880275cf4af38f142c84ed73ba8c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="TableQuestion">
+          <Id>70432b426ce043c999d536958a74b3b5</Id>
+          <Content>
+            <Id>613d3a3451a942b492eec30706090f37</Id>
+            <QuestionPartCollection />
+            <Content>请下表中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>3263030bc5af46e1aa5fd97eb9835336</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>cd09d5473b7f4537b3ac0f4361823880</Id>
+                <Numerator>7</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8671a182ffe74d73862d4f237b11a706</Id>
+                <Numerator>11</Numerator>
+                <Denominator>12</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8868325c867a4723a40766fc0125d571</Id>
+                <Numerator>15</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>9cca3d570f444550b69a77e2e74b348a</Id>
+                <Numerator>13</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>8b888f54f71443c783301b76baf9319a</Id>
+                <Numerator>11</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c820e02e24f24932879464fcd33f1041</Id>
+                <Numerator>13</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>905cccf9905e4234a726cd84199d5ec9</Id>
+                <Numerator>7</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3a0dd7621d79456f9124f19756e2640f</Id>
+                <Numerator>11</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>01526e9bd5294e33aa1ea38b78593e00</Id>
+                <Numerator>15</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>84a9bd0186674e8d8fca9428f99ee962</Id>
+                <Numerator>9</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>550194d3f6a744d9a8a503c0c1f676cd</Id>
+                <Numerator>13</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>a8f460a19e0546fdbe46f83e3763c6c6</Id>
+                <Numerator>7</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>491f6e855fdb4ca18ca25fc835fb1793</Id>
+                <Numerator>11</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>5e028b2e333d40fcafc162357c8088b9</Id>
+                <Numerator>9</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>534f9dac8e274a09ab52171b5d61aec0</Id>
+                <Numerator>8</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>f70d0a5e75c54110a660d1942755698b</Id>
+                <Numerator>11</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>4b9916dfef3b40fca1fc1f5f2193eb90</Id>
+                <Numerator>10</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>7a84e1cac8f24d60beeeaf305bba2df0</Id>
+                <Numerator>8</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>19.2是小数，不是正确答案。
+7是整数，不是正确答案。
+_$ARITHMETICFRACTION__cd09d5473b7f4537b3ac0f4361823880$_是分数，是正确答案。
+_$ARITHMETICFRACTION__8671a182ffe74d73862d4f237b11a706$_是分数，是正确答案。
+9是整数，不是正确答案。
+_$ARITHMETICFRACTION__8868325c867a4723a40766fc0125d571$_是分数，是正确答案。
+10是整数，不是正确答案。
+10是整数，不是正确答案。
+10.6是小数，不是正确答案。
+_$ARITHMETICFRACTION__9cca3d570f444550b69a77e2e74b348a$_是分数，是正确答案。
+19.11是小数，不是正确答案。
+_$ARITHMETICFRACTION__8b888f54f71443c783301b76baf9319a$_是分数，是正确答案。
+11是整数，不是正确答案。
+11.17是小数，不是正确答案。
+2是整数，不是正确答案。
+2是整数，不是正确答案。
+2.13是小数，不是正确答案。
+_$ARITHMETICFRACTION__c820e02e24f24932879464fcd33f1041$_是分数，是正确答案。
+1是整数，不是正确答案。
+_$ARITHMETICFRACTION__905cccf9905e4234a726cd84199d5ec9$_是分数，是正确答案。
+_$ARITHMETICFRACTION__3a0dd7621d79456f9124f19756e2640f$_是分数，是正确答案。
+_$ARITHMETICFRACTION__01526e9bd5294e33aa1ea38b78593e00$_是分数，是正确答案。
+_$ARITHMETICFRACTION__84a9bd0186674e8d8fca9428f99ee962$_是分数，是正确答案。
+_$ARITHMETICFRACTION__550194d3f6a744d9a8a503c0c1f676cd$_是分数，是正确答案。
+_$ARITHMETICFRACTION__a8f460a19e0546fdbe46f83e3763c6c6$_是分数，是正确答案。
+_$ARITHMETICFRACTION__491f6e855fdb4ca18ca25fc835fb1793$_是分数，是正确答案。
+5.5是小数，不是正确答案。
+_$ARITHMETICFRACTION__5e028b2e333d40fcafc162357c8088b9$_是分数，是正确答案。
+7.17是小数，不是正确答案。
+_$ARITHMETICFRACTION__534f9dac8e274a09ab52171b5d61aec0$_是分数，是正确答案。
+6是整数，不是正确答案。
+_$ARITHMETICFRACTION__f70d0a5e75c54110a660d1942755698b$_是分数，是正确答案。
+17.12是小数，不是正确答案。
+_$ARITHMETICFRACTION__4b9916dfef3b40fca1fc1f5f2193eb90$_是分数，是正确答案。
+19.4是小数，不是正确答案。
+_$ARITHMETICFRACTION__7a84e1cac8f24d60beeeaf305bba2df0$_是分数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:32.2466451Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>8593935449f14b06bc553d65b44f0ca4</Id>
+              <OptionContent>
+                <Id>e69b1f7e16f94ab6b8b10012049810e7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>8ebddfe09beb49ffaaec97f41cad2d8c</Id>
+                    <Value>19.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__8ebddfe09beb49ffaaec97f41cad2d8c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b7ecbf33a9784108b713f8fdd1853d7f</Id>
+              <OptionContent>
+                <Id>9ffef43ce4eb45d5be1c3127743795a2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b6d70899c90949469bb6ffea47027f80</Id>
+                    <Value>7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b6d70899c90949469bb6ffea47027f80$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>793e1591a16f4da0a4611e6b7b36f13f</Id>
+              <OptionContent>
+                <Id>349bccee53e542179739f8f665311939</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>cd09d5473b7f4537b3ac0f4361823880</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__cd09d5473b7f4537b3ac0f4361823880$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3c533ef1782c480b875455e01cf8ce14</Id>
+              <OptionContent>
+                <Id>51eba7a5d9824f98b986d7b401a17367</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8671a182ffe74d73862d4f237b11a706</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>12</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8671a182ffe74d73862d4f237b11a706$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7c5fafc3d4c343e2a0d6c75c64fe8fb4</Id>
+              <OptionContent>
+                <Id>50ae220914aa4ef5aec66791277f5d39</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>bddefc7b28304518887ad5878e95f8e7</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__bddefc7b28304518887ad5878e95f8e7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0b2eb0f66226415f80f13323d9dd6ba2</Id>
+              <OptionContent>
+                <Id>b7447ebcbdb8496ab00af4a079edcf1f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8868325c867a4723a40766fc0125d571</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8868325c867a4723a40766fc0125d571$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1d366a530c0247a9968c89849df9a0fb</Id>
+              <OptionContent>
+                <Id>9bf72f22cc384d6090313a5ae1485b99</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2099ecb750194c259fd8f9d694a14dc2</Id>
+                    <Value>10</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2099ecb750194c259fd8f9d694a14dc2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5f6dad3f8f074ec6ad6d4e0ee1f62a90</Id>
+              <OptionContent>
+                <Id>90a85b3a805b49f5bc45826978a1198e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>239cfd95bc024dff84fd1d134ed34621</Id>
+                    <Value>10</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__239cfd95bc024dff84fd1d134ed34621$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ad55d17027724b8186f5948a5facdb35</Id>
+              <OptionContent>
+                <Id>772ec1e301c34adbbf91e83ca1337707</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>f5a37777c8ae46beb522f0f66779fd17</Id>
+                    <Value>10.6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__f5a37777c8ae46beb522f0f66779fd17$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>49c4fcc94ea144c8b12faba7dea508fe</Id>
+              <OptionContent>
+                <Id>73d2e11ecbd34c94810a4f965a2fe392</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>9cca3d570f444550b69a77e2e74b348a</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__9cca3d570f444550b69a77e2e74b348a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4568e2a5d4014b8280e57e6bd548d5ed</Id>
+              <OptionContent>
+                <Id>536b93bc9e4c487fa9a1ad25060cb333</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>c5c3175ab9a74e509c0680182f501626</Id>
+                    <Value>19.11</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__c5c3175ab9a74e509c0680182f501626$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4aef3cba1012411bbd9daf9c6ae7fcaa</Id>
+              <OptionContent>
+                <Id>30ee5d1c91bc495eb3ac15e04bcdd2f1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>8b888f54f71443c783301b76baf9319a</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__8b888f54f71443c783301b76baf9319a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>40c981d7e88c438c87b700fac7a08644</Id>
+              <OptionContent>
+                <Id>000e2a2eeed24087a185632d0a403f22</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>10893890e3e64749a65f9681723255a8</Id>
+                    <Value>11</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__10893890e3e64749a65f9681723255a8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>26a37047fda749b8b789a84a5ad0f2e8</Id>
+              <OptionContent>
+                <Id>c5a0ab6c64d042dfbb044d6d700ef37b</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e044bdcc917c4862b863744ff6c14557</Id>
+                    <Value>11.17</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e044bdcc917c4862b863744ff6c14557$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>a0197f03370742c48fd3a78928449566</Id>
+              <OptionContent>
+                <Id>4d32111f3b694eedb9d2171edb7024f2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b14201607c3e42da84fd99c33da59fe1</Id>
+                    <Value>2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b14201607c3e42da84fd99c33da59fe1$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f570b3cd29834552bf48f748cd4740cf</Id>
+              <OptionContent>
+                <Id>8631d0489ece426d9110e4b9ca50f7ad</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b4842a77d9244c03968481318fc8478c</Id>
+                    <Value>2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b4842a77d9244c03968481318fc8478c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>af0145e6f92242dca64ccc6848149218</Id>
+              <OptionContent>
+                <Id>aadbc50cf08d4863a5b91c4fc6007e5b</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>0022a825ed774a3da9debbaf3427b835</Id>
+                    <Value>2.13</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__0022a825ed774a3da9debbaf3427b835$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>91b5e9576b0346c2910e7f0179e7557d</Id>
+              <OptionContent>
+                <Id>cd65bd2b440d4310bbb0f4dacb367f71</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c820e02e24f24932879464fcd33f1041</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c820e02e24f24932879464fcd33f1041$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>bca68f136ff14804892468599c931b08</Id>
+              <OptionContent>
+                <Id>8d67d3d4787949aeac15f35f3c6b8f4e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>10b9b08a1ddc4245bb6fdc08464693c7</Id>
+                    <Value>1</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__10b9b08a1ddc4245bb6fdc08464693c7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>840fff0bb4d04f8e9f7fee71111f0eeb</Id>
+              <OptionContent>
+                <Id>32564d38def048648c587c479b5ed6fd</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>905cccf9905e4234a726cd84199d5ec9</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__905cccf9905e4234a726cd84199d5ec9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b5cf5760203f4f0b94968daaadacec51</Id>
+              <OptionContent>
+                <Id>a5e6bd3bb91b4b05bc4ffe0f4ab10fab</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3a0dd7621d79456f9124f19756e2640f</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3a0dd7621d79456f9124f19756e2640f$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>4321dd8e26cd4d009b1734f2e3007797</Id>
+              <OptionContent>
+                <Id>3f9c5df6ba8145e68161637316dfe7c7</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>01526e9bd5294e33aa1ea38b78593e00</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__01526e9bd5294e33aa1ea38b78593e00$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>fa6ad7494b8846cdbcbb1e3b6eee5ed6</Id>
+              <OptionContent>
+                <Id>22df91316be44b668f1c7eb2c5458496</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>84a9bd0186674e8d8fca9428f99ee962</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__84a9bd0186674e8d8fca9428f99ee962$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ba6fd5ae1fb844d29e5e48931e348702</Id>
+              <OptionContent>
+                <Id>2ebec03c86a441ba87c0c4661f4c5f7d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>550194d3f6a744d9a8a503c0c1f676cd</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__550194d3f6a744d9a8a503c0c1f676cd$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>029301a8d14642da9eb152b812179441</Id>
+              <OptionContent>
+                <Id>7177d6d98cd141ebbc5e7dc5c6ff0622</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>a8f460a19e0546fdbe46f83e3763c6c6</Id>
+                    <Numerator>7</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__a8f460a19e0546fdbe46f83e3763c6c6$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>cf535537a90944c7b5c3a277d764e1a9</Id>
+              <OptionContent>
+                <Id>5a00fd5202254082b017128c9dee9486</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>491f6e855fdb4ca18ca25fc835fb1793</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__491f6e855fdb4ca18ca25fc835fb1793$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9edb1d54b2394a81a9dc72bcd1634de0</Id>
+              <OptionContent>
+                <Id>5bfac380f7d14e9f95fed1fb21cde844</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>57fdc4d49ddb4c8bbb692bfcb733586c</Id>
+                    <Value>5.5</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__57fdc4d49ddb4c8bbb692bfcb733586c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>037aad02d17a4b2e8358eb179c2d8a04</Id>
+              <OptionContent>
+                <Id>a14cda56a0014aefbf64fc72e456c1b0</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>5e028b2e333d40fcafc162357c8088b9</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__5e028b2e333d40fcafc162357c8088b9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0d3c3ab4dc904ffa96657fdc94f28424</Id>
+              <OptionContent>
+                <Id>7d974c4bffea44309c84e077cf1c93b1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>8d5b0d0c2c66465bafd8d8559d5ae674</Id>
+                    <Value>7.17</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__8d5b0d0c2c66465bafd8d8559d5ae674$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>fa555bf2c3744e4bb44bb7afe21ce9c7</Id>
+              <OptionContent>
+                <Id>e61b606193ef452faa79c617c1d54621</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>534f9dac8e274a09ab52171b5d61aec0</Id>
+                    <Numerator>8</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__534f9dac8e274a09ab52171b5d61aec0$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ea4a96e906824c97a4353bdae4c416f8</Id>
+              <OptionContent>
+                <Id>6de7724fabd54a73bdfa6f9c0b864cd4</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>f67e5a08ca7e405e95bd87ed8a669e72</Id>
+                    <Value>6</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__f67e5a08ca7e405e95bd87ed8a669e72$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3d43b86c6ff04031a6fc21445324b16e</Id>
+              <OptionContent>
+                <Id>15646d1dbf38453bad98f63aeb2725fb</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>f70d0a5e75c54110a660d1942755698b</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__f70d0a5e75c54110a660d1942755698b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>761846488eff44fa9fa3255d79350e27</Id>
+              <OptionContent>
+                <Id>7129a7ecfcad4a9cb6ef0cda6e91de86</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>39a762315c5a473eaafbae34c9c5258f</Id>
+                    <Value>17.12</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__39a762315c5a473eaafbae34c9c5258f$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b700663889b248fb814205d81a1a92c7</Id>
+              <OptionContent>
+                <Id>7a14d3dd451f46009efdec616bee9d8f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>4b9916dfef3b40fca1fc1f5f2193eb90</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__4b9916dfef3b40fca1fc1f5f2193eb90$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>83456001594a477a9835c9859025d11c</Id>
+              <OptionContent>
+                <Id>3daba2374f564bf9a14b88194428a33c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>8dc092dce5c04b099c923123ff45649f</Id>
+                    <Value>19.4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__8dc092dce5c04b099c923123ff45649f$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>556ae0f88996481fa63f68c4c8262595</Id>
+              <OptionContent>
+                <Id>c78817799e6242ed8e94d79d632e149a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>7a84e1cac8f24d60beeeaf305bba2df0</Id>
+                    <Numerator>8</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__7a84e1cac8f24d60beeeaf305bba2df0$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="TableQuestion">
+          <Id>342b011c9bf64f628e41b4bdd0c7f229</Id>
+          <Content>
+            <Id>0436fab53f7d466e83d57da4a57b8a73</Id>
+            <QuestionPartCollection />
+            <Content>请下表中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>5629a27721c14bd7925875181533c2fd</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>f1170b6bdbc544929710e6747906615a</Id>
+                <Numerator>10</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3dc878a141504f2da1af95478de4e548</Id>
+                <Numerator>14</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>24288c369e8a4885b38276274159b313</Id>
+                <Numerator>8</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c8dc08f242834ab2b3b8e47cb3502b48</Id>
+                <Numerator>12</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>7c4b999d48744763b1aa04b342c593ce</Id>
+                <Numerator>10</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>0db35b93f74047e9aff148e2270282cf</Id>
+                <Numerator>14</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3b4b8fdedf344145ac2b266142c01440</Id>
+                <Numerator>9</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>b21d1816c244478cadb0990f7d086b99</Id>
+                <Numerator>12</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>bb2e0342b8984795b76166cc7049b559</Id>
+                <Numerator>16</Numerator>
+                <Denominator>12</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>ab85cf82c83b4de6a8edfe2e55d4b073</Id>
+                <Numerator>14</Numerator>
+                <Denominator>5</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>245aef30b61447d7abc798a7c0d0163c</Id>
+                <Numerator>16</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>871f79a8717c4eaeb90303889ce909b5</Id>
+                <Numerator>11</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>1a7b6f4c542b4697b65fefbdd7957b76</Id>
+                <Numerator>15</Numerator>
+                <Denominator>15</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>88c0a8299ba3441e93d46858bc59b818</Id>
+                <Numerator>13</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>7fd464cb3d5f405f9e8f87cf26c295e0</Id>
+                <Numerator>17</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>1e04e2f0c8ea4ee08b94d37dbcfb7c4f</Id>
+                <Numerator>9</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>928f89c7ca95438da69ed60605b82fac</Id>
+                <Numerator>17</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6140815008bd4309b529ccefa884ef86</Id>
+                <Numerator>11</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>9是整数，不是正确答案。
+_$ARITHMETICFRACTION__f1170b6bdbc544929710e6747906615a$_是分数，是正确答案。
+_$ARITHMETICFRACTION__3dc878a141504f2da1af95478de4e548$_是分数，是正确答案。
+_$ARITHMETICFRACTION__24288c369e8a4885b38276274159b313$_是分数，是正确答案。
+_$ARITHMETICFRACTION__c8dc08f242834ab2b3b8e47cb3502b48$_是分数，是正确答案。
+20.5是小数，不是正确答案。
+_$ARITHMETICFRACTION__7c4b999d48744763b1aa04b342c593ce$_是分数，是正确答案。
+_$ARITHMETICFRACTION__0db35b93f74047e9aff148e2270282cf$_是分数，是正确答案。
+10是整数，不是正确答案。
+10是整数，不是正确答案。
+_$ARITHMETICFRACTION__3b4b8fdedf344145ac2b266142c01440$_是分数，是正确答案。
+1是整数，不是正确答案。
+_$ARITHMETICFRACTION__b21d1816c244478cadb0990f7d086b99$_是分数，是正确答案。
+_$ARITHMETICFRACTION__bb2e0342b8984795b76166cc7049b559$_是分数，是正确答案。
+3是整数，不是正确答案。
+3是整数，不是正确答案。
+3.8是小数，不是正确答案。
+_$ARITHMETICFRACTION__ab85cf82c83b4de6a8edfe2e55d4b073$_是分数，是正确答案。
+2是整数，不是正确答案。
+2.7是小数，不是正确答案。
+13.3是小数，不是正确答案。
+_$ARITHMETICFRACTION__245aef30b61447d7abc798a7c0d0163c$_是分数，是正确答案。
+_$ARITHMETICFRACTION__871f79a8717c4eaeb90303889ce909b5$_是分数，是正确答案。
+_$ARITHMETICFRACTION__1a7b6f4c542b4697b65fefbdd7957b76$_是分数，是正确答案。
+14.15是小数，不是正确答案。
+_$ARITHMETICFRACTION__88c0a8299ba3441e93d46858bc59b818$_是分数，是正确答案。
+_$ARITHMETICFRACTION__7fd464cb3d5f405f9e8f87cf26c295e0$_是分数，是正确答案。
+17.16是小数，不是正确答案。
+8.12是小数，不是正确答案。
+_$ARITHMETICFRACTION__1e04e2f0c8ea4ee08b94d37dbcfb7c4f$_是分数，是正确答案。
+7是整数，不是正确答案。
+7是整数，不是正确答案。
+7是整数，不是正确答案。
+7.12是小数，不是正确答案。
+_$ARITHMETICFRACTION__928f89c7ca95438da69ed60605b82fac$_是分数，是正确答案。
+_$ARITHMETICFRACTION__6140815008bd4309b529ccefa884ef86$_是分数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:33.6477252Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>2cb5b8ba838d4e84ac1cc6de9255f212</Id>
+              <OptionContent>
+                <Id>a531b04f70b146fdb87447bba660d22a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>92b5784a4384407790f3ca0296ae0ab9</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__92b5784a4384407790f3ca0296ae0ab9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5cbf1224642c4125b9c036ac7e122706</Id>
+              <OptionContent>
+                <Id>86c1071f4242481a9d9546dbc3e4c18d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>f1170b6bdbc544929710e6747906615a</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__f1170b6bdbc544929710e6747906615a$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>26f272cecbd34657b961631f53684225</Id>
+              <OptionContent>
+                <Id>a5bda8899b734fac93f4c57e70b630b5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3dc878a141504f2da1af95478de4e548</Id>
+                    <Numerator>14</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3dc878a141504f2da1af95478de4e548$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7af783978d254c70a7109a47736f9b9d</Id>
+              <OptionContent>
+                <Id>f6e42167bf4a40c88ff61e72bd75eba3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>24288c369e8a4885b38276274159b313</Id>
+                    <Numerator>8</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__24288c369e8a4885b38276274159b313$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>179032bf15f24b51b3e31a2b065503c9</Id>
+              <OptionContent>
+                <Id>684e3a791b2e4defa80e8f6f42bd4d04</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c8dc08f242834ab2b3b8e47cb3502b48</Id>
+                    <Numerator>12</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c8dc08f242834ab2b3b8e47cb3502b48$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c327a4e692074ec48d148906239119a5</Id>
+              <OptionContent>
+                <Id>8782cc13858743fda4b53a40cd95488c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>dc50998787d64cc087726231dde2fbfe</Id>
+                    <Value>20.5</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__dc50998787d64cc087726231dde2fbfe$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d3c822b222744355a638bb18820d34e1</Id>
+              <OptionContent>
+                <Id>76656c397e824ef886e5c50a79175e02</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>7c4b999d48744763b1aa04b342c593ce</Id>
+                    <Numerator>10</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__7c4b999d48744763b1aa04b342c593ce$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>a2bfa923236642009ddd46eba8df6d0c</Id>
+              <OptionContent>
+                <Id>ba05b6e89f874affaf564970937f2561</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>0db35b93f74047e9aff148e2270282cf</Id>
+                    <Numerator>14</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__0db35b93f74047e9aff148e2270282cf$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>63fef15e9f344f46a81f8e8be1bbafb3</Id>
+              <OptionContent>
+                <Id>0387f52fed9e4466a37c22e03907cbbc</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>676ee58cbdc04545a176202f376b5cf6</Id>
+                    <Value>10</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__676ee58cbdc04545a176202f376b5cf6$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>555c84131c5a44f9b35c9d1594cea876</Id>
+              <OptionContent>
+                <Id>075fdfb8390c4ab182b6c780c53d096a</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>3d8c95b39d374efcaf862321fbd6c907</Id>
+                    <Value>10</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__3d8c95b39d374efcaf862321fbd6c907$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>37532a067ce04556be09acd3725c3763</Id>
+              <OptionContent>
+                <Id>dcb0eeb6e04e48d4b2be8f58d8aae37f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3b4b8fdedf344145ac2b266142c01440</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3b4b8fdedf344145ac2b266142c01440$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3f403379218f47f7af02c4f526f83602</Id>
+              <OptionContent>
+                <Id>3eedba96f2f04238a18ea063d05372f1</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>47ef6749ed7f4326a4bda65c1d300703</Id>
+                    <Value>1</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__47ef6749ed7f4326a4bda65c1d300703$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>fdde01a1108749928a65a76b9c63ef0f</Id>
+              <OptionContent>
+                <Id>9212901605fa4b6f825143a997b3a585</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>b21d1816c244478cadb0990f7d086b99</Id>
+                    <Numerator>12</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__b21d1816c244478cadb0990f7d086b99$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>401ca8753d6a4000ac2f1ded65baa4ae</Id>
+              <OptionContent>
+                <Id>032da2880cb240bba9f7724fb6ddf874</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>bb2e0342b8984795b76166cc7049b559</Id>
+                    <Numerator>16</Numerator>
+                    <Denominator>12</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__bb2e0342b8984795b76166cc7049b559$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ac929445f3f944779111c9c017804977</Id>
+              <OptionContent>
+                <Id>d99e9e76793c4b1aaafe3b484162ccc8</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>b9ca783cea4f49ae832f09731b7afbef</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__b9ca783cea4f49ae832f09731b7afbef$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>bf21210721f64f9d84865440e9aea4e7</Id>
+              <OptionContent>
+                <Id>3d1f34488f05477aad453d8158f4a1e5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>cba9bdda9aa74d4483859f36c0317b9d</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__cba9bdda9aa74d4483859f36c0317b9d$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>94d3e5bf3c7e4d34a4db8fa10c772117</Id>
+              <OptionContent>
+                <Id>c61c576c8c8243209782a455dfe40b3c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>44a2db1be2ec4f598f9ff58a0bc817df</Id>
+                    <Value>3.8</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__44a2db1be2ec4f598f9ff58a0bc817df$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d5f2a5cd5f2c43fd89f61c74855d9717</Id>
+              <OptionContent>
+                <Id>6eb3e367d2e444228641186418fbb2bd</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>ab85cf82c83b4de6a8edfe2e55d4b073</Id>
+                    <Numerator>14</Numerator>
+                    <Denominator>5</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__ab85cf82c83b4de6a8edfe2e55d4b073$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f6342aca04594c7e8fdc725ea04877af</Id>
+              <OptionContent>
+                <Id>01ba8f56c9d04b00bc75d04b9f08f20c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2d0376aaf02b4a76ab3c9f25ef329042</Id>
+                    <Value>2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2d0376aaf02b4a76ab3c9f25ef329042$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>88e2ebdeb7da4439856e2ed55c411af8</Id>
+              <OptionContent>
+                <Id>2f6155e885944feba1aaf19eb56a34ad</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>15b0c3e6707b46e5a7690491c5d9a3cd</Id>
+                    <Value>2.7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__15b0c3e6707b46e5a7690491c5d9a3cd$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>38836375f0f649f0bec7b16c54f22ee0</Id>
+              <OptionContent>
+                <Id>c105c835974c4555881cdfa17a57087f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e7f327c0c4294d49b68aa924d54acef9</Id>
+                    <Value>13.3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e7f327c0c4294d49b68aa924d54acef9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>adf8341572ed46859f5654c71c590579</Id>
+              <OptionContent>
+                <Id>feea508bfef24529adaab9e952547ab3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>245aef30b61447d7abc798a7c0d0163c</Id>
+                    <Numerator>16</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__245aef30b61447d7abc798a7c0d0163c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>11ced53743a749b39d5c0454c8cf65cd</Id>
+              <OptionContent>
+                <Id>6158a5561e9c45ebbc7d5ee4adc2fde4</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>871f79a8717c4eaeb90303889ce909b5</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__871f79a8717c4eaeb90303889ce909b5$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>561168584bde467db8c5b28a330e6acf</Id>
+              <OptionContent>
+                <Id>b342abb7b65f425998e2c65f30ad2322</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>1a7b6f4c542b4697b65fefbdd7957b76</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>15</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__1a7b6f4c542b4697b65fefbdd7957b76$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>bd9a8b5b6b0e46dabd6a8a17634c03fa</Id>
+              <OptionContent>
+                <Id>9c8d7782d0e84274937c82b1db0a61d0</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>467a3b1531b7471e8aea9d7a7dc59bdb</Id>
+                    <Value>14.15</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__467a3b1531b7471e8aea9d7a7dc59bdb$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>16ef7a80fd5c45d28fa50b48b87cb3bd</Id>
+              <OptionContent>
+                <Id>6f432cba35cc4a64b1172231c0ea32a9</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>88c0a8299ba3441e93d46858bc59b818</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__88c0a8299ba3441e93d46858bc59b818$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0d6a4620019243b68432d42c76e3c0d5</Id>
+              <OptionContent>
+                <Id>5e0dfec0f1254185a8eccd4f2dd31539</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>7fd464cb3d5f405f9e8f87cf26c295e0</Id>
+                    <Numerator>17</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__7fd464cb3d5f405f9e8f87cf26c295e0$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>baf09b268edd408d996d5b90924b8c64</Id>
+              <OptionContent>
+                <Id>005a76c2f47444fc97dddf6d12a21bad</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>acc12eb210c34ad980c45beac6d532bb</Id>
+                    <Value>17.16</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__acc12eb210c34ad980c45beac6d532bb$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>856e531a8a4f48aab120a5d93d25864c</Id>
+              <OptionContent>
+                <Id>9412d2cb63e54918afe23957588e4931</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>09c2cc8d472f4b588917209fa610b8d9</Id>
+                    <Value>8.12</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__09c2cc8d472f4b588917209fa610b8d9$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9f8f6aa800c14da4af0385fda69363d8</Id>
+              <OptionContent>
+                <Id>1ad470d68b084868b0d853644ab42488</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>1e04e2f0c8ea4ee08b94d37dbcfb7c4f</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__1e04e2f0c8ea4ee08b94d37dbcfb7c4f$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>da87b1fd0e054b3584d9231bfcb118c5</Id>
+              <OptionContent>
+                <Id>03de5c8dbb474744942bebcddf5a4ebc</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>560d7acda9ab4c98b997870231cfda03</Id>
+                    <Value>7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__560d7acda9ab4c98b997870231cfda03$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>aec661e95cfc44d1b75f9114ebf0fd4e</Id>
+              <OptionContent>
+                <Id>bf1b54bd957147f382ac54a59afe0ee3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>63ee274ac4284973a23ba3c03064aead</Id>
+                    <Value>7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__63ee274ac4284973a23ba3c03064aead$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>2d0a5ecd6fcd40e0bfc3bfbb982aae75</Id>
+              <OptionContent>
+                <Id>b91dc6148ee54bd98941e342c4495f73</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>13d09dbd6add4c2ca89af3e9e00e514d</Id>
+                    <Value>7</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__13d09dbd6add4c2ca89af3e9e00e514d$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>bf95211069704f40805ce07e795216a6</Id>
+              <OptionContent>
+                <Id>f5c0559ca3e14ce8aaaef303b0556f4d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>9e5f187d84ca45c48767c1a5356003c7</Id>
+                    <Value>7.12</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__9e5f187d84ca45c48767c1a5356003c7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b363ed8565494dafae98b80f415f9028</Id>
+              <OptionContent>
+                <Id>a6eb95d8ff114621bb08e5cb01b6bdfd</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>928f89c7ca95438da69ed60605b82fac</Id>
+                    <Numerator>17</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__928f89c7ca95438da69ed60605b82fac$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>42d49bdf4d3a46748a2ac1dcf33c6687</Id>
+              <OptionContent>
+                <Id>5afdfa526cc7470bae3df306e182077d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6140815008bd4309b529ccefa884ef86</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6140815008bd4309b529ccefa884ef86$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="TableQuestion">
+          <Id>c360784d8160447eb76a7a32f5a6ce0b</Id>
+          <Content>
+            <Id>43058569a44e425a9e9543e3b1ba662e</Id>
+            <QuestionPartCollection />
+            <Content>请下表中选出分数。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>1e65d7cac4a04c2092bed836e8381efd</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>f92948c8839c4567aee1c0add388f208</Id>
+                <Numerator>13</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6043b9ef847347399d284f78cf9b0fd5</Id>
+                <Numerator>11</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>4b36b796a2154533bb40db52f248672c</Id>
+                <Numerator>15</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>1353377101c345eb9d87716704dbd435</Id>
+                <Numerator>13</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>ad26afd35c854bd0bde6e90e173a1c34</Id>
+                <Numerator>17</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3e96024c1c6c4392b17d3943ccd4c25e</Id>
+                <Numerator>11</Numerator>
+                <Denominator>17</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>1894fbbc515541668c2b352fddbd5c59</Id>
+                <Numerator>15</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>43129725ac22477e9fd813d5925e11c0</Id>
+                <Numerator>9</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>adfc30f2884d4192afcb314d737d0856</Id>
+                <Numerator>13</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>db4581275e45480b98c423cee35875d8</Id>
+                <Numerator>17</Numerator>
+                <Denominator>18</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>79a56de0a80f4c73b2d508617f2c6f85</Id>
+                <Numerator>11</Numerator>
+                <Denominator>7</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>5f0ee4135f7444beabb367b238a6ed15</Id>
+                <Numerator>9</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>d1b555e618c04c2fb3aa5399350c367e</Id>
+                <Numerator>13</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>343301a777fe42ecb75c399bdbedb016</Id>
+                <Numerator>11</Numerator>
+                <Denominator>17</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>7fcb9669581e4a2dba26e33ce24b676b</Id>
+                <Numerator>15</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>4ab9036fe441422cb986d31f04c9d143</Id>
+                <Numerator>13</Numerator>
+                <Denominator>14</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>c4fe3e642d684839ad86395092fff5a5</Id>
+                <Numerator>11</Numerator>
+                <Denominator>7</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>6081bb9bcc78405b938b22ca3bf8d255</Id>
+                <Numerator>15</Numerator>
+                <Denominator>11</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>3abb516ff3c8478aaf5e386e5dcefd34</Id>
+                <Numerator>9</Numerator>
+                <Denominator>20</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>69fbce3c1ac941d38e3091dc6205501c</Id>
+                <Numerator>13</Numerator>
+                <Denominator>4</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>44d1e3aedeee46a183d06327e6efb82d</Id>
+                <Numerator>17</Numerator>
+                <Denominator>8</Denominator>
+              </QuestionContentPart>
+              <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                <Id>b88267a4edbd4ac9ac40f146a8b32818</Id>
+                <Numerator>15</Numerator>
+                <Denominator>1</Denominator>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>8.3是小数，不是正确答案。
+_$ARITHMETICFRACTION__f92948c8839c4567aee1c0add388f208$_是分数，是正确答案。
+20.9是小数，不是正确答案。
+_$ARITHMETICFRACTION__6043b9ef847347399d284f78cf9b0fd5$_是分数，是正确答案。
+_$ARITHMETICFRACTION__4b36b796a2154533bb40db52f248672c$_是分数，是正确答案。
+9是整数，不是正确答案。
+9.4是小数，不是正确答案。
+_$ARITHMETICFRACTION__1353377101c345eb9d87716704dbd435$_是分数，是正确答案。
+_$ARITHMETICFRACTION__ad26afd35c854bd0bde6e90e173a1c34$_是分数，是正确答案。
+3是整数，不是正确答案。
+_$ARITHMETICFRACTION__3e96024c1c6c4392b17d3943ccd4c25e$_是分数，是正确答案。
+_$ARITHMETICFRACTION__1894fbbc515541668c2b352fddbd5c59$_是分数，是正确答案。
+_$ARITHMETICFRACTION__43129725ac22477e9fd813d5925e11c0$_是分数，是正确答案。
+_$ARITHMETICFRACTION__adfc30f2884d4192afcb314d737d0856$_是分数，是正确答案。
+_$ARITHMETICFRACTION__db4581275e45480b98c423cee35875d8$_是分数，是正确答案。
+_$ARITHMETICFRACTION__79a56de0a80f4c73b2d508617f2c6f85$_是分数，是正确答案。
+3.2是小数，不是正确答案。
+_$ARITHMETICFRACTION__5f0ee4135f7444beabb367b238a6ed15$_是分数，是正确答案。
+_$ARITHMETICFRACTION__d1b555e618c04c2fb3aa5399350c367e$_是分数，是正确答案。
+5.4是小数，不是正确答案。
+4是整数，不是正确答案。
+_$ARITHMETICFRACTION__343301a777fe42ecb75c399bdbedb016$_是分数，是正确答案。
+_$ARITHMETICFRACTION__7fcb9669581e4a2dba26e33ce24b676b$_是分数，是正确答案。
+15是整数，不是正确答案。
+15.2是小数，不是正确答案。
+_$ARITHMETICFRACTION__4ab9036fe441422cb986d31f04c9d143$_是分数，是正确答案。
+18.11是小数，不是正确答案。
+_$ARITHMETICFRACTION__c4fe3e642d684839ad86395092fff5a5$_是分数，是正确答案。
+_$ARITHMETICFRACTION__6081bb9bcc78405b938b22ca3bf8d255$_是分数，是正确答案。
+_$ARITHMETICFRACTION__3abb516ff3c8478aaf5e386e5dcefd34$_是分数，是正确答案。
+19是整数，不是正确答案。
+19是整数，不是正确答案。
+_$ARITHMETICFRACTION__69fbce3c1ac941d38e3091dc6205501c$_是分数，是正确答案。
+_$ARITHMETICFRACTION__44d1e3aedeee46a183d06327e6efb82d$_是分数，是正确答案。
+18.2是小数，不是正确答案。
+_$ARITHMETICFRACTION__b88267a4edbd4ac9ac40f146a8b32818$_是分数，是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-09T23:20:34.9998025Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>8571c63dd0fc41bc87f12c04edda4786</Id>
+              <OptionContent>
+                <Id>b2101a4e0fb2418a858cfdf68dc3fc68</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>c5e5fbf35daa440fb409450e933eb448</Id>
+                    <Value>8.3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__c5e5fbf35daa440fb409450e933eb448$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>e582fdff82b7420ab7e889a68d15dddf</Id>
+              <OptionContent>
+                <Id>2179f0a93ffd43ff8475c52ccb78cc72</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>f92948c8839c4567aee1c0add388f208</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__f92948c8839c4567aee1c0add388f208$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d479bdf23b3a45c1867de82f981ec2b9</Id>
+              <OptionContent>
+                <Id>f2b1572b089c495099b9985471213760</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>7aa469e2974c44a1a875dd88b793c50f</Id>
+                    <Value>20.9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__7aa469e2974c44a1a875dd88b793c50f$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d9c93aa520514435a95532fa13006c6f</Id>
+              <OptionContent>
+                <Id>1e5b17d7559a47a289b1afb60656776d</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6043b9ef847347399d284f78cf9b0fd5</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6043b9ef847347399d284f78cf9b0fd5$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ddcc77f9900641109df21e069d4087af</Id>
+              <OptionContent>
+                <Id>19e4f5f7256f47c1bd73c238b28e0a12</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>4b36b796a2154533bb40db52f248672c</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__4b36b796a2154533bb40db52f248672c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>5236b8c795f0430ebc578b21e95c3f27</Id>
+              <OptionContent>
+                <Id>6e0a25d34ed5471a90613d62fa44b9f0</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2d1cc95e45a14fb5bd5befa3554f4068</Id>
+                    <Value>9</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2d1cc95e45a14fb5bd5befa3554f4068$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>a22ff2c0ea764d228363ccfdfe978766</Id>
+              <OptionContent>
+                <Id>2c2d63a28d39423f965f5d0d02725ea8</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>043f506c9b084a4484548d3d8743edc6</Id>
+                    <Value>9.4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__043f506c9b084a4484548d3d8743edc6$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>2b75f986bf0143aeb5710f101aae43e5</Id>
+              <OptionContent>
+                <Id>1f9ad43be92649a89cbc50bd7491565f</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>1353377101c345eb9d87716704dbd435</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__1353377101c345eb9d87716704dbd435$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>facdb76294f646209cda30244402620b</Id>
+              <OptionContent>
+                <Id>5286a92ab1414dcd8a6e741ece6c492c</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>ad26afd35c854bd0bde6e90e173a1c34</Id>
+                    <Numerator>17</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__ad26afd35c854bd0bde6e90e173a1c34$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>047a81ede87f4c82b283b454b127c327</Id>
+              <OptionContent>
+                <Id>475899ecc86f4d00a6256899d47c20b5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>2162a6ebd7464ffebe48d1543c54a680</Id>
+                    <Value>3</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__2162a6ebd7464ffebe48d1543c54a680$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>91f9933bd73a4076a37480159d5f9654</Id>
+              <OptionContent>
+                <Id>90d82ca0cfc74701b1f4d2e5a8710880</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3e96024c1c6c4392b17d3943ccd4c25e</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>17</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3e96024c1c6c4392b17d3943ccd4c25e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>141d24f78f56440d8bbf56e74788e16e</Id>
+              <OptionContent>
+                <Id>b6a92ada70ad49d1b03e3056215a7ced</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>1894fbbc515541668c2b352fddbd5c59</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__1894fbbc515541668c2b352fddbd5c59$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>2e7a721fb27749cda506a80fafb70763</Id>
+              <OptionContent>
+                <Id>f88985eb56954ebcb455a8ce4beb0ea6</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>43129725ac22477e9fd813d5925e11c0</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__43129725ac22477e9fd813d5925e11c0$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>51e4048e5e2a4360a270e17f8ab44f47</Id>
+              <OptionContent>
+                <Id>679d7781709f4f6d8c29ccd29ac83ff0</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>adfc30f2884d4192afcb314d737d0856</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__adfc30f2884d4192afcb314d737d0856$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>50a7b11565c345c5b966182a3fe85b47</Id>
+              <OptionContent>
+                <Id>c385bd091c5343ce8a346d2e13636268</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>db4581275e45480b98c423cee35875d8</Id>
+                    <Numerator>17</Numerator>
+                    <Denominator>18</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__db4581275e45480b98c423cee35875d8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>48441613a72e49c58e3f7003d77cde09</Id>
+              <OptionContent>
+                <Id>76edbdff4f1343ffb74513790f8ec57e</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>79a56de0a80f4c73b2d508617f2c6f85</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>7</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__79a56de0a80f4c73b2d508617f2c6f85$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ae2deef8e2a043119fadb7d2c4568c9b</Id>
+              <OptionContent>
+                <Id>427116b9e5f54e95a80b77c4424c8ba3</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>e411527a18e4442395d4692c2d1611b5</Id>
+                    <Value>3.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__e411527a18e4442395d4692c2d1611b5$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>58125bade32d47eabbd2f673f19ed111</Id>
+              <OptionContent>
+                <Id>9bcd7ebad75f49adb398809e5349a4cc</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>5f0ee4135f7444beabb367b238a6ed15</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__5f0ee4135f7444beabb367b238a6ed15$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>88319545a38145ef9728372967922d4e</Id>
+              <OptionContent>
+                <Id>b2777ea211ab42f8911a702f4a2dff60</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>d1b555e618c04c2fb3aa5399350c367e</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__d1b555e618c04c2fb3aa5399350c367e$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>91b7735d659442bca2fde277f9043873</Id>
+              <OptionContent>
+                <Id>0ba779ca8d4d43539271d294d412a6c4</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>fdba9fa51ee44238b405985b9adb97b7</Id>
+                    <Value>5.4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__fdba9fa51ee44238b405985b9adb97b7$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>21b236316f814766aa1b786b66290992</Id>
+              <OptionContent>
+                <Id>c989bd3ffdcc49c2bf0d5e34b59669b2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>6614306a1195402eacf5b3eb9e390243</Id>
+                    <Value>4</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__6614306a1195402eacf5b3eb9e390243$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ac6d9f788179418eb2b86c4000d5c926</Id>
+              <OptionContent>
+                <Id>d32b6a9c9c674e909e3325bf9e550431</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>343301a777fe42ecb75c399bdbedb016</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>17</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__343301a777fe42ecb75c399bdbedb016$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b04371c4631c43d68a97f5cc8ac70193</Id>
+              <OptionContent>
+                <Id>204a4fe42fc4425e8379d92feeadc469</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>7fcb9669581e4a2dba26e33ce24b676b</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__7fcb9669581e4a2dba26e33ce24b676b$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0ce2d2faac3548dd871e8dd1780afbf9</Id>
+              <OptionContent>
+                <Id>5d98d2e880204f2b84ecabaf436e0cc2</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>4663f3ed7ff14e63ad5b3a97720d792c</Id>
+                    <Value>15</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__4663f3ed7ff14e63ad5b3a97720d792c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>561a7ebbff13496e802d56c1724bbd40</Id>
+              <OptionContent>
+                <Id>e0bf15c6d864451aac9b28913396dfee</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>779933aff0344e16afd9a78c600c5dbc</Id>
+                    <Value>15.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__779933aff0344e16afd9a78c600c5dbc$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1a14f7db6c1e410aa41363483cf50938</Id>
+              <OptionContent>
+                <Id>d2e2d52ba0a545299d46a5d2e6ef7c85</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>4ab9036fe441422cb986d31f04c9d143</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>14</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__4ab9036fe441422cb986d31f04c9d143$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>21e85335accc4e699d6b275d0a3c18f0</Id>
+              <OptionContent>
+                <Id>72004cb6315d4093b70cb8f5b0313665</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>73c3bdb9786043c49b5bea547a9b2696</Id>
+                    <Value>18.11</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__73c3bdb9786043c49b5bea547a9b2696$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7ab8bbd26798447292349c3957e93502</Id>
+              <OptionContent>
+                <Id>e20bdf5804e04390ae782e1aaf43efd5</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>c4fe3e642d684839ad86395092fff5a5</Id>
+                    <Numerator>11</Numerator>
+                    <Denominator>7</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__c4fe3e642d684839ad86395092fff5a5$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>97cf292a8430499f901317b36e9868ab</Id>
+              <OptionContent>
+                <Id>c0da324cab004b97b28a81658fcfe6b8</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>6081bb9bcc78405b938b22ca3bf8d255</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>11</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__6081bb9bcc78405b938b22ca3bf8d255$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ae6626030c20426abb7a1b54d500d214</Id>
+              <OptionContent>
+                <Id>77be2a674c914a8bbe32d1ad13fd12f8</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>3abb516ff3c8478aaf5e386e5dcefd34</Id>
+                    <Numerator>9</Numerator>
+                    <Denominator>20</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__3abb516ff3c8478aaf5e386e5dcefd34$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c06c4d84d4924711b825bfbc784547fe</Id>
+              <OptionContent>
+                <Id>1d0432db64164b9d93aa5b1f249e2fd9</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>fe479ddb0ec54bac96f91c91fde8a5e8</Id>
+                    <Value>19</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__fe479ddb0ec54bac96f91c91fde8a5e8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1302dacb46294adca88a9e144f6ac2f9</Id>
+              <OptionContent>
+                <Id>2295b830e6f3430c9765fecfd7195338</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>9afb8ba954684661ba98a61e4877c6a8</Id>
+                    <Value>19</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__9afb8ba954684661ba98a61e4877c6a8$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9cb5dbc3bff2418f8a7f909c5d28e08c</Id>
+              <OptionContent>
+                <Id>18c7ecad8acd4760b2e365b446ed5ac9</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>69fbce3c1ac941d38e3091dc6205501c</Id>
+                    <Numerator>13</Numerator>
+                    <Denominator>4</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__69fbce3c1ac941d38e3091dc6205501c$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>89367ea904fd4470a54f72ea1f2ba0d1</Id>
+              <OptionContent>
+                <Id>b63aecc5bc62475db0cf29c7a9a7d235</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>44d1e3aedeee46a183d06327e6efb82d</Id>
+                    <Numerator>17</Numerator>
+                    <Denominator>8</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__44d1e3aedeee46a183d06327e6efb82d$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>a99d3a0df2954c86b12d2d74663a2e94</Id>
+              <OptionContent>
+                <Id>f7907e89006043a98504a8aa96e72e82</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticDecimalValuePart">
+                    <Id>a6bae5eb3c1b474baad5578d6af972c2</Id>
+                    <Value>18.2</Value>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$DECIMAL__a6bae5eb3c1b474baad5578d6af972c2$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>839f608e142e4f14b44c96fd1ffab308</Id>
+              <OptionContent>
+                <Id>e5a18a231b1141f6bdb36141888febcd</Id>
+                <QuestionPartCollection>
+                  <QuestionContentPart xsi:type="ArithmeticFractionValuePart">
+                    <Id>b88267a4edbd4ac9ac40f146a8b32818</Id>
+                    <Numerator>15</Numerator>
+                    <Denominator>1</Denominator>
+                  </QuestionContentPart>
+                </QuestionPartCollection>
+                <Content>_$ARITHMETICFRACTION__b88267a4edbd4ac9ac40f146a8b32818$_</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+      </QuestionCollection>
+    </Section>
+  </SectionCollection>
+</Exercise>

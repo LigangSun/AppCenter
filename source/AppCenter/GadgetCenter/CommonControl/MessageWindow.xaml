@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.Controls.MessageWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:lang="clr-namespace:SoonLearning.AppCenter.Resources"
+             Background="{StaticResource BGMainBrush_Dark}">
+    
+    <Grid VerticalAlignment="Center"
+          HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="256"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <Image x:Name="iconImage"
+               Height="128"
+               Width="128"
+               Margin="10"
+               Source="/SoonLearning.AppCenter;component/Resources/Images/BLue/Info.png"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Right" />
+        
+        <TextBlock x:Name="infoTextBlock"
+                   Margin="10"
+                   Grid.Column="1" 
+                   TextAlignment="Left"
+                   VerticalAlignment="Center"
+                   MaxWidth="500"
+                   TextWrapping="Wrap"
+                   Foreground="{StaticResource TextColorBrush_Light}"
+                   FontSize="20"
+                   LineHeight="30"
+                   LineStackingStrategy="BlockLineHeight"
+                   FontWeight="Medium"/>
+        <StackPanel x:Name="btnPanel"
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    Margin="8"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="okBtn"
+                    Width="160"
+                    Margin="10,0"
+                    Content="{x:Static lang:Strings.Ok}"
+                    Style="{StaticResource ButtonStyle_Sub}"
+                    Click="okBtn_Click"/>
+            <Button x:Name="cancelBtn"
+                    Width="160"
+                    Margin="10,0"
+                    Content="{x:Static lang:Strings.Cancel}"
+                    Click="cancelBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

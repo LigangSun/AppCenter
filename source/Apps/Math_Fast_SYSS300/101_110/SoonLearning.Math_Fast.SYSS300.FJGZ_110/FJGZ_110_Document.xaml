@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">分解跟踪法，遇到多位乘数有11的因数时，可把它化为a×11的形式后再用跟踪乘。含有11的因数的多位数有下列特征：首位之和等于中间数字，如242、3663、48884...；三位乘数的首尾数之和比中间数大11，如605、528、759、836...等，可利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">mn=m[(n-a)+a]=m(n-a)+ma</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中m为被乘数，n为乘数，a×11=n。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">192×3663=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 192×3663</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=192×(3330+333)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=192×3000+192×300+192×30+192×300+192×30+192×3</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=576000+57600+5760+57600+5760+576</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=703296</Run>
+    </Paragraph>
+</FlowDocument>

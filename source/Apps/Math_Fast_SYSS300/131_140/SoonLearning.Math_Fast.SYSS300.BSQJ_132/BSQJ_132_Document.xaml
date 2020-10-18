@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">补数求积法，是指求比200小的三位数与末二位数的补数的积的一种方法。用10000减去三位数的末二位数的平方，此数就是所求之积。可利用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(100+a)(100-a)=10000-a×a</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">其中，a为一位，或两位数</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">113×87=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 113×87</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=10000-13×13</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=10000-169</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=9831</Run>
+    </Paragraph>
+</FlowDocument>

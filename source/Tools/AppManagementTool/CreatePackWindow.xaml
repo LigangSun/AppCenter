@@ -1,0 +1,123 @@
+﻿<Window x:Class="SoonLearning.AppManagementTool.CreatePackWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="速学应用安装包创建工具"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        WindowStyle="ThreeDBorderWindow"
+        SizeToContent="Height"
+        Width="505"
+        Icon="28.ico"
+        Closing="Window_Closing">
+    
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="64"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock x:Name="titleTextBlock" 
+                   VerticalAlignment="Center"/>
+        
+        <TextBlock x:Name="descriptionTextBlock" 
+                   Grid.Row="1"
+                   VerticalAlignment="Center"/>
+        
+        <TextBlock Grid.Row="2"
+                   VerticalAlignment="Center">选择应用主文件：(Dll文件，mre文件等)</TextBlock>
+        
+        <StackPanel Grid.Row="3"
+                    Orientation="Horizontal">
+            <TextBox x:Name="fileNameTextBox"
+                     IsReadOnly="True"
+                     Width="400"
+                     Margin="3"/>
+            <Button x:Name="selectEntryFileButton"
+                    Content="..."
+                    Width="60"
+                    Margin="3"
+                    Click="selectEntryFileButton_Click" />
+        </StackPanel>
+        
+        <TextBlock Grid.Row="4"
+                   VerticalAlignment="Center">应用关联文件:</TextBlock>
+        
+        <ListBox x:Name="additionalFileListBox" 
+                 SelectionMode="Multiple"
+                 Margin="3"
+                 Grid.Row="5"/>
+        
+        <StackPanel Grid.Row="6"
+                    Orientation="Horizontal">
+            <Button x:Name="addFilesButton"
+                    Width="120"
+                    Content="添加关联文件"
+                    Margin="5,3" 
+                    Click="addFilesButton_Click"/>
+            <Button x:Name="removeFilesButton"
+                    Width="120"
+                    Content="移除选择所选文件"
+                    Margin="5,3" 
+                    Click="removeFilesButton_Click"/>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    Margin="3,0"
+                    Grid.Row="7">
+            <TextBlock VerticalAlignment="Center">生成安装包到：</TextBlock>
+            <TextBox x:Name="outputPathTextBox"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     IsReadOnly="True" />
+            <Button x:Name="browseTargetButton"
+                    Content="..." 
+                    Width="60"
+                    Click="browseTargetButton_Click" />
+        </StackPanel>
+        
+        <StackPanel Grid.Row="8"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center">
+            <Button x:Name="generateButton"
+                    Width="75"
+                    Content="生成"
+                    Margin="5,0"
+                    Height="28"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Click="generateButton_Click" />
+
+            <Button x:Name="openConfigButton"
+                    Width="80"
+                    Content="打开配置"
+                    Height="28"
+                    Margin="5,0"
+                    VerticalAlignment="Center"
+                    Click="openConfigButton_Click" />
+            
+            <Button x:Name="saveConfigButton"
+                    Width="80"
+                    Content="保存配置"
+                    Height="28"
+                    Margin="5,0"
+                    VerticalAlignment="Center"
+                    Click="saveConfigButton_Click" />
+        </StackPanel>
+        
+        <TextBlock Grid.Row="9"
+                   VerticalAlignment="Center"
+                   FontSize="16"
+                   Foreground="Red"
+                   TextWrapping="Wrap"
+                   Text="请不要把速学应用平台SDK中的文件打入您的应用安装包，这些文件我们已经安装到了用户的设备中。" />
+    </Grid>
+</Window>

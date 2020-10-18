@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">以乘代除法，方法十一，除数是15625时，可以乘代除，来简化运算，只要将被除数乘以64后，再除以1000000，即得所求的商。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">a÷15625=a×64÷1000000</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">750000÷15625=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 750000÷15625</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=750000×64÷1000000</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=48000000÷1000000</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=48</Run>
+    </Paragraph>
+</FlowDocument>

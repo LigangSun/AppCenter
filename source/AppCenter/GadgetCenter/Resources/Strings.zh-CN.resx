@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>背景色：</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>背景图：</value>
+  </data>
+  <data name="BackWarning" xml:space="preserve">
+    <value>你确定要返回应用列表吗？
+如果返回应用列表，当前操作会丢失。</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="EnterValueBetweenMinAndMax" xml:space="preserve">
+    <value>请输入一个在最大值和最小值之间的数值。</value>
+  </data>
+  <data name="ForegroundColor" xml:space="preserve">
+    <value>前景色：</value>
+  </data>
+  <data name="IllegalCharacters" xml:space="preserve">
+    <value>非法字符或者 {0}</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="SelectGadgetTip" xml:space="preserve">
+    <value>请在下面列表中选择一个应用。</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>速学应用平台</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AboutMessage" xml:space="preserve">
+    <value>v{0}.</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="EndColor" xml:space="preserve">
+    <value>结束颜色</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>启动应用全屏</value>
+  </data>
+  <data name="OpenSound" xml:space="preserve">
+    <value>打开声音</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="StartColor" xml:space="preserve">
+    <value> 起始颜色</value>
+  </data>
+  <data name="AppCenterDescription" xml:space="preserve">
+    <value>速学应用平台是教育应用的平台，里面包含多款内容丰富的教育应用。</value>
+  </data>
+  <data name="LoadingDone" xml:space="preserve">
+    <value>加载完成，已经加载{0}个应用。</value>
+  </data>
+  <data name="LoadingIndex" xml:space="preserve">
+    <value>正在加载第 {0} 个应用，{1}。</value>
+  </data>
+  <data name="Math" xml:space="preserve">
+    <value>数学</value>
+  </data>
+  <data name="Puzzle" xml:space="preserve">
+    <value>谜题</value>
+  </data>
+  <data name="StartToUse" xml:space="preserve">
+    <value>开始使用</value>
+  </data>
+  <data name="BeautifulFlower" xml:space="preserve">
+    <value>花朵</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="BlueSky" xml:space="preserve">
+    <value>蓝天</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>灰色</value>
+  </data>
+  <data name="GreenLeaf" xml:space="preserve">
+    <value>绿叶</value>
+  </data>
+  <data name="UIStyle" xml:space="preserve">
+    <value>界面风格：</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>不好！</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>通过了！</value>
+  </data>
+  <data name="NotPass" xml:space="preserve">
+    <value>未通过！</value>
+  </data>
+  <data name="Perfect" xml:space="preserve">
+    <value>完美！</value>
+  </data>
+  <data name="EnterNextStage" xml:space="preserve">
+    <value>恭喜你通过了这一关。你可以进行入下一关，或者重新开始这一关。</value>
+  </data>
+  <data name="NextStage" xml:space="preserve">
+    <value>下一关</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="RetryStage" xml:space="preserve">
+    <value>抱歉你未能通过这一关。请再试一次。</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>探索</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="PreStage" xml:space="preserve">
+    <value>上一关</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="StageList" xml:space="preserve">
+    <value>关卡列表</value>
+  </data>
+  <data name="SpeechRecognizer" xml:space="preserve">
+    <value>语音识别</value>
+  </data>
+  <data name="LoadingGadgetData" xml:space="preserve">
+    <value>速学应用平台正在加载数据</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>目的</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>需求</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>选好了</value>
+  </data>
+  <data name="Math_Basic" xml:space="preserve">
+    <value>基础数学</value>
+  </data>
+  <data name="Math_Game" xml:space="preserve">
+    <value>数学游戏</value>
+  </data>
+  <data name="Math_Olympic" xml:space="preserve">
+    <value>奥林匹克数学</value>
+  </data>
+  <data name="Math_Rapid" xml:space="preserve">
+    <value>数学速算</value>
+  </data>
+  <data name="Puzzle_Block" xml:space="preserve">
+    <value>滑块拼图</value>
+  </data>
+  <data name="Puzzle_Jigsaw" xml:space="preserve">
+    <value>锯齿拼图</value>
+  </data>
+  <data name="Puzzle_Other" xml:space="preserve">
+    <value>其他拼图</value>
+  </data>
+  <data name="Drop" xml:space="preserve">
+    <value>不选了</value>
+  </data>
+  <data name="EnableSpeechRecognizer" xml:space="preserve">
+    <value>部分应用支持语音识别功能。启动系统语音识别功能！</value>
+  </data>
+  <data name="NotExit" xml:space="preserve">
+    <value>不，我要留下！</value>
+  </data>
+  <data name="WarningExit" xml:space="preserve">
+    <value>你确定要退出吗？</value>
+  </data>
+  <data name="YesExit" xml:space="preserve">
+    <value>是的，我要离开。</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="LeftTime" xml:space="preserve">
+    <value>剩余时间：</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>记忆</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>速学应用市场</value>
+  </data>
+  <data name="AllApps" xml:space="preserve">
+    <value>所有应用</value>
+  </data>
+  <data name="InstalledApps" xml:space="preserve">
+    <value>已安装的应用</value>
+  </data>
+  <data name="MostPopular" xml:space="preserve">
+    <value>最受欢迎</value>
+  </data>
+  <data name="RecentUpdate" xml:space="preserve">
+    <value>最近更新</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="ViewInstallingList" xml:space="preserve">
+    <value>查看安装列表</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DownloadFail" xml:space="preserve">
+    <value>下载失败，请重试！</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>正在下载...</value>
+  </data>
+  <data name="InstallFail" xml:space="preserve">
+    <value>安装失败，请重试！</value>
+  </data>
+  <data name="Installing" xml:space="preserve">
+    <value>正在安装...</value>
+  </data>
+  <data name="LoadOnlineGadgetInfo" xml:space="preserve">
+    <value>正在加载在线应用信息... ...</value>
+  </data>
+  <data name="NotStart" xml:space="preserve">
+    <value>正在准备安装...</value>
+  </data>
+  <data name="UserCancelled" xml:space="preserve">
+    <value>已经取消！</value>
+  </data>
+  <data name="UserCancelling" xml:space="preserve">
+    <value>正在取消...</value>
+  </data>
+</root>

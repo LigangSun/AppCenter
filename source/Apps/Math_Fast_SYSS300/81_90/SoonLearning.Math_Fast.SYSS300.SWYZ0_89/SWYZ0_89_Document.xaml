@@ -1,0 +1,41 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首尾异中0法，是指两个三位数相乘,中间(十位)都是0，首先百位乘百位，个位乘个位，十位为0；然后加上两外项乘积之和，所得之和即为所求的积，可利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">(100a×100d+c×f)+(100a×f+100d×c)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b、c表示被乘数百位、十位、个位上的数字，d、e、f表示乘数百位、十位、个位上的数字。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">206×308=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 206×308</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(200×300+6×8)+(200×8+300×6)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(60000+48)+(1600+1800)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=60048+3400</Run>
+    </Paragraph>  
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=63448</Run>
+    </Paragraph>
+</FlowDocument>

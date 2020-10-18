@@ -1,0 +1,26 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">3倍速算法，就是求乘数是3的积。此法与“2倍速算法”的方法基本相同。从观察1到9的数分别与3相乘的积数，可知：超3、33...3进1；超6、66...6进2。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">438×3=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 438×3=1314</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">其速算法是：4×3，前位写1，看后位38>33，本位写3（即2+1）；3×3，看后位80>66，本位写1（即9+2=11,11-10=1）；8×3，后位无数，本位写4，连起来就是1314。</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,26 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">依次得积法，方法二，如果一个三位数与101相乘，可将这三位数作为积的两位数，它的右边两位数作为积的右边两位数，再将它的首末两位数相加插在中间（满10进位），即得要求的积。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">891×101=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 891×101</Run>
+    </Paragraph> 
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=89991</Run>
+    </Paragraph>
+</FlowDocument>

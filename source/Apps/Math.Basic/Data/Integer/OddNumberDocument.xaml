@@ -1,0 +1,26 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">非0的自然数不能被2整除的数叫做奇数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数中找出是</Run>
+        <Run FontSize="30">奇数的数。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">0, 5, 6, 18, 20, 23, 27, 28, 39, 41, 55, 64, 71, 81, 98, 100</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">5, 23, 27, 39, 41, 55, 71, 81</Run>
+    </Paragraph>
+</FlowDocument>

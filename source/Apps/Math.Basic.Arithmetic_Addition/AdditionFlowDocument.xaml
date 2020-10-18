@@ -1,0 +1,29 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>把两个数合并在一起，求一共是多少的运算方法，叫做加法</Run>
+        </Paragraph>
+        <Paragraph>
+            在加法中，相加的两个数叫做加数，加得的结果，叫做和。
+        </Paragraph>
+
+        <Paragraph>
+            <Run FontSize="30">
+                一个加数 + 另一个加数 = 和
+            </Run>
+            <LineBreak />
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        3+5=8，在这个加法算式中，3与5是加数，8是和。符号“+”叫做加号，读作“加”。
+    </Paragraph>
+</FlowDocument>

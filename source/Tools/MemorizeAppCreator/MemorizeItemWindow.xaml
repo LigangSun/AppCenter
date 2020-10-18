@@ -1,0 +1,351 @@
+﻿<Window x:Class="MemorizeAppCreator.MemorizeItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="记忆物品内容编辑" 
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        SizeToContent="Height"
+        ShowInTaskbar="False"
+        Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="44"/>
+        </Grid.RowDefinitions>
+        
+        <Rectangle Grid.RowSpan="5"
+                   Fill="LightGray"
+                   Margin="3"/>
+
+        <Rectangle Grid.RowSpan="5"
+                   Fill="LightBlue
+                   "
+                   Grid.Column="1"
+                   Margin="3"/>
+
+        <TextBlock Text="物品A" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="16"/>
+        <TextBlock Text="物品B" 
+                   Grid.Column="1"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="16"/>
+
+        <Grid Grid.Row="1"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="44" />
+                <RowDefinition Height="44"/>
+            </Grid.RowDefinitions>
+            <RadioButton x:Name="aTextRadioButton"
+                         Grid.Row="0"
+                         Margin="3"
+                         GroupName="aOption"
+                         Foreground="Black"
+                         VerticalAlignment="Center"
+                         Content="文字(包括数字，汉语拼音，汉字，英文等)"/>
+
+            <TextBox x:Name="aTextBox"
+                     Grid.Row="1" 
+                     Height="32"
+                     IsEnabled="{Binding ElementName=aTextRadioButton, Path=IsChecked}"
+                     TextWrapping="Wrap"/>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Grid.Column="1"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="44" />
+                <RowDefinition Height="44"/>
+            </Grid.RowDefinitions>
+            <RadioButton x:Name="bTextRadioButton"
+                         Grid.Row="0"
+                         Margin="3"
+                         Foreground="Black"
+                         GroupName="bOption"
+                         VerticalAlignment="Center"
+                         Content="文字(包括数字，汉语拼音，汉字，英文等)"/>
+
+            <TextBox x:Name="bTextBox"
+                     Grid.Row="1" 
+                     Height="32"
+                     IsEnabled="{Binding ElementName=bTextRadioButton, Path=IsChecked}"
+                     TextWrapping="Wrap"/>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Margin="5,10,5,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="44"/>
+                <RowDefinition Height="44" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="aImageRadioButton"
+                             Grid.Row="0"
+                             Margin="3"
+                             GroupName="aOption"
+                             Height="40"
+                             Foreground="Black"
+                             VerticalAlignment="Center"
+                             Content="图片" />
+                <TextBlock Text="(包括bmp,jpg,png,gif,tiff等格式的图片，请尽量用png格式的图片，或者背景为白色的图片)"
+                        TextWrapping="Wrap"
+                           FontSize="16"
+                           Foreground="Green"
+                           Height="40" Width="380" />
+            </StackPanel>
+
+            <Grid Grid.Row="1"
+                  Margin="3"
+                  IsEnabled="{Binding ElementName=aImageRadioButton, Path=IsChecked}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="66" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="aImageTextBox"
+                         Grid.Row="1" 
+                         Height="32"
+                         IsReadOnly="True"/>
+                <Button x:Name="aImageBrowseButton"
+                        Content="..."
+                        Grid.Column="1"
+                        Margin="3"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="aImageBrowseButton_Click" />  
+            </Grid>
+            <StackPanel Orientation="Horizontal"
+                        Grid.Row="2"
+                        Margin="15,3,3,3">
+                <CheckBox x:Name="aShowMoreImageCheckBox"
+                          Content="重复显示" 
+                          VerticalAlignment="Center"
+                          Margin="0,0,5,0"/>
+                <StackPanel Orientation="Horizontal"
+                            IsEnabled="{Binding ElementName= aShowMoreImageCheckBox, Path=IsChecked}">
+                    <TextBlock Text="图片数量:" 
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="aImageCountTextBox"
+                             Height="32"
+                             Width="120" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Grid.Column="1"
+              Margin="5,10,5,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="44"/>
+                <RowDefinition Height="44" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+            <RadioButton x:Name="bImageRadioButton"
+                         Grid.Row="0"
+                         Margin="3"
+                         Height="40"
+                         GroupName="bOption"
+                         Foreground="Black"
+                         VerticalAlignment="Center"
+                         Content="图片" />
+            <TextBlock Text="(包括bmp,jpg,png,gif,tiff等格式的图片，请尽量用png格式的图片，或者背景为白色的图片)"
+                       FontSize="16"
+                           Foreground="Green"
+                        TextWrapping="Wrap" Width="380" />
+            </StackPanel>
+
+            <Grid Grid.Row="1"
+                  Margin="3"
+                  IsEnabled="{Binding ElementName=bImageRadioButton, Path=IsChecked}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="66" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="bImageTextBox"
+                         Grid.Row="1" 
+                         Height="32"
+                         IsReadOnly="True"/>
+                <Button x:Name="bImageBrowseButton"
+                        Content="..."
+                        Grid.Column="1"
+                        Margin="3"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="bImageBrowseButton_Click" />
+            </Grid>
+            <StackPanel Orientation="Horizontal"
+                        Grid.Row="2"
+                        Margin="15,3,3,3">
+                <CheckBox x:Name="bShowMoreImageCheckBox"
+                          Content="重复显示" 
+                          VerticalAlignment="Center"
+                          Margin="0,0,5,0"/>
+                <StackPanel Orientation="Horizontal"
+                            IsEnabled="{Binding ElementName= bShowMoreImageCheckBox, Path=IsChecked}">
+                    <TextBlock Text="图片数量:" 
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="bImageCountTextBox"
+                             Height="32"
+                             Width="120" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="3"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="44"/>
+            </Grid.RowDefinitions>
+            <RadioButton x:Name="aMusicRadioButton"
+                         Grid.Row="0"
+                         Margin="3"
+                         GroupName="aOption"
+                         VerticalAlignment="Center"
+                         Content="声音 (包括mp3,wma,wav等格式的声音文件)"/>
+
+            <Grid Grid.Row="1"
+                  Margin="3"
+                  IsEnabled="{Binding ElementName=aMusicRadioButton, Path=IsChecked}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="66" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="aMusicTextBox"
+                         Grid.Row="1" 
+                         Height="32"
+                         IsReadOnly="True"/>
+                <Button x:Name="aMusicBrowseButton"
+                        Content="..."
+                        Grid.Column="1"
+                        Margin="3"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="aMusicBrowseButton_Click" />
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="3"
+              Grid.Column="1"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="44"/>
+            </Grid.RowDefinitions>
+            <RadioButton x:Name="bMusicRadioButton"
+                         Grid.Row="0"
+                         Margin="3"
+                         GroupName="bOption"
+                         Foreground="Black"
+                         VerticalAlignment="Center"
+                         Content="声音 (包括mp3,wma,wav等格式的声音文件)"/>
+
+            <Grid Grid.Row="1"
+                  Margin="3"
+                  IsEnabled="{Binding ElementName=bMusicRadioButton, Path=IsChecked}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="66" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="bMusicTextBox"
+                         Grid.Row="1" 
+                         Height="32"
+                         IsReadOnly="True"/>
+                <Button x:Name="bMusicBrowseButton"
+                        Content="..."
+                        Grid.Column="1"
+                        Margin="3"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="bMusicBrowseButton_Click" />
+            </Grid>
+        </Grid>
+        
+        <Grid Grid.Row="4"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="56" />
+                <RowDefinition Height="32"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="aReadTextRadioButton"
+                             Grid.Row="0"
+                             GroupName="aOption"
+                             Height="36"
+                             Foreground="Black"
+                             VerticalAlignment="Center"
+                             Content="发声文字"/>
+                <TextBlock Text="(这里设置的文字不会在应用中显示，但当纸牌翻开后，应用会读出该文字)"
+                           Width="380"
+                           FontSize="16"
+                           Foreground="Green"
+                           TextWrapping="Wrap" />
+            </StackPanel>
+
+            <TextBox x:Name="aReadTextBox"
+                     Grid.Row="1" 
+                     Height="32"
+                     IsEnabled="{Binding ElementName=aReadTextRadioButton, Path=IsChecked}"
+                     TextWrapping="Wrap"/>
+        </Grid>
+
+        <Grid Grid.Row="4"
+              Grid.Column="1"
+              Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="56" />
+                <RowDefinition Height="32"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="bReadTextRadioButton"
+                             Grid.Row="0"
+                             Height="36"
+                             Foreground="Black"
+                             GroupName="bOption"
+                             VerticalAlignment="Center"
+                             Content="发声文字"/>
+                <TextBlock Text="(这里设置的文字不会在应用中显示，但当纸牌翻开后，应用会读出该文字)"
+                           FontSize="16"
+                           Foreground="Green"
+                           Width="380"
+                           TextWrapping="Wrap" />
+            </StackPanel>
+
+            <TextBox x:Name="bReadTextBox"
+                     Grid.Row="1" 
+                     Height="32"
+                     IsEnabled="{Binding ElementName=bReadTextRadioButton, Path=IsChecked}"
+                     TextWrapping="Wrap"/>
+        </Grid>
+
+        <StackPanel Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="5">
+            <Button x:Name="okButton"
+                    Content="确定"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Width="100"
+                    Margin="15,3"
+                    Click="okButton_Click" />
+
+            <Button x:Name="cancelButton"
+                    Content="取消"
+                    Style="{DynamicResource ButtonStyle_Sub_Small}"
+                    Width="100"
+                    Margin="15,3"
+                    Click="cancelButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

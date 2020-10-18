@@ -1,0 +1,122 @@
+﻿<commCtrl:AppWindow x:Class="SoonLearning.AppCenter.Host.MainWindow"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d"
+                    Title="MainWindow" 
+                    Height="350"
+                    Width="700"
+                    Background="{x:Null}"
+                    WindowStartupLocation="CenterScreen"
+                    ResizeMode="CanMinimize"
+                    Resizable="False"
+                    CornerRadius="6"
+                    BorderThickness="12"
+                    DragFullWindows="False"
+                    WindowStyle="None"
+                    AllowsTransparency="True"
+                    Loaded="Window_Loaded"
+                    Initialized="AppWindow_Initialized"
+                    Icon="/Gadget.ico">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6" x:Name="borderTopRow"/>
+            <RowDefinition Height="80" x:Name="titleRow"/>
+            <RowDefinition />
+            <RowDefinition Height="0" x:Name="toolBarRow"/>
+            <RowDefinition Height="6" x:Name="borderBottomRow"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6" x:Name="borderLeftRow"/>
+            <ColumnDefinition />
+            <ColumnDefinition Width="6" x:Name="borderRightRow"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.Effect>
+            <DropShadowEffect ShadowDepth="1" Direction="270" Opacity="0.7"/>
+        </Grid.Effect>
+
+        <Border x:Name="container"
+                BorderBrush="{DynamicResource Brush_ButtonBorder}" 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                Background="White" 
+                Grid.RowSpan="2" BorderThickness="1"/>
+        <Border Grid.Row="1"
+                Grid.Column="1"
+                Background="#FF252525" 
+                BorderThickness="0,1,0,0"
+                BorderBrush="#FFD8D8D8"/>
+
+        <Viewbox Stretch="UniformToFill"
+                 StretchDirection="Both"
+                 x:Name="workingViewBox"
+                 Grid.Row="2" Margin="0" Grid.Column="1">
+
+            <Grid Background="White">
+                <Grid x:Name="containerGrid"
+                      Margin="0"/>
+
+                <DockPanel x:Name="messagePanel"
+                           Visibility="Hidden"
+                           Opacity="0.95"/>
+            </Grid>
+        </Viewbox>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Margin="0,1,10,0">
+
+        	<Button x:Name="minBtn"
+        		HorizontalAlignment="Right"
+        		Width="24"
+        		Height="24" 
+        		Click="minBtn_Click" Style="{DynamicResource IconButton}" ContentTemplate="{DynamicResource min_DataTemplate}" Margin="10,0"/>
+
+        	<Button x:Name="maxBtn"
+        		HorizontalAlignment="Right"
+        		Width="24"
+        		Height="24"
+        		Click="maxBtn_Click" ContentTemplate="{DynamicResource max_DataTemplate}" Style="{DynamicResource IconButton}" Margin="10,0"/>
+
+        	<Button x:Name="closeBtn"
+        		HorizontalAlignment="Right" 
+        		Click="closeBtn_Click" Style="{DynamicResource ButtonStyle_Close}" ContentTemplate="{DynamicResource close_DataTemplate}" Margin="10,0" Width="48" Height="48"/>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="1" Margin="10,0,0,0" Grid.Row="1">
+        	<Image x:Name="iconImage"
+        		Source="/Gadget.ico" 
+        		HorizontalAlignment="Left"
+        		Width="64"
+        		Height="64" Margin="0,0,10,0"/>
+        	<TextBlock x:Name="titleTextBlock"
+        		HorizontalAlignment="Left"
+        		VerticalAlignment="Center" Foreground="White" Style="{DynamicResource TextBlockStyle_Head1}" FontSize="40" />
+        </StackPanel>
+        
+        <StackPanel Grid.Row="3"
+                    Grid.Column="1"
+                    Background="Blue">
+            <Button x:Name="shareButton" 
+                    Style="{StaticResource contentButtonStyle}"
+                    HorizontalAlignment="Right"
+                    Height="24"
+                    Margin="8,0"
+                    Width="80"
+                    Content="分享">
+            </Button>
+        </StackPanel>
+
+        <Popup x:Name="shareNotifyPopup"
+               MaxHeight="300"
+               Placement="Top"
+               StaysOpen="False">
+            <ListBox x:Name="shareListBox" 
+                     Background="{DynamicResource BGMainBrush_Dark}"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Popup>
+
+    </Grid>
+</commCtrl:AppWindow>

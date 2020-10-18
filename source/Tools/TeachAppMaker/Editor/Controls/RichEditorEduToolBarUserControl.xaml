@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="SoonLearning.TeachAppMaker.Controls.RichEditorEduToolBarUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <!-- Set the styles for the tool bar. -->
+        <Grid.Resources>
+            <Style TargetType="{x:Type Button}" x:Key="formatTextStyle">
+                <Setter Property="FontFamily" Value="Palatino Linotype"></Setter>
+                <Setter Property="Width" Value="30"></Setter>
+                <Setter Property="FontSize" Value ="14"></Setter>
+                <Setter Property="CommandTarget" Value="{Binding ElementName=mainRTB}"></Setter>
+            </Style>
+
+            <Style TargetType="{x:Type Button}" x:Key="formatImageStyle">
+                <Setter Property="Width" Value="30"></Setter>
+                <Setter Property="CommandTarget" Value="{Binding ElementName=mainRTB}"></Setter>
+            </Style>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!-- This tool bar contains all the editing buttons. -->
+        <ToolBar Height="30" DockPanel.Dock="Top" ToolBarTray.IsLocked="True" >
+            <Button Style="{StaticResource formatImageStyle}" Command="ApplicationCommands.Cut" ToolTip="剪切">
+                <Image Source="Images\editcut.png"></Image>
+            </Button>
+            <Button Style="{StaticResource formatImageStyle}" Command="ApplicationCommands.Copy" ToolTip="复制">
+                <Image Source="Images\EditCopy.png"></Image>
+            </Button>
+            <Button Style="{StaticResource formatImageStyle}" Command="ApplicationCommands.Paste" ToolTip="粘贴">
+                <Image Source="Images\EditPaste.png"></Image>
+            </Button>
+            <Button Style="{StaticResource formatImageStyle}" Command="ApplicationCommands.Undo" ToolTip="撤销">
+                <Image Source="Images\EditUndo.png"></Image>
+            </Button>
+            <Button Style="{StaticResource formatImageStyle}" Command="ApplicationCommands.Redo" ToolTip="恢复">
+                <Image Source="Images\EditRedo.png"></Image>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Click="Button_Click" 
+                    ToolTip="上标">
+                <Image Source="Images\EditRedo.png"></Image>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}" Command="EditingCommands.ToggleSubscript" ToolTip="下标">
+                <Image Source="Images\EditRedo.png"></Image>
+            </Button>
+        </ToolBar>
+    </Grid>
+</UserControl>

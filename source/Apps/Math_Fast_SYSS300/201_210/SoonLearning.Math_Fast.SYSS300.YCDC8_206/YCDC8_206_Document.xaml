@@ -1,0 +1,35 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">以乘代除法，方法八，除数是0.0625时，可以乘代除，来简化运算，只要将被除数乘以16，即得所求的商。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">a÷0.0625=a×16</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">1250÷0.0625=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 1250÷0.0625</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=1250×16</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=20000</Run>
+    </Paragraph>
+ </FlowDocument>

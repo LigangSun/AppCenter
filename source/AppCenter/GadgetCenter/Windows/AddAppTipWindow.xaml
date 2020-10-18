@@ -1,0 +1,93 @@
+﻿<Window x:Class="SoonLearning.AppCenter.Windows.AddAppTipWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        Title="速学应用平台" 
+        MaxHeight="400" 
+        MaxWidth="400"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Grid>
+        
+        <Border 
+        	CornerRadius="30"
+        	BorderThickness="3">
+        	<Border.BorderBrush>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF6DD0F9" Offset="0"/>
+        			<GradientStop Color="#FF2E92D8" Offset="1"/>
+        		</LinearGradientBrush>
+        	</Border.BorderBrush>
+        	<Border.Background>
+        		<ImageBrush ViewportUnits="Absolute" TileMode="Tile"   Viewport="0,0,150,150" Stretch="Uniform" ImageSource="/SoonLearning.AppCenter;component/Resources/Images/Dialogue_BGTile.png"/>
+        	</Border.Background>
+        </Border>
+        <Border 
+        	CornerRadius="30"
+        	BorderThickness="3" Opacity="0.5">
+        	<Border.BorderBrush>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF6DD0F9" Offset="0"/>
+        			<GradientStop Color="#FF2E92D8" Offset="1"/>
+        		</LinearGradientBrush>
+        	</Border.BorderBrush>
+        	<Border.Background>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF89D1FF" Offset="0.009"/>
+        			<GradientStop Offset="0.216" Color="#00008BE4"/>
+        		</LinearGradientBrush>
+        	</Border.Background>
+        </Border>
+        
+        <Grid>
+            <Button x:Name="x_Name__cancelBtn_" Click="x_Name__cancelBtn__Click"
+			        Content="Button" HorizontalAlignment="Right" Height="51" Margin="0,0,8,0" VerticalAlignment="Top" Width="51" ContentTemplate="{StaticResource DataTemplate_Close}" Style="{StaticResource IconButton}"/>
+
+            
+            <StackPanel Orientation="Vertical" 
+                        HorizontalAlignment="Stretch" 
+                        VerticalAlignment="Stretch"
+                        Margin="30,60,30,40">
+
+                <TextBlock Text="亲爱的用户:"
+                           Foreground="{StaticResource TextColorBrush_Light}"
+        				   VerticalAlignment="Top"
+                           HorizontalAlignment="Left"
+        				   Margin="0,5"
+        				   Style="{StaticResource TextBlockStyle_BigHead}" />
+                
+                <TextBlock Text="感谢您对速学应用平台的关注与支持。"
+                           Foreground="{StaticResource TextColorBrush_Light}"
+        				   VerticalAlignment="Top"
+                           HorizontalAlignment="Left"
+        				   Margin="0,5"
+        				   Style="{StaticResource TextBlockStyle_Head2}" />
+
+                <TextBlock Text="速学应用市场中有很多丰富多彩的教育应用，内容涵盖了幼教和基础教育的各个方面，而且数量还在不断增加，快来看看吧。"
+                           Foreground="{StaticResource TextColorBrush_Light}"
+                           LineHeight="24"
+                           TextWrapping="Wrap"
+        				   VerticalAlignment="Top"
+                           HorizontalAlignment="Left"
+        				   Margin="0,5"
+        				   Style="{StaticResource TextBlockStyle_Head2}" />
+
+                <Button x:Name="enterStoreBtn" 
+        		        Margin="10,10,10,0"
+        		        Visibility="Visible"
+                        HorizontalAlignment="Center"
+        		      
+        		        Click="managementBtn_Click" 
+                        Content="进入速学应用市场" Style="{StaticResource ButtonStyle_BtnStart}" ContentTemplate="{StaticResource DataTemplate_Next}" 
+                        />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

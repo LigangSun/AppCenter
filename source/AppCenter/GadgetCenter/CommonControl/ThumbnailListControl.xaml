@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.Controls.ThumbnailListControl"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:ap="clr-namespace:SoonLearning.AppCenter"
+            xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+            mc:Ignorable="d" 
+            d:DesignHeight="300" d:DesignWidth="300"
+            Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="358"/>-->
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <ListBox x:Name="thumbnailList" 
+                 ItemContainerStyle="{StaticResource thumbnailListBoxItemStyle}"
+                 ScrollViewer.HorizontalScrollBarVisibility="Auto" 
+                 ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                 ScrollViewer.CanContentScroll="False" 
+                 Background="Transparent"
+                 BorderBrush="Transparent"
+                 BorderThickness="0"
+                 SelectionChanged="thumbnailList_SelectionChanged"
+                 MouseLeftButtonUp="thumbnailList_MouseLeftButtonUp"
+                 MouseEnter="thumbnailList_MouseEnter" Style="{StaticResource ListBoxStyle_ThumbnailList}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Margin="1"
+                               IsItemsHost="True"
+                               Orientation="Vertical" 
+                               HorizontalAlignment="Left"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+        
+        <!--<StackPanel x:Name="detailPanel" Grid.Row="1" Margin="200, 30,0,0">
+            <Label Content="{Binding Title}"  />
+            <TextBlock Text="{Binding Description}" />
+        </StackPanel>-->
+
+    </Grid>
+</UserControl>

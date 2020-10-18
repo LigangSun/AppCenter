@@ -1,0 +1,31 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>已知两个因数的积与其中一个因数，求另一个因数的运算，叫做除法。</Run>
+        </Paragraph>
+        <Paragraph>
+            除法的符号是除号(÷)，或者(/)。
+        </Paragraph>
+
+        <Paragraph>
+            <Run FontSize="30">
+                在数式a÷b=c里(b不能等于0)，a称为被除数，b称为除数，c是商。
+                如果除式的商数必须是整数，而除数和被除数并非因数关系的话，会出现相差的数值，其相差（以下的d）为余数。
+                a÷b＝c ... d 这也意味著a÷b＝c + d
+            </Run>
+            <LineBreak />
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        10÷2=5，在这个除法算式中，10是被除数，2是除数，5是商。
+    </Paragraph>
+</FlowDocument>

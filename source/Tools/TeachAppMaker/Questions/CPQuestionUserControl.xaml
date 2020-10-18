@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="SoonLearning.TeachAppMaker.Questions.CPQuestionUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:cmd="clr-namespace:SoonLearning.TeachAppMaker.Commands"
+             xmlns:data="clr-namespace:SoonLearning.TeachAppMaker.Data"
+             xmlns:ctrl="clr-namespace:SoonLearning.Assessment.Player.Editor;assembly=SoonLearning.Assessment.Player"
+             xmlns:converter="clr-namespace:SoonLearning.Assessment.Data.Converters;assembly=SoonLearning.Assessment.Data"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <data:Xaml2FlowDocumentConverter x:Key="xaml2FlowDocumentConverter" />
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="160"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <DockPanel Margin="0,0,0,5">
+            <ctrl:RichEditorToolBarUserControl DockPanel.Dock="Top"
+                                               InsertBlankButtonVisible="False"/>
+
+            <DockPanel>
+                <TextBlock Text="试题内容" 
+                           Margin="3"
+                           DockPanel.Dock="Top"/>
+                <ctrl:RichTextEditor x:Name="richTextEditor"
+                                     BorderThickness="1"
+                                     Margin="3"
+                                     BorderBrush="Gray"
+                                     VerticalAlignment="Stretch"/>
+            </DockPanel>
+        </DockPanel>
+
+        <GridSplitter Grid.Row="0"
+                      VerticalAlignment="Bottom" 
+                      HorizontalAlignment="Stretch"
+                      Height="5" />
+
+        <DockPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal"
+                        DockPanel.Dock="Top"
+                        Height="32">
+                <TextBlock Text="子题: "
+                           Margin="3" 
+                           VerticalAlignment="Center"/>
+                <Button x:Name="addButton"
+                        Content="添加子题"
+                        Width="80"
+                        Margin="5"
+                        Click="addButton_Click" />
+                <Button x:Name="removeButton"
+                        Content="删除子题"
+                        Margin="5"
+                        Width="80"
+                        IsEnabled="False"
+                        Click="removeButton_Click" />
+            </StackPanel>
+
+            <ListView x:Name="questionListView"
+                      BorderThickness="0"
+                      MouseDoubleClick="questionListView_MouseDoubleClick"
+                      SelectionChanged="questionListView_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="60" 
+                                Header="编号"
+                                DisplayMemberBinding="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={x:Static converter:DataConverters.ListViewItem2IndexConverter}}">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="60" Header="题型">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=Type, Converter={x:Static converter:DataConverters.QuestionType2StringConverter}}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="650" Header="内容">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <FlowDocumentScrollViewer x:Name="knowledgeDocument"
+                                                      FocusVisualStyle="{x:Null}"
+                                                      VerticalContentAlignment="Top" 
+                                                      HorizontalContentAlignment="Left"
+                                                      VerticalScrollBarVisibility="Disabled"
+                                                      Background="Transparent"
+                                                      ContextMenu="{x:Null}"
+                                                      Document="{Binding Path=Content.Content, Converter={StaticResource xaml2FlowDocumentConverter}}"
+                                                      Height="64"
+                                                      Zoom="100" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </DockPanel>
+    </Grid>
+</UserControl>

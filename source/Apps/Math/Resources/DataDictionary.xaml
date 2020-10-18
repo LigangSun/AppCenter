@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mathData="clr-namespace:SoonLearning.Math.Data">
+    
+    <mathData:MathSetting x:Key="mathSetting" />
+    <mathData:IndexStringFormatConverter x:Key="indexStringFormatConverter" />
+    <mathData:FeedbackImageConverter x:Key="feedbackImageConverter" />
+    <mathData:OperatorStringConverter x:Key="operatorStringConverter" />
+    
+</ResourceDictionary>

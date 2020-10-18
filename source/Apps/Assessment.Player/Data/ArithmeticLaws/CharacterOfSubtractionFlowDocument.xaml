@@ -1,0 +1,20 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            从一个数里连续减去两个数，等于从这个数里减去两个减数的和。如：
+            a-b-c=a-(b+c)
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        9-2-3=9-(2+3)，在这个等式中，9减去2再减去3；和先2加上3等于5，然后9减去5，结果不变，都是4。
+    </Paragraph>
+</FlowDocument>

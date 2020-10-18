@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{BC398327-E29B-421C-B765-4CC890CDAFBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadCount", "ReadCount", "{F03A54CF-FCA8-45AA-AD58-8A34DBB727B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCount.Data", "Data\ReadCount.Data\ReadCount.Data.csproj", "{59A3529E-67BD-4BEE-AD52-469423B947B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment.Data", "Data\Math.Data\Assessment.Data.csproj", "{FEA34E7A-75A5-4110-9B1B-86E8342198D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memorize", "Memorize", "{DFE24D43-87F0-4C5E-B58A-85FD588632E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memorize.Data", "Data\Memorize.Data\Memorize.Data.csproj", "{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A3529E-67BD-4BEE-AD52-469423B947B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A3529E-67BD-4BEE-AD52-469423B947B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A3529E-67BD-4BEE-AD52-469423B947B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A3529E-67BD-4BEE-AD52-469423B947B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA34E7A-75A5-4110-9B1B-86E8342198D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA34E7A-75A5-4110-9B1B-86E8342198D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA34E7A-75A5-4110-9B1B-86E8342198D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA34E7A-75A5-4110-9B1B-86E8342198D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEA34E7A-75A5-4110-9B1B-86E8342198D5} = {BC398327-E29B-421C-B765-4CC890CDAFBC}
+		{59A3529E-67BD-4BEE-AD52-469423B947B2} = {F03A54CF-FCA8-45AA-AD58-8A34DBB727B9}
+		{B25DD3FC-D16B-45CD-B677-4BF0EEA4D3EC} = {DFE24D43-87F0-4C5E-B58A-85FD588632E7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<AssessmentApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>824850ecc81048fa9718a8631785a898</Id>
+  <Knowledge>
+    <Id>7e70e2eb68c744fb925fab2782045a17</Id>
+    <Content>
+      <Id>7c9d0e64240e424b96b6bb384c8587c0</Id>
+      <QuestionPartCollection />
+      <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;把单位“1”平均分成若干份，表示这样的一份或几份的数叫分数。表示这样的一份的数叫分数单位。分数也有“成绩”的意思，如考试分数。&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+      <ContentType>FlowDocument</ContentType>
+    </Content>
+  </Knowledge>
+  <Items>
+    <Question xsi:type="MCQuestion">
+      <Id>4fe9717ab7db42ab816b90e43d0f7c54</Id>
+      <Content>
+        <Id>08e569f0966f445e902d961dad6556f3</Id>
+        <QuestionPartCollection />
+        <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn"&gt;下面是分数的是&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+        <ContentType>FlowDocument</ContentType>
+      </Content>
+      <DifficultyLevel>3</DifficultyLevel>
+      <Solution>
+        <Id>c427b4e484e146e2956647446ac61c74</Id>
+        <QuestionPartCollection />
+        <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;把单位“1”平均分成若干份，表示这样的一份或几份的数叫分数。表示这样的一份的数叫分数单位。分数也有“成绩”的意思，如考试分数。&lt;Run xml:space="preserve" /&gt;&lt;InlineUIContainer BaselineAlignment="Center"&gt;&lt;Image Source="file:///F:/Test/Code/Source/Gadget/Source/Tools/TeachAppMaker/bin/Debug/Data/Images/5c796b60b1d5400c9e9478877aae14a3.png" Tag="_$FRACTION__5c796b60b1d5400c9e9478877aae14a3$_" Width="36.0050246575116" Height="42.0058621004302" /&gt;&lt;/InlineUIContainer&gt;&lt;Run xml:lang="zh-cn"&gt;是把1平均分成2份，表示一份叫做&lt;/Run&gt;&lt;InlineUIContainer BaselineAlignment="Center"&gt;&lt;Image Source="file:///F:/Test/Code/Source/Gadget/Source/Tools/TeachAppMaker/bin/Debug/Data/Images/7af2ffa7dced44f79e282283bb819871.png" Tag="_$FRACTION__7af2ffa7dced44f79e282283bb819871$_" Width="36.0050246575116" Height="42.0058621004302" /&gt;&lt;/InlineUIContainer&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+        <ContentType>FlowDocument</ContentType>
+      </Solution>
+      <CreateTime>2012-11-15T06:30:09.4258598Z</CreateTime>
+      <Creator />
+      <ModifyTime>2012-11-15T06:30:09.4258598Z</ModifyTime>
+      <QuestionOptionCollection>
+        <QuestionOption>
+          <Id>080d36440632482ea093cb68bca9458f</Id>
+          <OptionContent>
+            <Id>50a10057cb4a4142a8dda86bfe459c48</Id>
+            <QuestionPartCollection />
+            <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn" xml:space="preserve"&gt;1.2	&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+            <ContentType>FlowDocument</ContentType>
+          </OptionContent>
+          <Index>0</Index>
+          <IsCorrect>false</IsCorrect>
+        </QuestionOption>
+        <QuestionOption>
+          <Id>33bc2924539a47a797e4e138be22ed80</Id>
+          <OptionContent>
+            <Id>a730d71f7eb94b438c0552bba3512c2b</Id>
+            <QuestionPartCollection />
+            <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn"&gt;0.5&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+            <ContentType>FlowDocument</ContentType>
+          </OptionContent>
+          <Index>1</Index>
+          <IsCorrect>false</IsCorrect>
+        </QuestionOption>
+        <QuestionOption>
+          <Id>42a21f190e214fa69782c378ef8d80c3</Id>
+          <OptionContent>
+            <Id>1790abec064748d3a33f28d631cee65a</Id>
+            <QuestionPartCollection />
+            <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn"&gt;4&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+            <ContentType>FlowDocument</ContentType>
+          </OptionContent>
+          <Index>2</Index>
+          <IsCorrect>false</IsCorrect>
+        </QuestionOption>
+        <QuestionOption>
+          <Id>6c67214aaafa4634bea7e7063f17bdd3</Id>
+          <OptionContent>
+            <Id>dd5c722ef8a14754b5f971ece539dbb6</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionFractionPart">
+                <Id>985aa9c7c3f24dd08f3e5fab7aa2b54e</Id>
+                <Numerator>
+                  <Id>697565496b724bf6b6b19f57b78f6ad3</Id>
+                  <QuestionPartCollection />
+                  <Content>1</Content>
+                  <ContentType>Text</ContentType>
+                </Numerator>
+                <Denominator>
+                  <Id>70b5189d6b95451da8b61f107df60d29</Id>
+                  <QuestionPartCollection />
+                  <Content>2</Content>
+                  <ContentType>Text</ContentType>
+                </Denominator>
+                <WithPart>
+                  <Id>017c91488d5f40d49e8e0c763817bba7</Id>
+                  <QuestionPartCollection />
+                  <Content />
+                  <ContentType>Text</ContentType>
+                </WithPart>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>&lt;FlowDocument LineHeight="3" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;InlineUIContainer BaselineAlignment="Center"&gt;&lt;Image Source="file:///F:/Test/Code/Source/Gadget/Source/Tools/TeachAppMaker/bin/Debug/Data/Images/985aa9c7c3f24dd08f3e5fab7aa2b54e.png" Tag="_$FRACTION__985aa9c7c3f24dd08f3e5fab7aa2b54e$_" Width="36.0050246575116" Height="42.0058621004302" /&gt;&lt;/InlineUIContainer&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</Content>
+            <ContentType>FlowDocument</ContentType>
+          </OptionContent>
+          <Index>3</Index>
+          <IsCorrect>true</IsCorrect>
+        </QuestionOption>
+      </QuestionOptionCollection>
+      <RandomOption>false</RandomOption>
+    </Question>
+  </Items>
+  <Name>分数的定义</Name>
+  <Description>讲解分数的定义</Description>
+  <Thumbnail>F:\Test\Code\Source\Gadget\Source\Apps\Math.Basic.Fraction_DefinitionOfFraction\DefinitionOfFraction.png</Thumbnail>
+  <CreateDate>2012-11-15T06:28:02.1740395Z</CreateDate>
+  <ModifyDate>2012-11-15T06:28:02.1896228Z</ModifyDate>
+  <Type>200</Type>
+  <SubType>202</SubType>
+  <Version />
+  <Creator />
+  <CreatorInfo />
+  <CreatorWebsite />
+  <CreatorLogo />
+</AssessmentApp>

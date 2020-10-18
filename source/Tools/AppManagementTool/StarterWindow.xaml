@@ -1,0 +1,27 @@
+﻿<Window x:Class="SoonLearning.AppManagementTool.StarterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="速学应用管理工具"
+        ResizeMode="CanMinimize"
+        WindowStyle="SingleBorderWindow"
+        SizeToContent="WidthAndHeight"
+        Icon="28.ico"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Width="300">
+        <Button x:Name="createPackButton"
+                Margin="15"
+                Height="56"
+                Width="200"
+                FontSize="24"
+                Content="创建应用安装包" 
+                Click="createPackButton_Click" />
+
+        <Button x:Name="uploadPackButton"
+                Margin="15"
+                Height="56"
+                Width="200"
+                FontSize="24"
+                Content="上传应用" 
+                Click="uploadPackButton_Click" />
+    </StackPanel>
+</Window>

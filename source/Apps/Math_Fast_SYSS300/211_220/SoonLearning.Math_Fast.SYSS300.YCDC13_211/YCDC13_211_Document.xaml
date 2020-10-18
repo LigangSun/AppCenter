@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">以乘代除法，方法十三，除数是75、175、275...时，可以乘代除，来简化运算，只要将被除数和除数都乘以4，使得除数成为一个简单的数，如300、700、1100...，然后求其商。可用公式</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">a÷b=(a×4)÷(b×4)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算。</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">37500÷75=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 37500÷75</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=(37500×4)÷(75×4)</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=150000÷300</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=500</Run>
+    </Paragraph>
+</FlowDocument>

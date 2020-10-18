@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="MemorizeAppCreator.MemorizeCreatorUserControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:local="clr-namespace:MemorizeAppCreator"
+        xmlns:data="clr-namespace:SoonLearning.Memorize.Data;assembly=SoonLearning.Memorize.Data"
+        mc:Ignorable="d" 
+        FontSize="14"
+        d:DesignHeight="600" 
+        d:DesignWidth="600">
+    
+   
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32" />
+                <RowDefinition />
+                <RowDefinition Height="44" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="记忆物品: （数学算术应用，不用设置物品，直接添加算术关卡即可）" 
+                       Margin="3"
+                       TextWrapping="Wrap"
+                       FontSize="14"
+                       VerticalAlignment="Center"/>
+            <ListBox x:Name="memorizeItemListBox"
+                     Margin="3" 
+                     Grid.Row="1"
+                     ItemsSource="{Binding Path=Items}"
+                     SelectionChanged="memorizeItemListBox_SelectionChanged"/>
+            
+            <StackPanel Orientation="Horizontal"
+                        Margin="0,3"
+                        Grid.Row="2">
+                <Button x:Name="addMemorizeItemButton"
+                        Content="添加记忆物品"
+                        Width="160"
+                        Margin="3,0"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="addMemorizeItemButton_Click" />
+                <Button x:Name="editMemorizeItemButton"
+                        Content="编辑记忆物品"
+                        Width="160"
+                        Margin="3,0"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        IsEnabled="False"
+                        Click="editMemorizeItemButton_Click" />
+                <Button x:Name="removeMemorizeItemButton"
+                        Content="移除记忆物品"
+                        Width="160"
+                        Margin="3,0"
+                        IsEnabled="False"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="removeMemorizeItemButton_Click" />
+                <Button x:Name="addToStageButton"
+                        Content="添加到关卡"
+                        Width="100"
+                        Margin="3,0"
+                        IsEnabled="False"
+                        Visibility="Hidden"
+                        Style="{DynamicResource ButtonStyle_Sub_Small}"
+                        Click="addToStageButton_Click" />
+            </StackPanel>
+        
+    </Grid>
+</UserControl>

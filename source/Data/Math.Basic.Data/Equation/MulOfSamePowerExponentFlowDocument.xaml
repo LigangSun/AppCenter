@@ -1,0 +1,30 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>
+            初中数学基本知识点之同底数幂的乘法。
+            </Run>
+        </Paragraph>
+        <Paragraph>
+            法则：底数不变，指数相加。
+        </Paragraph>
+        <Paragraph FontFamily="Cambria Math">
+            <Run FontFamily="宋体">公式：</Run><Run>a</Run><Run BaselineAlignment="Superscript" FontSize="18">m</Run><Run>a</Run><Run BaselineAlignment="Superscript" FontSize="18">n</Run><Run>=a</Run><Run BaselineAlignment="Superscript" FontSize="18">(m+n)</Run>
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph FontFamily="Cambria Math">
+        <Run>(1)</Run>  <Run>b</Run><Run BaselineAlignment="Superscript" FontSize="18">2m</Run><Run>b</Run><Run BaselineAlignment="Superscript" FontSize="18">(2m+1)</Run><Run>=b</Run><Run BaselineAlignment="Superscript" FontSize="18">(2m+2m+1)</Run><Run>=b</Run><Run BaselineAlignment="Superscript" FontSize="18">(4m+1)</Run>
+    </Paragraph>
+    <Paragraph  FontFamily="Cambria Math">
+        <Run>(2)</Run>  <Run>-x</Run><Run BaselineAlignment="Superscript" FontSize="18">3</Run><Run>x</Run><Run BaselineAlignment="Superscript" FontSize="18">5</Run><Run>=-x</Run><Run BaselineAlignment="Superscript" FontSize="18">(3+5)</Run><Run>=-x</Run><Run BaselineAlignment="Superscript" FontSize="18">8</Run>
+    </Paragraph>
+</FlowDocument>

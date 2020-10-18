@@ -1,0 +1,25 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">公约数只有1的两个数，叫做互质数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列数对中找出是互质数的数对。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">[1,3], [3,6], [10,18], [25,55], [23,33], [57,97], [66,100]</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">[1,3], [23,33], [57,97]</Run>
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,29 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Section>
+        <Paragraph>
+            <Run>乘法，同一数的若干次连加，其运算结果称为积。</Run>
+        </Paragraph>
+        <Paragraph>
+            乘法算式中“×”是乘号，乘号前面和后面的数叫做因数，“=”是等于号，等于号后面的数叫做积。
+        </Paragraph>
+
+        <Paragraph>
+            <Run FontSize="30">
+                在数式a × b = c里，a和b称为因数，c为积。
+            </Run>
+            <LineBreak />
+        </Paragraph>
+    </Section>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        　　10（因数） ×（乘号） 200（因数） =（等于号） 2000（积）。
+    </Paragraph>
+</FlowDocument>

@@ -1,0 +1,27 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">把一个合数用质因数相乘的形式表示出来，叫做分解质因数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列式中找出</Run>
+        <Run FontSize="36" FontWeight="Bold" Foreground="Red">21</Run>
+        <Run FontSize="30">的分解质因数式子。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">1 x 21, 3 x 7</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="Black">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">3 x 7</Run>
+    </Paragraph>
+</FlowDocument>

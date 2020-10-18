@@ -1,0 +1,22 @@
+﻿<Application x:Class="SoonLearning.AppCenter.Host.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Data.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/ColorTheme.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Icons.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Button.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/CheckBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Combobox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/ListBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/ScollBar.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Strings.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/SoonLearning.AppCenter;component/Resources/Style/Others.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

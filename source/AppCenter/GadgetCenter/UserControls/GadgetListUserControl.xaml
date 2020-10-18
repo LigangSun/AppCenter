@@ -1,0 +1,231 @@
+﻿<UserControl x:Class="SoonLearning.AppCenter.UserControls.GadgetListUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ap="clr-namespace:SoonLearning.AppCenter"
+             xmlns:ctrl="clr-namespace:SoonLearning.AppCenter.Controls" 
+             xmlns:lang="clr-namespace:SoonLearning.AppCenter.Resources"
+             xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter.Common"
+             xmlns:data="clr-namespace:SoonLearning.AppCenter.Data"
+             xmlns:commData="clr-namespace:SoonLearning.AppCenter.Data;assembly=SoonLearning.AppCenter.Common"
+             mc:Ignorable="d" 
+             d:DesignHeight="768" 
+             d:DesignWidth="1366"
+             Focusable="True"
+             FocusManager.IsFocusScope="True"
+             FocusVisualStyle="{x:Null}"
+             Initialized="UserControl_Initialized"
+             Loaded="UserControl_Loaded"
+             PreviewKeyDown="UserControl_PreviewKeyDown">
+
+    <UserControl.Resources>
+        <HierarchicalDataTemplate DataType="{x:Type commData:TypeItem}" 
+                                  ItemsSource ="{Binding Path=SubTypeItems}">
+            <TextBlock Text="{Binding Path=Title}" />
+        </HierarchicalDataTemplate>
+
+    </UserControl.Resources>
+	<UserControl.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="#FF146DC1" Offset="0"/>
+			<GradientStop Color="#FFA4C9EC" Offset="1"/>
+		</LinearGradientBrush>
+	</UserControl.Background>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="160" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+           
+        <Grid Grid.Row="1">
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition Width="0.45*"/>
+        		<ColumnDefinition Width="0.25*"/>
+        		<ColumnDefinition Width="0.3*"/>
+        	</Grid.ColumnDefinitions>
+    		<Image Source="/SoonLearning.AppCenter;component/Resources/Images/cloud2.png" d:LayoutOverrides="Height" Grid.Column="2" VerticalAlignment="Bottom" Margin="0,0,0,50"/>
+    		<Image Source="/SoonLearning.AppCenter;component/Resources/Images/cloud3.png" VerticalAlignment="Bottom" d:LayoutOverrides="Width"/>
+           
+    	</Grid>
+           
+        <Grid d:LayoutOverrides="Width, GridBox" HorizontalAlignment="Left">
+        	<Image Source="/SoonLearning.AppCenter;component/Resources/Images/Tab_Cloud.png" d:LayoutOverrides="Width, GridBox, HorizontalMargin"/>
+            <ListBox x:Name="mainTypeListBox"
+                     Background="Transparent"
+                     Margin="20,20,10,10" 
+                     VerticalAlignment="Top"
+                     BorderThickness="0"
+                     FocusVisualStyle="{x:Null}"
+                     ItemContainerStyle="{StaticResource ListBoxItemStyle_SubNavigation}"
+                     ItemsPanel="{StaticResource appManagementTypePanelTemplate}" 
+                     SelectionChanged="mainTypeListBox_SelectionChanged"/>
+        	<!--<StackPanel Margin="20,20,10,10" Orientation="Horizontal" VerticalAlignment="Top">
+        		<RadioButton Content="最近使用" Style="{StaticResource RadioButtonStyle_MainTab}" IsChecked="True"/>
+        		<RadioButton Content="益智" Style="{StaticResource RadioButtonStyle_MainTab}"/>
+        		<RadioButton Content="数学" Style="{StaticResource RadioButtonStyle_MainTab}"/>
+        		<RadioButton Content="记忆" Style="{StaticResource RadioButtonStyle_MainTab}"/>
+        	</StackPanel>-->
+
+        </Grid>
+
+        <StackPanel x:Name="controlPanel" 
+                    Orientation="Horizontal"
+                    d:LayoutOverrides="GridBox"
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Top"
+                    Margin="0,20,20,0">
+            <Button x:Name="managementBtn" 
+        		    Margin="0"
+        		    Visibility="Visible"
+        		    VerticalAlignment="Center"
+        		    ContentTemplate="{StaticResource DataTemplate_Add}"
+        		    ToolTip="{x:Static lang:Strings.Management}"
+        		    Click="managementBtn_Click" 
+                    Content="登入并添加应用" Style="{StaticResource ButtonStyle_Blue}" 
+                    />
+            <Button x:Name="aboutBtn" 
+                    VerticalAlignment="Center"
+                    Style="{StaticResource ButtonStyle_Help}"
+                    ContentTemplate="{StaticResource aboutIcon}"
+                    ToolTip="{x:Static lang:Strings.About}"
+                    Click="aboutBtn_Click" Margin="20,0"/>
+            <Button x:Name="exitBtn"
+        		    Style="{StaticResource ButtonStyle_Exit}"
+        		    ContentTemplate="{StaticResource DataTemplate_Close}"
+        		    ToolTip="{x:Static lang:Strings.Exit}"
+        		    Click="exitBtn_Click" 
+                    Background="{x:Null}" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+        	<Grid.RowDefinitions>
+        		<RowDefinition Height="0.88*"/>
+        		<RowDefinition Height="0.12*"/>
+        	</Grid.RowDefinitions>
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition Width="0.12*"/>
+        		<ColumnDefinition Width="0.76*"/>
+        		<ColumnDefinition Width="0.12*"/>
+        	</Grid.ColumnDefinitions>
+        	<Grid x:Name="MainHub" Grid.Column="1">
+
+                <Grid.Effect>
+                    <DropShadowEffect ShadowDepth="8" Direction="270" Opacity="0.5" />
+                </Grid.Effect>
+                <Grid.ColumnDefinitions>
+        			<ColumnDefinition Width="200"/>
+        			<ColumnDefinition/>
+        		</Grid.ColumnDefinitions>
+        		<Border BorderThickness="4" Grid.ColumnSpan="2" CornerRadius="40">
+        			<Border.Background>
+        				<ImageBrush ViewportUnits="Absolute" TileMode="Tile"   Viewport="0,0,800,800" Stretch="Uniform" ImageSource="pack://siteoforigin:,,,/Resources/Images/wood_BG.jpg"/>
+        			</Border.Background>
+        			<Border.BorderBrush>
+        				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        					<GradientStop Color="#FFFDEBD5" Offset="0.004"/>
+        					<GradientStop Color="#FF975E2E" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Border.BorderBrush>
+        		</Border>
+        		<Border BorderThickness="4" Grid.ColumnSpan="2" CornerRadius="40" Opacity="0.25">
+        			<Border.Background>
+        				<LinearGradientBrush EndPoint="0.013,0.021" StartPoint="0.988,0.978">
+        					<GradientStop Color="#FFF7C53C" Offset="0"/>
+        					<GradientStop Color="White" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Border.Background>
+        		</Border>
+        		<Grid Margin="20,20,0,20">
+<!--<TreeView x:Name="typeTreeView"
+        				ScrollViewer.HorizontalScrollBarVisibility="Auto" 
+        				ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+        				BorderBrush="{x:Null}" 
+        				Background="{x:Null}" 
+        				Foreground="{x:Null}" 
+        				ScrollViewer.CanContentScroll="False" 
+        				Grid.Row="1"
+        				SelectedItemChanged="typeListBox_SelectedItemChanged"
+        				ItemsSource="{Binding LocalTypeCollection, Source={x:Static data:DataMgr.Instance}}" Style="{StaticResource TreeViewStyle1}" ItemContainerStyle="{StaticResource TreeViewItemStyle1}" Margin="20,20,0,0"/>-->
+        			<ListBox x:Name="subTypeListBox"
+        				Background="{x:Null}" 
+        				BorderBrush="{x:Null}" 
+        				ItemContainerStyle="{StaticResource ListBoxItemStyle_SubNavigation}" 
+        				SelectionChanged="subTypeListBox_SelectionChanged"/>
+        		</Grid>
+        		<Grid Grid.Column="1" Margin="20">
+        			<Grid x:Name="shadow" Margin="2">
+        				<Grid.RowDefinitions>
+        					<RowDefinition Height="40"/>
+        					<RowDefinition Height="0.85*"/>
+        					<RowDefinition Height="40"/>
+        				</Grid.RowDefinitions>
+        				<Grid.ColumnDefinitions>
+        					<ColumnDefinition Width="40"/>
+        					<ColumnDefinition Width="0.886*"/>
+        					<ColumnDefinition Width="40"/>
+        				</Grid.ColumnDefinitions>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_01.png" Stretch="Fill"/>
+        				<Image Grid.Column="1" Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_02.png" Stretch="Fill"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_04.png" Stretch="Fill" Grid.Column="2"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_05.png" Stretch="Fill" Grid.Row="1"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_07.png" Stretch="Fill" Grid.Row="1" Grid.Column="2"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_10.png" Stretch="Fill" Grid.Row="4"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/shadow_13.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/Dec_screw.png" Stretch="Fill" Width="22" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="0.7" Margin="10,10,0,0" Visibility="Hidden"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/Dec_screw.png" Stretch="Fill" Width="22" Height="22" VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2" Opacity="0.7" Margin="10,0,0,10" Visibility="Hidden"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/Dec_screw.png" Stretch="Fill" Width="22" Height="22" VerticalAlignment="Bottom" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="2" Opacity="0.7" Margin="0,0,10,10" Visibility="Hidden"/>
+        				<Image Source="/SoonLearning.AppCenter;component/Resources/Images/Dec_screw.png" Stretch="Fill" Width="22" Height="22" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="2" Opacity="0.7" Margin="0,10,10,0" Visibility="Hidden"/>
+           
+        			</Grid>
+        			<Border Background="#8C23120A" BorderThickness="3" CornerRadius="25">
+        				<Border.BorderBrush>
+        					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        						<GradientStop Color="#FFB86F16" Offset="0"/>
+        						<GradientStop Color="#FFFFD69A" Offset="1"/>
+        					</LinearGradientBrush>
+        				</Border.BorderBrush>
+        				<ListBox x:Name="appListBox_All"
+        					BorderBrush="{x:Null}"
+        					Background="Transparent"
+        					ItemContainerStyle="{StaticResource appListBoxItemStyle}"
+        					ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+        					ScrollViewer.VerticalScrollBarVisibility="Auto" 
+        					SelectedIndex="-1" 
+        					ItemsPanel="{StaticResource subTypePanelTemplate}" 
+        					MouseLeftButtonUp="appListBox_MouseLeftButtonUp"
+        					Foreground="{x:Null}" 
+        					BorderThickness="0" 
+        					Style="{StaticResource ListBoxStyle_Navigation}" Margin="10,0">
+        					<ListBox.ContextMenu>
+        						<ContextMenu>
+        							<MenuItem Header="卸载"
+        								Click="MenuItem_Click" />
+        						</ContextMenu>
+        					</ListBox.ContextMenu>
+        				<!--<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem>
+						<ListBoxItem Content="3232"></ListBoxItem> -->
+						
+						</ListBox>
+           
+        			</Border>
+           
+        		</Grid>
+           
+        	</Grid>
+           
+        </Grid>
+           
+    </Grid>
+</UserControl>

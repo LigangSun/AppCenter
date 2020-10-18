@@ -1,0 +1,34 @@
+﻿<Window x:Class="MemorizeAppCreator.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="关于" 
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        FontSize="16"
+        SizeToContent="WidthAndHeight">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="44" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="360"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="memorize.ico" />
+        
+        <ListBox Grid.Column="1"
+                 x:Name="infoListBox"
+                 Margin="10" />
+        
+        <Button Grid.Row="1"
+                Grid.ColumnSpan="2" 
+                Width="120"
+                Content="关闭"
+                Style="{DynamicResource ButtonStyle_Sub_Small}"
+                Click="Button_Click" />
+    </Grid>
+</Window>

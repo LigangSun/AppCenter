@@ -1,0 +1,38 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="Black">
+    <Paragraph>
+        <Run FontSize="36">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">首异中0尾9法，是指两个三位数相乘，其首位不同，中间（十位）数字均为0，尾数均为9的求积方法。此法的速算过程是：两个首位数相乘的积，加两个首位数相加之和乘以两数个位数之一；再加上两个个位数自乘的积，即为所求的积，可利用公式</Run>
+        <LineBreak />
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">100a×100b+(100a+100b)×9+9×9</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">进行速算，其中a、b表示被乘数、乘数百位上的数字。</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="32">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">309×809=</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28" Foreground="Black">解答：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black"> 309×809</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=300×800+(300+800)×9+9×9</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=240000+9900+81</Run>
+    </Paragraph>  
+    <Paragraph>
+        <Run FontSize="24" Foreground="Black">=249981</Run>
+    </Paragraph>
+</FlowDocument>

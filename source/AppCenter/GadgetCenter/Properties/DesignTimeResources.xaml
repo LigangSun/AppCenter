@@ -1,0 +1,22 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Black/BlackStyle.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Combobox.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Button.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/CheckBox.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/ColorTheme.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Data.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Icons.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/ListBox.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Others.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/ScollBar.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter;component/Resources/Style/Strings.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.AppCenter.Common;component/Controls/NumberUpDownGeneric.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.BlockPuzzle;component/Resources/PuzzleDictionary.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.ConnectNumber;component/Resources/DrawNumberDictionary.xaml"/>
+		<ResourceDictionary Source="/SoonLearning.Math.Fast;component/Resources/DataDictionary.xaml"/>
+	</ResourceDictionary.MergedDictionaries>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>

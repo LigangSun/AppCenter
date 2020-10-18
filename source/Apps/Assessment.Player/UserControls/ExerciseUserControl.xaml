@@ -1,0 +1,167 @@
+﻿<UserControl x:Class="SoonLearning.Assessment.Player.UserControls.ExerciseUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Foreground="{StaticResource TextColorBrush_Light}"
+             FontFamily="pack://application:,,,/SoonLearning.Assessment.Player;component/迷你简卡通.TTF#迷你简卡通"
+             mc:Ignorable="d" 
+             d:DesignHeight="369" 
+             d:DesignWidth="841"
+             Loaded="UserControl_Loaded"
+             Initialized="UserControl_Initialized"
+             Unloaded="UserControl_Unloaded">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        
+        <Label x:Name="infoLabel" 
+               Grid.RowSpan="3"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               FontSize="28" />
+
+        <TextBlock x:Name="sectionInfoLabel"  
+                   FontSize="20"
+                   Margin="20,5,0,0"/>
+        <Button x:Name="preButton"  
+                Style="{StaticResource ButtonStyle_Navi_Icon}"
+                ContentTemplate="{StaticResource DataTemplate_Previous}"
+        	    Content=""
+        	    Click="preButton_Click"
+                Width="100" 
+                HorizontalAlignment="Left" 
+                Grid.Row="1"
+                Visibility="Hidden"
+                VerticalAlignment="Center" 
+                Margin="10,0,0,0" />
+        <Button x:Name="nextButton"  
+                Style="{StaticResource ButtonStyle_Navi_Icon}" 
+                ContentTemplate="{StaticResource DataTemplate_Next}"
+        	    Content=""
+        	    Click="nextButton_Click" 
+                Width="100" 
+                HorizontalAlignment="Right" 
+                Visibility="Hidden"
+                Grid.Row="1" VerticalAlignment="Center" Margin="0,0,10,0" />
+        
+        <Rectangle Grid.Row="2" StrokeThickness="0"/>
+        
+        <DockPanel x:Name="questionPanel"
+                   Grid.Row="1"
+                   Margin="8,0,8,0"/>
+        
+        <StackPanel x:Name="questionControlPanel"
+                    Grid.Row="2"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
+            <Button x:Name="solutionButton"  Style="{StaticResource ButtonStyle_IconBtn_Single}"
+                    Content="解题方法"
+                    Margin="5"
+                    Click="solutionButton_Click"  />
+            <Button x:Name="allQuestionButton" Style="{StaticResource ButtonStyle_IconBtn_Single}"
+                    Content="全部练习题" 
+                    Margin="5"
+                    Click="allQuestionButton_Click" />
+            <Button x:Name="restartButton" Style="{StaticResource ButtonStyle_IconBtn_Single}"
+                    Content="重新练习"
+                    Margin="5"
+                    Click="restartButton_Click" />
+            <Button x:Name="endButton"  
+                    Content="结束练习"
+                    Margin="5"
+                    Click="endButton_Click"  />
+        </StackPanel>
+
+        <Popup x:Name="solutionPopup"
+               StaysOpen="False"
+               AllowsTransparency="True">
+            
+            <Grid MaxHeight="720"
+                  Margin="80,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Border Grid.RowSpan="3" 
+    			    CornerRadius="30"
+    			    BorderThickness="3" d:LayoutOverrides="GridBox" Margin="0">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF6DD0F9" Offset="0"/>
+                            <GradientStop Color="#FF2E92D8" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                    <Border.Background>
+                        <ImageBrush ViewportUnits="Absolute" TileMode="Tile"   Viewport="0,0,150,150" Stretch="Uniform" ImageSource="/SoonLearning.AppCenter;component/Resources/Images/Dialogue_BGTile.png"/>
+                    </Border.Background>
+
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="6" Direction="270" Opacity="0.5" />
+                    </Border.Effect>
+
+                </Border>
+                <Border 
+    			        CornerRadius="30"
+    			        BorderThickness="3" Opacity="0.5" Grid.RowSpan="3" Margin="0">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF6DD0F9" Offset="0"/>
+                            <GradientStop Color="#FF2E92D8" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF89D1FF" Offset="0.009"/>
+                            <GradientStop Offset="0.216" Color="#00008BE4"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+                <Border BorderThickness="0,3,0,0" Grid.Row="1">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                            <GradientStop Color="#00000000" Offset="0"/>
+                            <GradientStop Color="#00000000" Offset="1"/>
+                            <GradientStop Color="#7F000000" Offset="0.5"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                            <GradientStop Color="#00000000" Offset="0"/>
+                            <GradientStop Color="#00000000" Offset="1"/>
+                            <GradientStop Color="#33000000" Offset="0.5"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+                <Border BorderThickness="0,0,0,3" Grid.Row="1">
+                    <Border.BorderBrush>
+                        <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                            <GradientStop Offset="0"/>
+                            <GradientStop Offset="1"/>
+                            <GradientStop Color="#7FFFFFFF" Offset="0.5"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                </Border>
+                <StackPanel Orientation="Vertical"
+                            Background="Transparent"
+                            Grid.Row="1"
+                            Margin="15,5">
+                    <TextBlock Text="解题方法："
+                               FontSize="20"
+                               Foreground="{StaticResource TextColorBrush_Light}"
+                               FontWeight="Medium" />
+                    <!--<ScrollViewer>-->
+                        <WrapPanel x:Name="solutionWrapPanel"
+                                   Margin="5"
+                                   ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                   ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                    <!--</ScrollViewer>-->
+                </StackPanel>
+            </Grid>
+        </Popup>
+    </Grid>
+</UserControl>

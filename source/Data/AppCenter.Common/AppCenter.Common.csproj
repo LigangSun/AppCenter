@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{445D729D-0C54-4EFC-96EB-C641BC03EDB8}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoonLearning.AppCenter</RootNamespace>
+    <AssemblyName>SoonLearning.AppCenter.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Redist\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Redist\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\MessageWindow.xaml.cs">
+      <DependentUpon>MessageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ResultInfoUserControl.xaml.cs">
+      <DependentUpon>ResultInfoUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ResultWindow.xaml.cs">
+      <DependentUpon>ResultWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AppInstallItemCollection.cs" />
+    <Compile Include="Data\BackgroundMusicCollection.cs" />
+    <Compile Include="Data\BackgroundMusicItem.cs" />
+    <Compile Include="Data\NotifyPropertyChanged.cs" />
+    <Compile Include="Data\ResultState.cs" />
+    <Compile Include="Player\AudioPlayer.cs" />
+    <Compile Include="Player\EventQueue.cs" />
+    <Compile Include="Player\PlayerThread.cs" />
+    <Compile Include="Controls\AppWindow.cs" />
+    <Compile Include="Data\PointInWindowPart.cs" />
+    <Compile Include="Interfaces\IAuthorInfo.cs" />
+    <Compile Include="Interfaces\IGadgetControl.cs" />
+    <Compile Include="Interfaces\IGadgetEntry.cs" />
+    <Compile Include="Interfaces\IMessageControl.cs" />
+    <Compile Include="Upgrade\UpgradeInfo.cs" />
+    <Compile Include="Upgrade\UpgradeItem.cs" />
+    <Compile Include="Utility\AssemblyFactory.cs" />
+    <Compile Include="Controls\GadgetControlPanel.cs" />
+    <Compile Include="Controls\GadgetUserControl.cs" />
+    <Compile Include="Controls\IntegerOnlyTextBox.cs" />
+    <Compile Include="Controls\ListBoxEx.cs" />
+    <Compile Include="Controls\MouseClickManager.cs" />
+    <Compile Include="Controls\NavigationPanel.cs" />
+    <Compile Include="Controls\NumberRangeValidationRule.cs" />
+    <Compile Include="Controls\NumericUpDown.cs" />
+    <Compile Include="Controls\TimeControlEngine.cs" />
+    <Compile Include="Controls\VirtualizingWrapPanel.cs" />
+    <Compile Include="Converters\AppInstallState2StringConverter.cs" />
+    <Compile Include="Converters\Index2DspIndexConverter.cs" />
+    <Compile Include="Data\AppInstallItem.cs" />
+    <Compile Include="Data\AppMainTag.cs" />
+    <Compile Include="Data\Contants.cs" />
+    <Compile Include="Data\GadgetItemOnline.cs" />
+    <Compile Include="Data\StageItem.cs" />
+    <Compile Include="Data\SubTypeItem.cs" />
+    <Compile Include="Data\ThumbnailItem.cs" />
+    <Compile Include="Data\TypeItem.cs" />
+    <Compile Include="Data\UIStyleSetting.cs" />
+    <Compile Include="License\EncryptHelper.cs" />
+    <Compile Include="License\LicenseAPI.cs" />
+    <Compile Include="License\LicenseMgr.cs" />
+    <Compile Include="Utility\AudioHelper.cs" />
+    <Compile Include="Utility\DownloadHelper.cs" />
+    <Compile Include="Utility\HttpHelper.cs" />
+    <Compile Include="Utility\LocalLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utility\RemoteLoader.cs" />
+    <Compile Include="Utility\CompressHelper.cs" />
+    <Compile Include="Utility\Hardware.cs" />
+    <Compile Include="Utility\SerializerHelper.cs" />
+    <Compile Include="Utility\SpeechHelper.cs" />
+    <Compile Include="Utility\TimeHelper.cs" />
+    <Compile Include="Utility\UIHelper.cs" />
+    <Compile Include="Win32\Win32API.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="Controls\NumberUpDownGeneric.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </CodeAnalysisDictionary>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\MessageWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ResultInfoUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ResultWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\click-wator-drop.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\pass.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\startup.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BadSurprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BiggestSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BigSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CleverSmile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\default_background_music.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

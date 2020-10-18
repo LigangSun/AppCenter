@@ -1,0 +1,27 @@
+﻿Build started 2011/12/15 21:37:50.
+     1>Project "F:\Test\Code\Source\Gadget\MathDemo\MathDemo\MathMul\MathMul.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\".
+       InitializeBuildStatus:
+         Creating "Release\MathMul.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MATHMUL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt ..\src\MathmulAPI.cpp ..\src\_mathmul_algo.cpp
+         MathmulAPI.cpp
+         _mathmul_algo.cpp
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\src\MathmulDef.def" /MANIFEST /ManifestFile:"Release\MathMul.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.lib" /MACHINE:X86 /DLL Release\MathmulAPI.obj
+         Release\_mathmul_algo.obj
+            Creating library F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.lib and object F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.exp
+         Generating code
+         Finished generating code
+         MathMul.vcxproj -> F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Test\Code\Source\Gadget\MathDemo\MathDemo\Release\MathMul.dll;#2" /manifest Release\MathMul.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MathMul.unsuccessfulbuild".
+         Touching "Release\MathMul.lastbuildstate".
+     1>Done Building Project "F:\Test\Code\Source\Gadget\MathDemo\MathDemo\MathMul\MathMul.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.99

@@ -1,0 +1,157 @@
+﻿<UserControl x:Class="SoonLearning.Math.Fast.RapidCalculation.AddMinusQuestionControl"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:lang="clr-namespace:SoonLearning.Math.Fast.Properties"
+            xmlns:commCtrl="clr-namespace:SoonLearning.AppCenter.Controls;assembly=SoonLearning.AppCenter"
+            mc:Ignorable="d" 
+            d:DesignHeight="300" 
+            d:DesignWidth="500"
+            Initialized="UserControl_Initialized"
+            Loaded="GadgetUserControl_Loaded"
+            Unloaded="UserControl_Unloaded"
+            PreviewKeyDown="UserControl_PreviewKeyDown">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0" />
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="generatingLabel"  
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               Grid.ColumnSpan="3"
+                   Foreground="White"
+               Grid.RowSpan="3"
+                   Style="{StaticResource TextBlockStyle_BigHead}"
+               FontSize="28" />
+
+        <Grid x:Name="questionGrid"
+                Margin="5"
+                Grid.Row="1"
+                Grid.Column="1"
+                Opacity="1.0">
+
+        </Grid>
+
+        <Button x:Name="prePage"
+                Style="{StaticResource ButtonStyle_Navi_Icon}" 
+                ContentTemplate="{StaticResource DataTemplate_Previous}"
+                VerticalAlignment="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="0,6"
+                Click="prePage_Click" />
+
+        <Button x:Name="nextPage"
+                Style="{StaticResource ButtonStyle_Navi_Icon}"
+                ContentTemplate="{StaticResource DataTemplate_Next}"
+                VerticalAlignment="Center"
+                Margin="0,6"
+                Grid.Row="1"
+                Grid.Column="2"
+                Click="nextPage_Click" />
+
+        <!--<Grid Margin="0,0,0,0"
+              Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="countPerPageLabel"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="20"
+                   Grid.Column="1" />
+            <Label x:Name="pageIndexLabel"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="20"
+                   Grid.Column="2" />
+
+        </Grid>-->
+
+        <Grid x:Name="controlGrid"
+                Margin="20,0"
+                Grid.Row="2"
+                Grid.ColumnSpan="3" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+            
+            </Grid.ColumnDefinitions>
+
+            <!--<Button x:Name="saveBtn"
+                        Grid.Column="1"
+                        Margin="2"
+                        Click="saveBtn_Click"
+                        Content="{x:Static lang:Resources.Save}" />-->
+
+            <StackPanel Grid.ColumnSpan="5" Margin="0" Orientation="Horizontal" d:LayoutOverrides="Width" HorizontalAlignment="Left">
+
+        		<Button x:Name="newBtn"
+        			Margin="0,0,10,0"
+        			Click="newBtn_Click"
+        			Content="{x:Static lang:Resources.NewTest}" Style="{StaticResource ButtonStyle_IconBtn_Single}"/>
+
+        		<Button x:Name="printBtn"
+        			Margin="0,0,10,0"
+        			Content="{x:Static lang:Resources.Print}" Style="{StaticResource ButtonStyle_IconBtn_Single}"
+        			Click="printBtn_Click" />
+
+        		<Button x:Name="viewResultBtn"
+        			Margin="0,0,10,0"
+        			Click="viewResultBtn_Click"
+        			Content="{x:Static lang:Resources.ViewResult}" />
+
+        		<CheckBox x:Name="openVirtualKeyboardCheckBox"
+        			VerticalAlignment="Center"
+        			Content="{x:Static lang:Resources.OpenVirtualKeyboard}"
+        			Click="openVirtualKeyboardCheckBox_Click"
+        			IsChecked="False" Margin="0,0,10,0" />
+
+        	</StackPanel>
+
+            <StackPanel x:Name="timerPanel"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Grid.Column="6"
+                        Margin="0,0,20,0"
+                        Visibility="Hidden">
+                <Label Content="{x:Static lang:Resources.LeftTime}"  
+                       FontSize="20"
+                       VerticalAlignment="Center"/>
+                <Label x:Name="leftTimeLabel"
+                       FontSize="24"
+                       VerticalAlignment="Center"
+                       Content="--:--" Foreground="Red"/>
+            </StackPanel>
+        </Grid>
+
+        <Popup x:Name="numberKeyboardPopup"
+               StaysOpen="True"
+               AllowsTransparency="True"
+               Placement="Right">
+            <commCtrl:NumberVirtualKeyboard x:Name="numberKeyboard"
+                                            Width="200"
+                                            Height="200"
+                                            Background="Transparent"
+                                            Visibility="Visible" 
+                                            NumberVirtualKeyboardInputEvent="numberKeyboard_NumberVirtualKeyboardInputEvent"/>
+        </Popup>
+        
+        <MediaElement x:Name="voiceElement"
+                      Visibility="Hidden" 
+                      LoadedBehavior="Manual"/>
+        
+    </Grid>
+</UserControl>

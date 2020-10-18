@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<Exercise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>6dc488f5469447d899e007b6fcbb2b35</Id>
+  <Title>加法结合律练习</Title>
+  <Description />
+  <RetryTimes>-1</RetryTimes>
+  <MarkType>AutoAfterEachQuestion</MarkType>
+  <DisplayAnswerType>AutoAfterEachQuestion</DisplayAnswerType>
+  <DisplaySolutionType>AutoAfterEachQuestion</DisplaySolutionType>
+  <DisplayFeedbackType>AfterEachQuestion</DisplayFeedbackType>
+  <DisplayMark>false</DisplayMark>
+  <DisplayScore>false</DisplayScore>
+  <QuestionDisplayType>Question</QuestionDisplayType>
+  <QuestionCountPerPage>2</QuestionCountPerPage>
+  <CreateTime>2012-07-21T15:30:21.3306991+08:00</CreateTime>
+  <UsedTime />
+  <SectionCollection>
+    <Section>
+      <Id>29bf841460184d84affd8c0545112154</Id>
+      <Title>单选题：</Title>
+      <Description>（下面每道题都只有一个选项是正确的）</Description>
+      <QuestionCollection>
+        <Question xsi:type="MCQuestion">
+          <Id>44c8645458f94e7180effc56ac87da1c</Id>
+          <Content>
+            <Id>dc0311e2a9d444ff8dfef99709577130</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出符合加法结合律的等式。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>fc0a820a257541449306f6e316140f21</Id>
+            <QuestionPartCollection />
+            <Content>(0 + 6) + 5 = 0 + (6 + 5)，在这个等式中，两边和不变，都是11。
+是符合加法结合律的，是正确答案。</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-07-21T07:30:21.3506991Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>1e8b44d02c5e43bb93babe490fcc45da</Id>
+              <OptionContent>
+                <Id>f6ad7e2a96704dc5a37612038dd3211c</Id>
+                <QuestionPartCollection />
+                <Content>(2 + 4) + 1 = 2 + (4 + 6)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b2d890c2a7d341cc8d96d5eaa132b643</Id>
+              <OptionContent>
+                <Id>cd07129b163045778eddf3566d664bfb</Id>
+                <QuestionPartCollection />
+                <Content>(0 + 6) + 5 = 0 + (6 + 5)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>0de3850ed98d48cc85d33ed706515614</Id>
+              <OptionContent>
+                <Id>9fd31f356fc342309cdfd6149bfe8b7b</Id>
+                <QuestionPartCollection />
+                <Content>(8 + 5) + 5 = 8 + (5 + 7)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3a6acc06af724fc388d82d4174bd430b</Id>
+              <OptionContent>
+                <Id>172ad245d64a4571bd7e527d40d4515a</Id>
+                <QuestionPartCollection />
+                <Content>(5 + 4) + 2 = 5 + (4 + 6)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>c5c70cbe19ee4c02b5cc3a7f73ac8811</Id>
+          <Content>
+            <Id>b59e27fea9e34718bf7e6f19f666a6e0</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出符合加法结合律的等式。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>9ad1e92859334b0a9b7b43dcb9badaa0</Id>
+            <QuestionPartCollection />
+            <Content>(4 + 5) + 0 = 4 + (5 + 0)，在这个等式中，两边和不变，都是9。
+是符合加法结合律的，是正确答案。</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-07-21T07:30:21.420702Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>1e081941980f4c7ebafe0a2ac39848f7</Id>
+              <OptionContent>
+                <Id>cc53201727ec4f85b6e8fa2f5ef2ed04</Id>
+                <QuestionPartCollection />
+                <Content>(5 + 8) + 8 = 5 + (8 + 3)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>f3e9c720ad444326b84b695c06d26a61</Id>
+              <OptionContent>
+                <Id>1bb30a42431b44f09d21760ca4944818</Id>
+                <QuestionPartCollection />
+                <Content>(4 + 5) + 0 = 4 + (5 + 0)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1f8f76663ed4482dadff7610985477e4</Id>
+              <OptionContent>
+                <Id>25e2b9bfb602466cb59c1751d4a67181</Id>
+                <QuestionPartCollection />
+                <Content>(2 + 7) + 5 = 2 + (7 + 8)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c5f4bf078da3449f8a8889772b19ee48</Id>
+              <OptionContent>
+                <Id>eb5c023460a84accb705a1f0107daa3e</Id>
+                <QuestionPartCollection />
+                <Content>(0 + 10) + 7 = 0 + (10 + 3)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>f135e75536aa4118913e9fdd471c8c0c</Id>
+          <Content>
+            <Id>8707ecc2b2cf45668d499234299e6b7d</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出符合加法结合律的等式。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>776513e358b2466d882874c34548c024</Id>
+            <QuestionPartCollection />
+            <Content>(0 + 3) + 10 = 0 + (3 + 10)，在这个等式中，两边和不变，都是13。
+是符合加法结合律的，是正确答案。</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-07-21T07:30:21.491706Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>6dc8146d5af14429a59e41ac66a6a73a</Id>
+              <OptionContent>
+                <Id>7dae3a1574934835bc74cc29eea6b7cd</Id>
+                <QuestionPartCollection />
+                <Content>(0 + 3) + 10 = 0 + (3 + 10)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9cc8712b3c4c4d85b59aaf063306ed10</Id>
+              <OptionContent>
+                <Id>e30815803b3943be8069a9c698570596</Id>
+                <QuestionPartCollection />
+                <Content>(3 + 3) + 5 = 3 + (3 + 7)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>df4825a54b8746c693eb41f1214dbed4</Id>
+              <OptionContent>
+                <Id>735314314bdb4e1c9b4cdb7320dcb4d9</Id>
+                <QuestionPartCollection />
+                <Content>(7 + 8) + 0 = 7 + (8 + 9)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>15f22474fa7c4007962b1f7aaf7b8cc2</Id>
+              <OptionContent>
+                <Id>ff6197aa31dd4214a4180412023f2043</Id>
+                <QuestionPartCollection />
+                <Content>(9 + 5) + 1 = 9 + (5 + 6)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>2b384e3c627e4c7f98fe0fa5131b6d02</Id>
+          <Content>
+            <Id>89dece59a4a44271a34c8c16d2005e39</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出符合加法结合律的等式。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>4100fc1e10584671a683df6598ddc569</Id>
+            <QuestionPartCollection />
+            <Content>(4 + 9) + 9 = 4 + (9 + 9)，在这个等式中，两边和不变，都是22。
+是符合加法结合律的，是正确答案。</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-07-21T07:30:21.5637101Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>caa0c3a9fef548eca1ca4131e76713ae</Id>
+              <OptionContent>
+                <Id>bb5eee4f43ae4278acbc828e8be05fc8</Id>
+                <QuestionPartCollection />
+                <Content>(6 + 1) + 3 = 6 + (1 + 5)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b3db798a921c4e96821a3b566b860bd8</Id>
+              <OptionContent>
+                <Id>1aa7ad331762449ea0468c446d0a4c78</Id>
+                <QuestionPartCollection />
+                <Content>(3 + 7) + 1 = 3 + (7 + 7)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>577c00d84d544e389983e3cf240ff216</Id>
+              <OptionContent>
+                <Id>333edc29c74b4d3e9a8152f07d5170d4</Id>
+                <QuestionPartCollection />
+                <Content>(4 + 6) + 0 = 4 + (6 + 2)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>711c97c723224299844eb753889d0077</Id>
+              <OptionContent>
+                <Id>ad0d99a63ad34719b80691d26961406d</Id>
+                <QuestionPartCollection />
+                <Content>(4 + 9) + 9 = 4 + (9 + 9)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>201d04eebbfe4f189b7c59c939499c04</Id>
+          <Content>
+            <Id>d8b31cd3c67243aca1879889c02f29b9</Id>
+            <QuestionPartCollection />
+            <Content>从下面选项中选出符合加法结合律的等式。</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>1f157595025748908e8dc2f1180a6827</Id>
+            <QuestionPartCollection />
+            <Content>(10 + 6) + 8 = 10 + (6 + 8)，在这个等式中，两边和不变，都是24。
+是符合加法结合律的，是正确答案。</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-07-21T07:30:21.6347142Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>f8fa2c66c60549d8a071754144948e3f</Id>
+              <OptionContent>
+                <Id>87a12f71c1484a1a956aa3f2ffad8c0d</Id>
+                <QuestionPartCollection />
+                <Content>(4 + 7) + 0 = 4 + (7 + 9)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>78791979a7ed4fa7a068e87dc332b983</Id>
+              <OptionContent>
+                <Id>62afaf9c805445488d353b6cabd66a54</Id>
+                <QuestionPartCollection />
+                <Content>(9 + 7) + 8 = 9 + (7 + 7)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>eb6559275e40489ebbd4636102384432</Id>
+              <OptionContent>
+                <Id>70539e7a57c74b30b9dd3768f9d06094</Id>
+                <QuestionPartCollection />
+                <Content>(1 + 1) + 4 = 1 + (1 + 5)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>d80e7b11285e4c70bef0c75107f1700d</Id>
+              <OptionContent>
+                <Id>1d36740ad5a9414b8b1b8c61adf972f0</Id>
+                <QuestionPartCollection />
+                <Content>(10 + 6) + 8 = 10 + (6 + 8)</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+      </QuestionCollection>
+    </Section>
+  </SectionCollection>
+</Exercise>

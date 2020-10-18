@@ -1,0 +1,72 @@
+﻿<Window x:Class="SoonLearning.TeachAppMaker.Dialogs.FractionDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="编辑分数（分别输入分数的三个部分的值）"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize"
+        Height="200" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+            
+            <TextBox x:Name="withPartTextBox"
+                     Grid.RowSpan="2"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Right"
+                     Width="80" 
+                     Height="24"/>
+
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center">
+                <TextBox x:Name="numeratorTextBox"
+                           Margin="3,0"
+                           Height="24"
+                           Width="80"
+                         TextChanged="numeratorTextBox_TextChanged"/>
+
+                <Separator Grid.Column="1" 
+                        VerticalAlignment="Bottom"
+                        Height="3"
+                        Width="80"
+                        HorizontalAlignment="Left"
+                        Foreground="Black"/>
+
+                <TextBox x:Name="denominatorTextBox"
+                           Height="24"
+                           Width="80"
+                           Margin="3,0"
+                         TextChanged="numeratorTextBox_TextChanged"
+                        />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2"
+                    Grid.ColumnSpan="2"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Button x:Name="okButton"
+                    Content="确定"
+                    Width="100"
+                    Height="32"
+                    Margin="5"
+                    IsDefault="True"
+                    IsEnabled="False"
+                    Click="okButton_Click" />
+            <Button x:Name="cancelButton"
+                    Content="取消"
+                    Width="100"
+                    Height="32"
+                    Margin="5"
+                    IsCancel="True"/>        
+        </StackPanel>
+    </Grid>
+</Window>

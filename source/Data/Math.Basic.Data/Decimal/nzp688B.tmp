@@ -1,0 +1,25 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="30" FontFamily="宋体"
+              Foreground="White">
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">定义：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">整数部分是零的小数，叫做纯小数。</Run>
+        <LineBreak />
+    </Paragraph>
+
+    <Paragraph>
+        <Run FontSize="36" Foreground="{DynamicResource textColor}">举例：</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30">在序列小数中哪些是纯小数</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="28">0.25, 6, 1.34, 8.09, 0.75, 0.88, 1.88</Run>
+    </Paragraph>
+    <Paragraph>
+        <Run FontSize="30" Foreground="White">答案：</Run>
+        <Run FontSize="28" Foreground="LightGray">是纯小数的有0.25, 0.75, 0.88。</Run>
+    </Paragraph>
+</FlowDocument>

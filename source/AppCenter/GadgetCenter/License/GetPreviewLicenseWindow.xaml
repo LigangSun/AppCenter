@@ -1,0 +1,30 @@
+﻿<Window x:Class="SoonLearning.AppCenter.License.GetPreviewLicenseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GetPreviewLicenseWindow" 
+        Height="300" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock TextWrapping="Wrap"
+                   FontSize="16"
+                   Margin="5"
+                   Text="请用邮件发送下面编号到速学应用平台支持邮箱 support@soonlearning.com. 我们在收到该编号后，会尽快发送预览版证书到您的邮箱" />
+        
+        <TextBox x:Name="keyTextBox"
+                 IsReadOnly="True"
+                 Grid.Row="1"
+                 Margin="5"
+                 TextWrapping="Wrap" />
+        
+        <Button x:Name="okButton" 
+                Grid.Row="2"
+                Width="120"
+                Content="确定" 
+                Click="okButton_Click"/>
+    </Grid>
+</Window>

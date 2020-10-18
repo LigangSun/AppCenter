@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoonLearning.Assessment.Data.Exam" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assessment\Exam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.Question" Collapsed="true">
+    <Position X="44.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAgEQAAAAACAAAAAQgAEYEAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Question\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.Section" Collapsed="true">
+    <Position X="32.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAQAABAQAQAoAEQACAAAIAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Section\Section.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.Exercise">
+    <Position X="6.5" Y="4.25" Width="2.25" />
+    <Members>
+      <Method Name="CreateQuestionResponse" Hidden="true" />
+      <Field Name="createTime" Hidden="true" />
+      <Field Name="currentSectionIndex" Hidden="true" />
+      <Method Name="FindQuestion" Hidden="true" />
+      <Field Name="response" Hidden="true" />
+      <Field Name="sectionCollection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QBEBAEERAQEgAEQBAAAGgAAAAQUAGAAQEAAAEBgAAAA=</HashCode>
+      <FileName>Assessment\Exercise.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SectionCollection" />
+      <Property Name="ExerciseResponse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.BaseObject">
+    <Position X="25.75" Y="1" Width="2" />
+    <Members>
+      <Field Name="id" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>Base\BaseObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.MCQuestion">
+    <Position X="42.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\MCQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.MRQuestion">
+    <Position X="40.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\MRQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.FIBQuestion" Collapsed="true">
+    <Position X="51.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBAAAAAAAAAAAAAAAAAEAAAABAAAAAAAACAAAA=</HashCode>
+      <FileName>Question\FIBQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.MAQuestion">
+    <Position X="49.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\MAQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.TFQuestion">
+    <Position X="38" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\TFQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.ESQuestion">
+    <Position X="47" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\ESQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.CPQuestion">
+    <Position X="44.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\CPQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionContent">
+    <Position X="34.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAQAAAAAAAAAAAAQAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Content\QuestionContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionBlank">
+    <Position X="29.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAIAAAAACAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Blank\QuestionBlank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionContentPart">
+    <Position X="20.25" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAgAAAAAACAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Content\QuestionContentPart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.ArithmeticSignPart">
+    <Position X="26.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Content\ArithmaticSignPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.ArithmeticDecimalValuePart">
+    <Position X="11" Y="7.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Content\ArithmeticDecimalValuePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.ArithmeticFractionValuePart">
+    <Position X="15" Y="7.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAgAAAQAAAAAAAACAAAAAAAAIAAAACAAAAA=</HashCode>
+      <FileName>Content\ArithmeticFractionValuePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionPartCollection" Collapsed="true">
+    <Position X="57.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>Content\QuestionPartCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.SectionCollection">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>Section\SectionCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionCollection" Collapsed="true">
+    <Position X="54" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAQAAAAACAAAAIAEAAA=</HashCode>
+      <FileName>Question\QuestionCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionFlowDocumentPart">
+    <Position X="22.25" Y="7.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Content\QuestionFlowDocumentPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionTextPart">
+    <Position X="19" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAAAAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>Content\QuestionTextPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionOption">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAA=</HashCode>
+      <FileName>Option\QuestionOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionOptionCollection" Collapsed="true">
+    <Position X="55.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAACAAABAAAAAAAAAAACAAAAIAEAAA=</HashCode>
+      <FileName>Option\QuestionOptionCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.SelectableQuestion">
+    <Position X="39.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAgABA=</HashCode>
+      <FileName>Question\SelectableQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.Response">
+    <Position X="2" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.ExerciseResponse">
+    <Position X="3.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response\ExerciseResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.QuestionResponse">
+    <Position X="0.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Response\QuestionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.SelectableQuestionResponse">
+    <Position X="0.5" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Response\SelectableQuestionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.Assessment.Data.TableQuestion">
+    <Position X="40.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question\TableQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SoonLearning.Assessment.Data.MathBasicType" Collapsed="true">
+    <Position X="55.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAggAAAAAAAIAAAAEAAAAgEAEAAIAAAAgAA=</HashCode>
+      <FileName>Consts\MathBasicType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.MathSubType" Collapsed="true">
+    <Position X="57.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgFBuKKAFQFgxFApEARlAIIGIBgQIyIWAEp0KwgJkTY=</HashCode>
+      <FileName>Consts\MathBasicType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.DisplayAnswerType" Collapsed="true">
+    <Position X="55.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Consts\DisplayAnswerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.DisplayFeedbackType" Collapsed="true">
+    <Position X="57.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAEAAAA=</HashCode>
+      <FileName>Consts\DisplayFeedbackType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.DisplaySolutionType" Collapsed="true">
+    <Position X="54" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Consts\DisplaySolutionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.Symbol" Collapsed="true">
+    <Position X="55.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgiAABAAABABAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Consts\Symbol.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.DifficultyLevel" Collapsed="true">
+    <Position X="54" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Consts\DifficultyLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.Assessment.Data.QuestionType" Collapsed="true">
+    <Position X="54" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAEAAAAABAAQAAAAAAAAAAAADAAAAAEAAA=</HashCode>
+      <FileName>Consts\QuestionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

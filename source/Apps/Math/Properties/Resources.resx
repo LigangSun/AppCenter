@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Corrrent" xml:space="preserve">
+    <value>Correct: {0}</value>
+  </data>
+  <data name="FinishTestWarning" xml:space="preserve">
+    <value>Are you sure you want to finish this test?</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="generatingQuestion" xml:space="preserve">
+    <value>Generating {0} / {1}</value>
+  </data>
+  <data name="InCorrect" xml:space="preserve">
+    <value>Incorrect: {0}</value>
+  </data>
+  <data name="mathAddMinusDescription" xml:space="preserve">
+    <value>指利用数与数之间的特殊关系进行较快的加减乘除运算。这种运算方法称为速算法，心算法。</value>
+  </data>
+  <data name="mathAddMinusTitle" xml:space="preserve">
+    <value>Rapid calculation (+/-)</value>
+  </data>
+  <data name="NewQuizWarning" xml:space="preserve">
+    <value>Are you sure you want to create a new quiz?</value>
+  </data>
+  <data name="NewTest" xml:space="preserve">
+    <value>New Test</value>
+  </data>
+  <data name="OpenSound" xml:space="preserve">
+    <value>Open Sound</value>
+  </data>
+  <data name="OpenVirtualKeyboard" xml:space="preserve">
+    <value>Open Virtual Keyboard</value>
+  </data>
+  <data name="PageInfo" xml:space="preserve">
+    <value>Current Page: {0} / Total Page: {1}</value>
+  </data>
+  <data name="questionCountPerPage" xml:space="preserve">
+    <value>{0} questions per page</value>
+  </data>
+  <data name="QuestionDataFilter" xml:space="preserve">
+    <value>Question Data File(*.qdf)|*.qdf</value>
+  </data>
+  <data name="QuestionNotAnswered" xml:space="preserve">
+    <value>Some questions have not been answered. Are you sure you want to finish this test?</value>
+  </data>
+  <data name="QuizTimeOut" xml:space="preserve">
+    <value>The quiz time is out. you cannot anwser any queston now.</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result:</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveFail" xml:space="preserve">
+    <value>Fail to save question data. 
+Exception: {0}</value>
+  </data>
+  <data name="ViewResult" xml:space="preserve">
+    <value>Finish Test</value>
+  </data>
+  <data name="NoAnswer" xml:space="preserve">
+    <value>No Answer: {0}</value>
+  </data>
+  <data name="LeftTime" xml:space="preserve">
+    <value>Left Time:</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="NotPass" xml:space="preserve">
+    <value>Not Pass</value>
+  </data>
+  <data name="Perfect" xml:space="preserve">
+    <value>Perfect</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score:{0}</value>
+  </data>
+  <data name="mathAddMinusMultiplyDivisionTitle" xml:space="preserve">
+    <value>Rapid calculation (+/-/x//)</value>
+  </data>
+  <data name="mathMultiplyDivisionTitle" xml:space="preserve">
+    <value>Rapid calculation (x//)</value>
+  </data>
+  <data name="NineXNineTableDescription" xml:space="preserve">
+    <value>9 x 9 Table</value>
+  </data>
+  <data name="NineXNineTableTitle" xml:space="preserve">
+    <value>9 x 9 Table</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="QuestionPaperDocument" xml:space="preserve">
+    <value>&lt;FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="16" FontFamily="宋体"
+              Foreground="Black"&gt;
+    &lt;Paragraph TextAlignment="Center"&gt;
+        &lt;Run FontSize="36"
+             FontWeight="Medium" 
+             Foreground="Black"&gt;_$PAPER_TITLE$_&lt;/Run&gt;
+    &lt;/Paragraph&gt;
+    
+    &lt;Paragraph TextAlignment="Center"&gt;
+        &lt;Run FontSize="28"
+             FontWeight="Normal"
+             Foreground="Black"&gt;_$PAPER_DESPRITON$_&lt;/Run&gt;
+        &lt;LineBreak /&gt;
+    &lt;/Paragraph&gt;
+        
+&lt;/FlowDocument&gt;</value>
+  </data>
+  <data name="mathAMMDDescription" xml:space="preserve">
+    <value>在规定的时间内快速的完成一定数量的加减乘除运算。</value>
+  </data>
+  <data name="mathMDDescription" xml:space="preserve">
+    <value>在规定的时间内快速的完成一定数量的乘除运算。</value>
+  </data>
+</root>

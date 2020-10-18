@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SoonLearning.Assessment.Data</name>
+    </assembly>
+    <members>
+        <member name="T:SoonLearning.Assessment.Data.QuestionContent">
+            <summary>
+            QuestionContent类用于存储试题的内容。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.BaseObject">
+            <summary>
+            BaseObject类教学相关的数据结构中所有类的基类。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.BaseObject.#ctor">
+            <summary>
+            初始化BaseObject类的新实例。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.BaseObject.Equals(SoonLearning.Assessment.Data.BaseObject)">
+            <summary>
+            确定两个BaseObject对象是否相等。
+            </summary>
+            <param name="other">与当前BaseObject对象进行比较的BaseObject对象。</param>
+            <returns>如果指定的BaseObject对象等于当前的BaseObject对象，则为true，否则为false。</returns>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.BaseObject.Equals(System.Object)">
+            <summary>
+            重载了基类的Equals方法，确定两个object对象是否相等。
+            </summary>
+            <param name="obj">与当前object对象进行比较的object对象。</param>
+            <returns>如果指定的object对象等于当前的object对象，则为true，否则为false。</returns>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.BaseObject.GetHashCode">
+            <summary>
+            用作特定类型的哈希函数。
+            </summary>
+            <returns>当前BaseObject的哈希代码。</returns>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.BaseObject.Id">
+            <summary>
+            获取或设置对象的Id，该Id需唯一。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionContent.#ctor">
+            <summary>
+            初始化QuestionContent的新实例
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionContent.#ctor(System.String,SoonLearning.Assessment.Data.ContentType)">
+            <summary>
+            初始化QuestionContent的新实例
+            </summary>
+            <param name="content">试题内容</param>
+            <param name="type">试题内容格式</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionContent.GetContentPart(System.String)">
+            <summary>
+            根据特殊符号或者表达式的占位符获取QuestionContentPart对象。
+            </summary>
+            <param name="holder">占位符。</param>
+            <returns>返回QuestionContentPart对象。</returns>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionContent.QuestionPartCollection">
+            <summary>
+            获取QuestionContentPart的列表
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionContent.Content">
+            <summary>
+            获取或设置QuestionContent的内容，该内容为字符串，字符串中包含特殊符号或表达式的替代符。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionContent.ContentType">
+            <summary>
+            获取或设置试题内容的文本类型。
+            Text: 普通文本。
+            FlowDocument: WPF的FlowDocument格式文本。
+            Html: Html格式文本。
+            Rtf: Rich Text Format格式文本。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.Exam">
+            <summary>
+            Exam类是创建考试的类。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.Exercise">
+            <summary>
+            Exercise类是创建练习的类，同时也是考试类Exam的基类。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.Exercise.#ctor">
+            <summary>
+            初始化Exercise类的新实例。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.Exercise.GetQuestionResponse(System.String)">
+            <summary>
+            获取试题的答题结果。
+            </summary>
+            <param name="questionId">试题的Id</param>
+            <returns>返回一个QuestionResponse实例。</returns>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.Title">
+            <summary>
+            获取或设置练习/测验的标题。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.Description">
+            <summary>
+            获取或设置练习/测验的描述。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.RetryTimes">
+            <summary>
+            获取或设置练习/测验允许用户重试的次数。
+            -1表示可以无限次重试，0表示不能重试。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.MarkType">
+            <summary>
+            获取或设置练习/测验的评分方式。
+            AutoAfterEachQuestion: 答完一题后自动评分。
+            AutoAfterExam: 练习/测验后自动评分。
+            Manual: 手动评分。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.DisplayAnswerType">
+            <summary>
+            获取或设置练习/测验的答案显示方式。
+            None: 不显示答案。
+            AutoAfterEachQuestion: 答完一题后自动显示答案。
+            AutoAfterExam: 完成练习/测验后显示答案。
+            Manual: 手动查看答案。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.DisplaySolutionType">
+            <summary>
+            获取或设置练习/测验的解题方法显示方式。
+            None: 不显示解题方法。
+            AutoAfterEachQuestion: 答完一题后自动显示解题方法。
+            AutoAfterExam: 完成练习/测验后显示解题方法。
+            Manual: 手动查看解题方法。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.DisplayFeedbackType">
+            <summary>
+            获取或设置练习/测验的反馈显示方式。
+            None: 不显示解题方法。
+            AfterEachQuestion: 答完一题后自动显示反馈。
+            AfterExam: 完成练习/测验后显示反馈。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.Feedback">
+            <summary>
+            获取或设置练习/测验的反馈内容。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.DisplayMark">
+            <summary>
+            获取或设置练习/测验是否显示分数。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.DisplayScore">
+            <summary>
+            获取或设置练习/测验是否显示得分。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.QuestionDisplayType">
+            <summary>
+            获取或设置练习/测验的试题显示方式。
+            Full: 在一页内显示整个试卷。
+            Section: 在一页内显示一道大题的所有试题。
+            Question: 在一页内显示一道试题。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.QuestionCountPerPage">
+            <summary>
+            获取或设置练习/测验每页显示的试题数目。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.CreateTime">
+            <summary>
+            获取或设置练习/测验的创建时间。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.User">
+            <summary>
+            获取或设置练习/测验的考生，指那位学生可以使用该试卷。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.UsedTime">
+            <summary>
+            获取或设置练习/测验的用时。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.NextSection">
+            <summary>
+            获取练习/测验的下一道大题内容。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.PreSection">
+            <summary>
+            获取练习/测验的上一道大题内容。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.NextQuestion">
+            <summary>
+            获取练习/测验的下一道试题。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.PreQuestion">
+            <summary>
+            获取练习/测验的上一道试题。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.QuestionIndex">
+            <summary>
+            获取练习/测验的当前试题的序号。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.CurrentSection">
+            <summary>
+            获取练习/测验的当前大题。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.CurrentSectionIndex">
+            <summary>
+            获取练习/测验的当前大题的序号。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.SectionCollection">
+            <summary>
+            获取练习/测验的大题列表。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exercise.ExerciseResponse">
+            <summary>
+            获取练习/测验的答题结果。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exam.Duration">
+            <summary>
+            获取或设置该测验的时限。
+            单位为秒。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.Exam.CloseBook">
+            <summary>
+            获取或设置该测验是否为闭卷。
+            默认为false
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionContentPart">
+            <summary>
+            QuestionContentPart类是用于存储试题中出现的特殊符号和特殊表达式的类的基类。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionContentPart.CompareTo(SoonLearning.Assessment.Data.QuestionContentPart)">
+            <summary>
+            QuestionContentPart对象与当前对象进行比较。
+            </summary>
+            <param name="other">要比较的对象</param>
+            <returns>如果当前对象小于要比较的对象返回小于0的值，如果当前对象等于要比较的对象返回0，否则返回大于0的值。</returns>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionContentPart.CompareTo(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionContentPart.PlaceHolder">
+            <summary>
+            获取特殊符号的占位符。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionOption">
+            <summary>
+            QuestionOption类表示选择题的选项。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionOption.OptionContent">
+            <summary>
+            获取或设置选项的内容。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionOption.IsCorrect">
+            <summary>
+            获取或设置该选项是否为正确答案。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.CPQuestion">
+            <summary>
+            CPQuestion类代表复合题。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionPowerPart">
+            <summary>
+            QuestionPowerPart用于表示指数
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionPowerPart.Content">
+            <summary>
+            获取或设置指数的内容。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.FIBQuestion">
+            <summary>
+            In the FIB Question Content the text "_$BLANK_ID$_" will be taken as question blank,
+            it will be replace by textbox or other blank on UI
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.FIBQuestion.IsContentCorrect(System.String,SoonLearning.Assessment.Data.QuestionContent)">
+            <summary>
+            Check if the content correct
+            </summary>
+            <param name="blankId"></param>
+            <param name="anyBlank">The content match any blank's ref answer is OK</param>
+            <returns></returns>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionBlank">
+            <summary>
+            QuestionBlank类用来表示试题中的空格。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionBlank.ReferenceAnswerList">
+            <summary>
+            获取该空格的参考答案列表
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionBlank.MatchOwnRefAnswer">
+            <summary>
+            获取或设置该空格是否只匹配自己的参考答案。
+            默认值为false，表示该空格的答案也可以匹配其他空格的参考答案。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionBlankCollection">
+            <summary>
+            QuestionBlankCollection类是用于存储QuestionBlank的列表。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.Add(SoonLearning.Assessment.Data.QuestionBlank)">
+            <summary>
+            添加一个QuestionBlank实例到列表。
+            </summary>
+            <param name="item">QuestionBlank实例</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.AddRange(System.Collections.ICollection)">
+            <summary>
+            添加多个QuestionBlank实例到列表。
+            </summary>
+            <param name="items">多个QuestionBlank实例</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.Insert(System.Int32,SoonLearning.Assessment.Data.QuestionBlank)">
+            <summary>
+            插入一个QuestionBlank实例到列表。
+            </summary>
+            <param name="index">插入的位置</param>
+            <param name="item">QuestionBlank实例</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.Remove(SoonLearning.Assessment.Data.QuestionBlank)">
+            <summary>
+            删除一个QuestionBlank实例。
+            </summary>
+            <param name="item">要删除的QuestionBlank实例</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.RemoveAt(System.Int32)">
+            <summary>
+            删除某个位置上的QuestionBlank实例
+            </summary>
+            <param name="index">要删除的位置</param>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.QuestionBlankCollection.RemoveRange(System.Int32,System.Int32)">
+            <summary>
+            从指定位置开始删除多个QuestionBlank实例
+            </summary>
+            <param name="index">要删除的开始位置。</param>
+            <param name="count">要删除的实例个数。</param>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionBlankCollection.Item(System.Int32)">
+            <summary>
+            获取或设置QuestionBlank实例
+            </summary>
+            <param name="index">获取或设置的位置。</param>
+            <returns>返回QuestionBlank实例。</returns>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.ArithmeticSignPart">
+            <summary>
+            ArithmeticSignPart类用于替代试卷中的的各种运算符号。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.ArithmeticSignPart.#ctor">
+            <summary>
+            初始化ArithmeticSignPart类的新实例。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.ArithmeticSignPart.#ctor(SoonLearning.Assessment.Data.Symbol)">
+            <summary>
+            初始化ArithmeticSignPart类的新实例。
+            </summary>
+            <param name="symbol">符号的常量。</param>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.ArithmeticSignPart.Symbol">
+            <summary>
+            获取或设置符号。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.VerticalFormQuestion">
+            <summary>
+            This kind of question is especially for math
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.ESQuestion">
+            <summary>
+            ESQuestion类代表简答题。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.ArithmeticFractionValuePart">
+            <summary>
+            ArithmeticFractionValuePart类代表分子和分母均为数字的分数。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.ArithmeticFractionValuePart.#ctor">
+            <summary>
+            初始化ArithmeticFractionValuePart类的新实例。
+            </summary>
+        </member>
+        <member name="M:SoonLearning.Assessment.Data.ArithmeticFractionValuePart.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            初始化ArithmeticFractionValuePart类的新实例。
+            </summary>
+            <param name="numerator">分子的数值。</param>
+            <param name="denominator">分母的数值。</param>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.ArithmeticFractionValuePart.Numerator">
+            <summary>
+            获取或设置分子。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.ArithmeticFractionValuePart.Denominator">
+            <summary>
+            获取或设置分母。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionPowerExponentPart">
+            <summary>
+            QuestionPowerExponentPart类用于表示指数幂。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionPowerExponentPart.BaseNumber">
+            <summary>
+            获取或设置底数。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionPowerExponentPart.Power">
+            <summary>
+            获取或设置指数。
+            </summary>
+        </member>
+        <member name="T:SoonLearning.Assessment.Data.QuestionFractionPart">
+            <summary>
+            QuestionFractionPart类用于表示分子或分母至少有一个是字母或表达式的分数。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionFractionPart.Numerator">
+            <summary>
+            获取或设置分子。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionFractionPart.Denominator">
+            <summary>
+            获取或设置分母。
+            </summary>
+        </member>
+        <member name="P:SoonLearning.Assessment.Data.QuestionFractionPart.WithPart">
+            <summary>
+            获取或设置带分数部分。
+            </summary>
+        </member>
+    </members>
+</doc>

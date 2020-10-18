@@ -1,0 +1,125 @@
+﻿<UserControl xmlns:my="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration" 
+             x:Class="SoonLearning.BlockPuzzle.Puzzle3x2.SwitcherPuzzle3x2StartupPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:resLang="clr-namespace:SoonLearning.BlockPuzzle.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600"
+             Initialized="UserControl_Initialized">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--<ResourceDictionary Source="pack:\\application:,,,/SoonLearning.BlockPuzzle;component/Resources/resources_xbox.xaml"/>-->
+            </ResourceDictionary.MergedDictionaries>
+
+            <Image x:Key="MasterImage" Source="pack:\\application:,,,/SoonLearning.BlockPuzzle;component/Resources/Penguins.jpg" />
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <Control Style="{StaticResource CustomBackground}" />
+
+        <Border x:Name="gotItImageBorder"
+                BorderThickness="2"
+                BorderBrush="Blue"
+                Width="114"
+                Height="114"
+                Visibility="Hidden">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="6"
+                                  ShadowDepth="5" 
+                                  Opacity="0.5"
+                                  Color="White" />
+            </Border.Effect>
+            <my:WindowsFormsHost x:Name="gotItImageHost"
+                                 Background="Transparent"
+                                 Margin="2">
+            </my:WindowsFormsHost>
+        </Border>
+
+        <DockPanel Grid.Row="0" x:Name="puzzleHostingPanel"/>
+
+        <StackPanel Grid.Row="1" 
+                    Orientation="Horizontal"
+                    x:Name="ControlPanel" 
+                    DockPanel.Dock="Bottom">
+            <Grid VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="36" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,-121,0">
+                    <Button x:Name="mixUpBtn"
+                            Margin="5, 2"
+                            Width="88" 
+                            Click="mixUpBtn_Click"
+                            Content="{x:Static resLang:Resources.mixUp}" />
+                    <Button x:Name="resetBtn"
+                            Margin="5, 2"
+                            Width="88"
+                            Click="resetBtn_Click"
+                            Content="{x:Static resLang:Resources.reset}"/>
+                    <Button x:Name="getAnswerBtn"
+                            Margin="5, 2"
+                            Width="88"
+                            Click="getAnswerBtn_Click"
+                            Content="{x:Static resLang:Resources.getAnswer}"/>
+
+                    <Button x:Name="nextStepBtn"
+                            IsEnabled="False"
+                            Margin="5, 2"
+                            Width="88" 
+                            Click="nextStepBtn_Click" 
+                            Content="{x:Static resLang:Resources.nextStep}"/>
+
+                    <CheckBox x:Name="ChkShowNumbers" 
+                              VerticalAlignment="Center"
+                              Margin="5, 2"
+                              Width="160"
+                              Click="ChkShowNumbers_Click"
+                              Foreground="{StaticResource TextColorBrush_Light}" 
+                              Content="{x:Static resLang:Resources.showNumbers}"
+                              IsChecked="False"/>
+                </StackPanel>
+
+                <Label x:Name="statusLabel"  
+                       Grid.Row="1" 
+                     
+                       FontSize="14"
+                       FontWeight="Medium"
+                       Content="">
+                    <Label.Effect>
+                        <DropShadowEffect BlurRadius="6"
+                                  ShadowDepth="5" 
+                                  Opacity="0.5"
+                                  Color="White" />
+                    </Label.Effect>
+                </Label>
+ 
+                <Label x:Name="answerLabel" 
+                       Grid.Row="1" 
+                     
+                       FontSize="14"
+                       FontWeight="Medium"
+                       HorizontalAlignment="Right"
+                       Content="">
+                    <Label.Effect>
+                        <DropShadowEffect BlurRadius="6"
+                                  ShadowDepth="5" 
+                                  Opacity="0.5"
+                                  Color="White" />
+                    </Label.Effect>
+                </Label>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

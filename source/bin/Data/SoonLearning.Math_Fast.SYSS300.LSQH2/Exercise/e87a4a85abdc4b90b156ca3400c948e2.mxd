@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<Exercise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>e87a4a85abdc4b90b156ca3400c948e2</Id>
+  <Title>连数求和法(二)练习</Title>
+  <Description />
+  <RetryTimes>-1</RetryTimes>
+  <MarkType>AutoAfterEachQuestion</MarkType>
+  <DisplayAnswerType>AutoAfterEachQuestion</DisplayAnswerType>
+  <DisplaySolutionType>AutoAfterEachQuestion</DisplaySolutionType>
+  <DisplayFeedbackType>AfterEachQuestion</DisplayFeedbackType>
+  <DisplayMark>false</DisplayMark>
+  <DisplayScore>false</DisplayScore>
+  <QuestionDisplayType>Question</QuestionDisplayType>
+  <QuestionCountPerPage>2</QuestionCountPerPage>
+  <CreateTime>2012-08-06T21:35:54.1766415+08:00</CreateTime>
+  <UsedTime />
+  <SectionCollection>
+    <Section>
+      <Id>cd340dd3bb484882a1555d47cf4167b7</Id>
+      <Title>单选题：</Title>
+      <Description>（下面每道题都只有一个选项是正确的）</Description>
+      <QuestionCollection>
+        <Question xsi:type="MCQuestion">
+          <Id>0b8bab2f457d4304b5738cd8a5510edb</Id>
+          <Content>
+            <Id>310ea84e2f304b188e8e24050cf1fadd</Id>
+            <QuestionPartCollection />
+            <Content>19+27+35+43+51+59+67+75+83+91+99+107+115+123=</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>62e4a8732b8841feaef655e2bbe617ba</Id>
+            <QuestionPartCollection />
+            <Content>19+27+35+43+51+59+67+75+83+91+99+107+115+123=(19+123)×(14÷2)=142×7=994,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.1766415Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>e0c00210738846559eb2dbfe04b5e88c</Id>
+              <OptionContent>
+                <Id>bddfa6571d694322b3cc8bd2bc262faf</Id>
+                <QuestionPartCollection />
+                <Content>1019</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>3690d3452c384ef289d26c7c816c7ae5</Id>
+              <OptionContent>
+                <Id>d09d193a5ee94f5ab2ccd0445883a4a0</Id>
+                <QuestionPartCollection />
+                <Content>994</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>238d6f5e9b3a436c99fce84c0a010aab</Id>
+              <OptionContent>
+                <Id>002e95d3a94a47e988c50ff8d137aba5</Id>
+                <QuestionPartCollection />
+                <Content>975</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>01d40d3d253548e6996b11ffec221436</Id>
+              <OptionContent>
+                <Id>7a6e7f432d974ed3a72079e981239ef2</Id>
+                <QuestionPartCollection />
+                <Content>992</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>28a63781b7324f329e572f347f11143f</Id>
+          <Content>
+            <Id>05f809a5b6804f5298b26d5588a7d2af</Id>
+            <QuestionPartCollection />
+            <Content>1+10+19+28+37+46+55+64+73+82+91+100=</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>6c5f95b9fd764368afc6ab8cadcfbc87</Id>
+            <QuestionPartCollection />
+            <Content>1+10+19+28+37+46+55+64+73+82+91+100=(1+100)×(12÷2)=101×6=606,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.2886457Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>eec0b088d1b54fe08f4245ed1285814f</Id>
+              <OptionContent>
+                <Id>9e6605cfa5e54b0595eb1239b79311cf</Id>
+                <QuestionPartCollection />
+                <Content>613</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>a2374591ca6f41208595f1b5a8feb5b9</Id>
+              <OptionContent>
+                <Id>116d4cf9c4b54287b588344cd3fd4aeb</Id>
+                <QuestionPartCollection />
+                <Content>576</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9c3a897967b44d468e8f74dcf52b6152</Id>
+              <OptionContent>
+                <Id>ba817615e7144cb38677b5031a048961</Id>
+                <QuestionPartCollection />
+                <Content>610</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>9094fdb99fa04c6ab4dcaa576d91888e</Id>
+              <OptionContent>
+                <Id>3d3a92ef9412485e9cac27c9c4a1a155</Id>
+                <QuestionPartCollection />
+                <Content>606</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>f457dc337fc6474599563535f9f39277</Id>
+          <Content>
+            <Id>3836754e7e704cb0a4fc79236cb79918</Id>
+            <QuestionPartCollection />
+            <Content>48+61+74+87+100+113+126+139=</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>da359cd0b3ff4f698979165120f2d9f2</Id>
+            <QuestionPartCollection />
+            <Content>48+61+74+87+100+113+126+139=(48+139)×(8÷2)=187×4=748,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.3896514Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>e3bf69dd321e4c14a285d0340b3934ed</Id>
+              <OptionContent>
+                <Id>36a306c41f184bf58db1673a28474346</Id>
+                <QuestionPartCollection />
+                <Content>734</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>bdf4952821854fdca8e0910cd1d33c5f</Id>
+              <OptionContent>
+                <Id>55599ef38b414d40877e24d4aa42a701</Id>
+                <QuestionPartCollection />
+                <Content>747</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>1dcbaf719ab149f9bdf1d4e47546016a</Id>
+              <OptionContent>
+                <Id>83532664057e4bec953f5710d12a211a</Id>
+                <QuestionPartCollection />
+                <Content>748</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>43866653620f403ba5dd9f8b734fa788</Id>
+              <OptionContent>
+                <Id>840570349e01490385cab88dbd781448</Id>
+                <QuestionPartCollection />
+                <Content>770</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>6c6abf3b73f540aa8e9be169d8bc6ba1</Id>
+          <Content>
+            <Id>d99013e6aece4875a29622da633c2c2b</Id>
+            <QuestionPartCollection />
+            <Content>66+73+80+87+94+101+108+115+122+129=</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>30af89c4f5d941b694dded160cc5760c</Id>
+            <QuestionPartCollection />
+            <Content>66+73+80+87+94+101+108+115+122+129=(66+129)×(10÷2)=195×5=975,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.4906572Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>bb995f94bcce4700a0e3e5f43da8046f</Id>
+              <OptionContent>
+                <Id>93b5692b5a134c4c86b637e1603d7fcf</Id>
+                <QuestionPartCollection />
+                <Content>969</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>ad626f599e964a85938c9729fddb58e8</Id>
+              <OptionContent>
+                <Id>f7a067b6f02e40a08e8d84a71e9530f2</Id>
+                <QuestionPartCollection />
+                <Content>985</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>19d2ad6c0b404bc7be49b22891a0d8b8</Id>
+              <OptionContent>
+                <Id>5ba862dd6a57453ebd29a24ad0a64c4e</Id>
+                <QuestionPartCollection />
+                <Content>972</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>c625e46148274556969424e43b3f158b</Id>
+              <OptionContent>
+                <Id>18e47c5a5ab146d488513be187d18f1c</Id>
+                <QuestionPartCollection />
+                <Content>975</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+        <Question xsi:type="MCQuestion">
+          <Id>3b61f50545a34c88934824b6335af9b8</Id>
+          <Content>
+            <Id>cf47b892cd2f41708f5967a45aa4526c</Id>
+            <QuestionPartCollection />
+            <Content>84+85+86+87+88+89+90+91+92+93=</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>28d81e0d9ecd42dd9931a4d98330bc9a</Id>
+            <QuestionPartCollection />
+            <Content>84+85+86+87+88+89+90+91+92+93=(84+93)×(10÷2)=177×5=885,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.591663Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionOptionCollection>
+            <QuestionOption>
+              <Id>3ea6abe8a5374f15b8806d52b7ffea3b</Id>
+              <OptionContent>
+                <Id>658c486aebd64929bd2a1a4afae4fb10</Id>
+                <QuestionPartCollection />
+                <Content>887</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>b52c11464d5940aa972f5069d6f86a3d</Id>
+              <OptionContent>
+                <Id>e17096f2d8bb4b19bc4a157dd2d565cd</Id>
+                <QuestionPartCollection />
+                <Content>905</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>7be743e4810746488d7e5714a7f9c320</Id>
+              <OptionContent>
+                <Id>51d04211a01748328695362ae54ef289</Id>
+                <QuestionPartCollection />
+                <Content>856</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>false</IsCorrect>
+            </QuestionOption>
+            <QuestionOption>
+              <Id>116d118870e04f44953c6ab77c8c83d1</Id>
+              <OptionContent>
+                <Id>9f6432676fe44e539b80b8d6881fcfd3</Id>
+                <QuestionPartCollection />
+                <Content>885</Content>
+                <ContentType>Text</ContentType>
+              </OptionContent>
+              <IsCorrect>true</IsCorrect>
+            </QuestionOption>
+          </QuestionOptionCollection>
+          <RandomOption>false</RandomOption>
+        </Question>
+      </QuestionCollection>
+    </Section>
+    <Section>
+      <Id>ac4e8cdc3d09495eb33b5f63e8bec08d</Id>
+      <Title>填空题：</Title>
+      <Description>（在空格中填入符合条件的数）</Description>
+      <QuestionCollection>
+        <Question xsi:type="FIBQuestion">
+          <Id>26a728698d504b6da5c3c79d9b09d53b</Id>
+          <Content>
+            <Id>1152fceb10e0453b822333caaa9772db</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>80ef7301409b478aaff3ab7125af89df</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c50a5dd07686471685a5bda06ccd5a77</Id>
+                    <QuestionPartCollection />
+                    <Content>1370</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>83+95+107+119+131+143+155+167+179+191=_$BLANK__80ef7301409b478aaff3ab7125af89df$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>157a9ad9d69e443791e76ee4195d917f</Id>
+            <QuestionPartCollection />
+            <Content>83+95+107+119+131+143+155+167+179+191=(83+191)×(10÷2)=274×5=1370,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.6936688Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>80ef7301409b478aaff3ab7125af89df</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c50a5dd07686471685a5bda06ccd5a77</Id>
+                  <QuestionPartCollection />
+                  <Content>1370</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>aad79f46c04e44bfb873421abc55a26e</Id>
+          <Content>
+            <Id>ad59aae8298f434d90807a1fa696b582</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>228e7b5b296a434bb954000f54e6632d</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>8aec8173b7264865b6ea662ea0c0f6b5</Id>
+                    <QuestionPartCollection />
+                    <Content>1085</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>68+77+86+95+104+113+122+131+140+149=_$BLANK__228e7b5b296a434bb954000f54e6632d$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>8f5741a500c94d30b00866fc5e28983c</Id>
+            <QuestionPartCollection />
+            <Content>68+77+86+95+104+113+122+131+140+149=(68+149)×(10÷2)=217×5=1085,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.7476719Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>228e7b5b296a434bb954000f54e6632d</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>8aec8173b7264865b6ea662ea0c0f6b5</Id>
+                  <QuestionPartCollection />
+                  <Content>1085</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>9d2b468433594580a18b1d5204d2de5e</Id>
+          <Content>
+            <Id>78788aa604cf4c5f85c244926d950b75</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>6fa4a306ec07417ab18375e0a63a533b</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>d7af2cd415cd4e8b89f21ced56c91db0</Id>
+                    <QuestionPartCollection />
+                    <Content>995</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>68+75+82+89+96+103+110+117+124+131=_$BLANK__6fa4a306ec07417ab18375e0a63a533b$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>f85cd9d311b24c698298925c87be8f1a</Id>
+            <QuestionPartCollection />
+            <Content>68+75+82+89+96+103+110+117+124+131=(68+131)×(10÷2)=199×5=995,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.7986748Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>6fa4a306ec07417ab18375e0a63a533b</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>d7af2cd415cd4e8b89f21ced56c91db0</Id>
+                  <QuestionPartCollection />
+                  <Content>995</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>3355c576d2724a7cba5643d821608ce8</Id>
+          <Content>
+            <Id>de882d9a1d0843bfacf3fdccda046a22</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>00580433d9664a17b1a6e36033d636ce</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>ee5c1429e0bd4dc18c36eaf2dd610a09</Id>
+                    <QuestionPartCollection />
+                    <Content>1155</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>93+98+103+108+113+118+123+128+133+138=_$BLANK__00580433d9664a17b1a6e36033d636ce$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>201fe8ea1f7a4c9eb4aa87adcb0030bc</Id>
+            <QuestionPartCollection />
+            <Content>93+98+103+108+113+118+123+128+133+138=(93+138)×(10÷2)=231×5=1155,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.8576754Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>00580433d9664a17b1a6e36033d636ce</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>ee5c1429e0bd4dc18c36eaf2dd610a09</Id>
+                  <QuestionPartCollection />
+                  <Content>1155</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+        <Question xsi:type="FIBQuestion">
+          <Id>59403d29ef5f4bcf9b1c3d0cd443f03d</Id>
+          <Content>
+            <Id>f1c27a1907174a418cf749f8e966df0c</Id>
+            <QuestionPartCollection>
+              <QuestionContentPart xsi:type="QuestionBlank">
+                <Id>78184cac86ed4d009b188c1d319a5b74</Id>
+                <ReferenceAnswerList>
+                  <QuestionContent>
+                    <Id>c4c02ee3d8764094ba3c808c41e3cd72</Id>
+                    <QuestionPartCollection />
+                    <Content>544</Content>
+                    <ContentType>Text</ContentType>
+                  </QuestionContent>
+                </ReferenceAnswerList>
+                <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+              </QuestionContentPart>
+            </QuestionPartCollection>
+            <Content>33+43+53+63+73+83+93+103=_$BLANK__78184cac86ed4d009b188c1d319a5b74$_</Content>
+            <ContentType>Text</ContentType>
+          </Content>
+          <DifficultyLevel>Easy</DifficultyLevel>
+          <Solution>
+            <Id>b0d36295596141ae8d220eab683b8fd0</Id>
+            <QuestionPartCollection />
+            <Content>33+43+53+63+73+83+93+103=(33+103)×(8÷2)=136×4=544,是正确答案。
+</Content>
+            <ContentType>Text</ContentType>
+          </Solution>
+          <CreateTime>2012-08-06T13:35:54.9076755Z</CreateTime>
+          <Creator />
+          <ModifyTime>0001-01-01T00:00:00</ModifyTime>
+          <QuestionBlankCollection>
+            <QuestionContentPart xsi:type="QuestionBlank">
+              <Id>78184cac86ed4d009b188c1d319a5b74</Id>
+              <ReferenceAnswerList>
+                <QuestionContent>
+                  <Id>c4c02ee3d8764094ba3c808c41e3cd72</Id>
+                  <QuestionPartCollection />
+                  <Content>544</Content>
+                  <ContentType>Text</ContentType>
+                </QuestionContent>
+              </ReferenceAnswerList>
+              <MatchOwnRefAnswer>false</MatchOwnRefAnswer>
+            </QuestionContentPart>
+          </QuestionBlankCollection>
+          <ShowBlankInContent>true</ShowBlankInContent>
+        </Question>
+      </QuestionCollection>
+    </Section>
+  </SectionCollection>
+</Exercise>

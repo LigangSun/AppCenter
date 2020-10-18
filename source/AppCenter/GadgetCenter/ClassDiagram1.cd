@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SoonLearning.AppCenter.App" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABAAAAAAgAAAAAAAAAAAAAABAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAQAQABAAEIUOAAAAoAGgAADHASAAQADIAKBAACACAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumberOnlyTextBox" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.MessageWindow" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>CommonControl\MessageWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumberRangeValidationRule" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumberVirtualKeyboard" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonControl\NumberVirtualKeyboard.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.NumericUpDown" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.GadgetItem" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABASAABAQAAgQcAIIACBCAAgAAABIAAAAQABAAEQAgA=</HashCode>
+      <FileName>Data\GadgetItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.GadgetItemCollection" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\GadgetItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Data.UIStyleSetting" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Resources.Strings" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OQBM2IBAWCx5AENEEACHkE5ECQCAkBAQbgERygDhALE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.UserControls.GadgetContainerUserControl" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAC1AAAAoAEAAgBAYAIAAFCQQIBAAMBAAAEAgAhgAQ=</HashCode>
+      <FileName>UserControls\GadgetContainerUserControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.UserControls.GadgetListUserControl" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRCgAAgCAgAAACAAAAABQFQAQCAIQAhAAAAAgAAAIQ=</HashCode>
+      <FileName>UserControls\GadgetListUserControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.UserControls.ThumbnailListControl" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yAAAAAEABAAAAAEAAoAAARAAQAEAAAACKAAAAgAAAAY=</HashCode>
+      <FileName>UserControls\ThumbnailListControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Utility.SerializerHelper&lt;T&gt;">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Windows.AboutWindow" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAgAAAAAA=</HashCode>
+      <FileName>Windows\AboutWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Windows.SettingWindow" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAABAAAAAAAAAEEAAAAAAAAAAQAAiYAAAAA=</HashCode>
+      <FileName>Windows\SettingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.ResultWindow" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAQAQAAgABAAAAEgAABAAAAAEEIgAhAAIIAA=</HashCode>
+      <FileName>CommonControl\ResultWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoonLearning.AppCenter.Controls.ResultInfoUserControl" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAQAAAABAAAAAAAABAEAgAEAIgABAAIIAA=</HashCode>
+      <FileName>CommonControl\ResultInfoUserControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SoonLearning.AppCenter.IGadgetEntry">
+    <Position X="4.25" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAACAAAAAAAAAEAAAAAAAgAAAA=</HashCode>
+      <FileName>IGadgetEntry.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SoonLearning.AppCenter.GadgetType">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQgAAAAAA=</HashCode>
+      <FileName>IGadgetEntry.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoonLearning.AppCenter.Controls.ResultState">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAwBAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CommonControl\ResultInfoUserControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SoonLearning.AppCenter.Controls.NumberVirtualKeyboadInputDelegate" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonControl\NumberVirtualKeyboard.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoonLearning.AppCenter.UserControls.ThumbnailItemSelectedDelegate" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\ThumbnailListControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
